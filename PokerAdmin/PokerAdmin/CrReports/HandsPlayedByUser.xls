@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<GenerigReportDataSet>
+  <HandsPlayedByUser>
+    <UserID>2408</UserID>
+    <LoginName>bs</LoginName>
+    <Currency>Dollars</Currency>
+    <Hands>15</Hands>
+  </HandsPlayedByUser>
+  <HandsPlayedByUser>
+    <UserID>2408</UserID>
+    <LoginName>bs</LoginName>
+    <Currency>Play Money</Currency>
+    <Hands>2</Hands>
+  </HandsPlayedByUser>
+  <HandsPlayedByUser>
+    <UserID>2409</UserID>
+    <LoginName>bs1</LoginName>
+    <Currency>Dollars</Currency>
+    <Hands>19</Hands>
+  </HandsPlayedByUser>
+  <HandsPlayedByUser>
+    <UserID>2409</UserID>
+    <LoginName>bs1</LoginName>
+    <Currency>Play Money</Currency>
+    <Hands>2</Hands>
+  </HandsPlayedByUser>
+  <HandsPlayedByUser>
+    <UserID>2410</UserID>
+    <LoginName>bs2</LoginName>
+    <Currency>Dollars</Currency>
+    <Hands>17</Hands>
+  </HandsPlayedByUser>
+</GenerigReportDataSet>

@@ -1,0 +1,8 @@
+*.bmp  -k 'b'
+*.jpg  -k 'b'
+*.jpeg -k 'b'
+*.gif  -k 'b'
+*.wmf  -k 'b'
+*.tga  -k 'b'
+*.ico  -k 'b'
+*.psd  -k 'b'

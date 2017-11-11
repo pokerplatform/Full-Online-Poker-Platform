@@ -1,0 +1,9 @@
+bin
+bin\*.*
+_vti_cnf
+_vti_cnf\*.*
+*.resources
+*.~cs
+*.~as?x
+*.~bd*
+*.bd*

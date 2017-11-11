@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsUsersChartData" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="dsUsersChartData" msdata:IsDataSet="true" msdata:Locale="ru-RU">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="ChartData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateGet" type="xs:dateTime" default="1980-01-01T00:00:00.0000000+02:00" />
+              <xs:element name="fld0" type="xs:int" default="0" />
+              <xs:element name="fld1" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="CNSTR_DateGet" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//ChartData" />
+      <xs:field xpath="DateGet" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

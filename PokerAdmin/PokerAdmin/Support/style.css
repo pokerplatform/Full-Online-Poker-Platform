@@ -1,0 +1,48 @@
+body
+{
+	font-family:  Tahoma,  Helvetica, sans-serif;	
+	font-size: 12px;
+}
+
+.cssTable
+{
+	border: 1px 1px 1px 0px #4D4A43 solid;
+}
+
+.cssTableHeader td
+{
+	font-size: 14px;
+	background-color: #CEDFF7;
+	text-align:center;
+}
+.cssTableItem
+{
+	color:#000000;
+	font-size: 12px ; 	
+	text-align:center;
+}
+
+.cssLabel
+{
+	color:#5D89AC;
+}
+.cssPageTitle
+{
+	color:#5D89AC;
+	font-size: 20px; 
+	background-color: #FFFFFF;	
+	border: 1px 1px 1px 0px #4D4A43 solid;
+	text-align:left;
+}
+
+.ButtonImageCenter
+{
+	text-align:center;
+}
+.ButtonImageLink
+{
+	text-decoration:none;
+	color: #ffffff;
+    font-size: 14px; 	
+    font-weight: bold;	
+}

@@ -1,0 +1,59 @@
+<Menu>	
+	<MainMenu Label="Game" MenuID="1" MainSecurity="A" MenuSequence="1" >
+
+		<SubMenu Label="Processes" URL="../Games/GameProcessMaintenance.aspx" MenuID="1" Security="A" SubMenuID="1" />
+		<SubMenu Label="Mini-Tourneys" URL="../Games/GameProcessMaintenance.aspx?mini=1" MenuID="1" Security="A" SubMenuID="2"/>
+		<SubMenu Label="Tournaments" URL="../Tournaments/TournamentMaintenance.aspx" MenuID="1" Security="A" SubMenuID="3"/>
+		<SubMenu Label="Sit And Go" URL="../Tournaments/TournamentMaintenance.aspx?type=2" MenuID="1" Security="A" SubMenuID="4" />
+		<SubMenu Label="Bots" URL="../Games/Bots.aspx" MenuID="1" Security="A" SubMenuID="5" />
+		<SubMenu Label="Chat for Bots" URL="../Games/ChatforBots.aspx" MenuID="1" Security="A" SubMenuID="6" />
+	</MainMenu>	
+	
+	<MainMenu Label="Accounts" MenuID="2" MainSecurity="A" MenuSequence="2">
+		<SubMenu Label="Users" URL="../Users/UsersMaintenance.aspx" MenuID="2" Security="A" SubMenuID="1"/>
+		<SubMenu Label="Add User" URL="../Users/UserDetails.aspx" MenuID="2" Security="A" SubMenuID="2"/>
+	</MainMenu>
+
+	<MainMenu Label="History" MenuID="3" MainSecurity="A" MenuSequence="3">
+		<SubMenu Label="Transactions" URL="../Transactions/TxHistoryList.aspx" MenuID="3" Security="A" SubMenuID="1"/>
+		<SubMenu Label="Games" URL="../Transactions/GameHistoryList.aspx" MenuID="3"  Security="A" SubMenuID="2"/>
+		<SubMenu Label="User Game" URL="../Transactions/GameHistoryUserList.aspx" MenuID="3" Security="A" SubMenuID="3"/>				
+		<SubMenu Label="Live Stats" URL="../Support/LiveStats.aspx" MenuID="3" Security="A" SubMenuID="4"/>				
+		<SubMenu Label="Hand History" URL="../Transactions/GameHistoryDetails.aspx" MenuID="3" Security="A" SubMenuID="5"/>				
+	</MainMenu>
+	<MainMenu Label="Affiliates" MenuID="4" MainSecurity="A"  MenuSequence="4">
+		<SubMenu Label="Skins List" URL="../Affiliate/SkinsMaintenance.aspx"  MenuID="4" Security="A" SubMenuID="1"/>
+		<SubMenu Label="Affiliate List" URL="../Affiliate/AffiliateMaintenance.aspx"  MenuID="4" Security="A" SubMenuID="2"/>
+		<SubMenu Label="Client Application Files" URL="../Misc/ClientApplicationFile.aspx"  MenuID="4" Security="A" SubMenuID="3"/>		
+	</MainMenu>
+	<MainMenu Label="Misc" MenuID="5" MainSecurity="A" MenuSequence="5">
+		<SubMenu Label="Category List" URL="../Categories/SubCategoryMaintenance.aspx" Security="A" MenuID="5" SubMenuID="1"/>
+		<SubMenu Label="Games" URL="../Games/GameMaintenance.aspx" SubMenuID="2" MenuID="5" Security="A"/>
+		<SubMenu Label="Options" URL="../Misc/Options.aspx" SubMenuID="3" MenuID="5" Security="A"/>
+		<SubMenu Label="Tournament prize templates" URL="../Tournaments/TournamentPrizeMaintenance.aspx" SubMenuID="4" MenuID="5" Security="A"/>
+		<SubMenu Label="Tournament betings templates" URL="../Tournaments/TournamentBettingsMaintenance.aspx" SubMenuID="5" MenuID="5" Security="A"/>
+		<SubMenu Label="Email templates" URL="../EmailTemplates/EmailTemplateMaintenance.aspx" SubMenuID="6" MenuID="5" Security="A"/>
+		<SubMenu Label="Allowed IP" URL="../Misc/AllowedIP.aspx" SubMenuID="7" MenuID="5" Security="A"/>
+		<SubMenu Label="Bonus Rules" URL="../Misc/BonusRules.aspx" SubMenuID="8" MenuID="5" Security="A"/>
+		<SubMenu Label="Play Period" URL="../Misc/ClosePlayPeriod.aspx" SubMenuID="9" MenuID="5" Security="A"/>
+		<SubMenu Label="Table Name" URL="../Misc/TableName.aspx" SubMenuID="10" MenuID="5" Security="A"/>
+		<SubMenu Label="Ban Players" URL="../Misc/BanUser.aspx" SubMenuID="11" MenuID="5" Security="A"/>
+		<SubMenu Label="Avatars" URL="../Misc/Avatars.aspx" SubMenuID="12" MenuID="5" Security="A"/>
+		<SubMenu Label="Action Dispatchers" URL="../Misc/ActionDispatchers.aspx" SubMenuID="13" MenuID="5" Security="A"/>
+		<SubMenu Label="Pushing Content" URL="../Misc/PushingContent.aspx" SubMenuID="14" MenuID="5" Security="A"/>
+		<SubMenu Label="Forced Exits" URL="../Misc/ForcedExits.aspx" SubMenuID="15" MenuID="5" Security="A"/>
+	</MainMenu>
+	<MainMenu Label="Reports" MenuID="6" MainSecurity="A" MenuSequence="6">
+		<SubMenu Label="Main" URL="../Reports/Reports.aspx" Security="A" MenuID="6" SubMenuID="1"/>
+		<SubMenu Label="Report User" URL="../Reports/ReportUser.aspx" SubMenuID="2" MenuID="6" Security="A"/>
+		<SubMenu Label="Affiliate Reports" URL="../Affiliate/AffiliateReport.aspx" SubMenuID="3" MenuID="6" Security="A"/>
+		<SubMenu Label="Sent Emails" URL="../SentEmail/SentEmail.aspx" SubMenuID="4" MenuID="6" Security="A"/>
+		<SubMenu Label="Search Finished Tournaments" URL="../Reports/SearchFinishedTournaments.aspx" SubMenuID="5" MenuID="6" Security="A"/>
+	</MainMenu>
+	<MainMenu Label="Support" MenuID="7" MainSecurity="A" MenuSequence="7">
+		<SubMenu Label="Customer request list" URL="../Support/SupportMaintenance.aspx" Security="A" MenuID="7" SubMenuID="1"/>
+		<SubMenu Label="Mass Mailer" URL="../Support/MassMailer.aspx" SubMenuID="2" MenuID="7" Security="A"/>
+	</MainMenu>
+	<MainMenu Label="Logout" BaseURL="../logout.aspx" MenuID="10" MainSecurity="A" MenuSequence="8"/>
+</Menu>
+

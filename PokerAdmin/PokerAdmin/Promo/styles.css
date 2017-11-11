@@ -1,0 +1,141 @@
+.ButtonImageCenter
+{
+	text-align:center;
+}
+
+.ButtonImageLink
+{
+	text-decoration:none;
+	color: #ffffff;
+    font-size: 14px; 	
+    font-weight: bold;	
+}
+
+
+BODY {
+	font-family:  Tahoma,  Helvetica, sans-serif;	
+}
+
+..cssPageName {
+	color:#5D89AC;
+	font-size: 20px; 
+	background-color: #FFFFFF;	
+	border: 1px 1px 1px 0px #4D4A43 solid;
+	text-align:left;
+}
+
+..cssReport
+{
+
+	border-collapse:collapse ;
+	width: 90%;
+}
+..cssReport100
+{
+
+	border-collapse:collapse ;
+	width: 100%;
+}
+
+..cssReportHeader {
+	font-size: 14px;
+	background-color: #CEDFF7;
+}
+
+..cssGridPagerItem
+{
+	color:#000000;
+	font-size: 14px;
+	background-color: #CEDFF7;
+	border: 0px none;
+	text-align:center;
+}
+
+..cssGridPagerEdit
+{
+	width:50px;
+}
+
+..cssTextMain
+{
+	color:#000000;
+	font-size: 12px ; 	
+	text-align:center;
+}
+
+..cssTextBig
+{
+	font-size: 14px ; 	
+}
+
+..cssTextAlignLeft
+{
+	text-align:left;
+}
+
+..cssTextAlignRight
+{
+	text-align:right;
+}
+
+
+..cssReportItem {	
+	background-color: #EFEFEF;	
+}
+
+..cssReportItemDeleted {	
+	background-color: #FFFFFF;
+	color:#FF0000;
+}
+
+..cssReportItemOdd { 
+	background-color: #FFFFFF;	
+}
+
+..cssError
+{
+	color:Red;
+	font-weight:bold;
+}
+
+..cssEditDateSmall
+{
+	width: 80px;
+}
+
+..cssCellMin
+{
+	width: 10%;
+}
+
+..cssCellSmall
+{
+	width: 80;
+}
+
+..cssCellFill
+{
+	width: 100%;
+}
+
+A:LINK, A:VISITED, A:ACTIVE {
+    text-decoration:none;
+}
+
+..cssLinkButton {    
+	text-decoration:none;
+	color: #ffffff;
+    font-size: 14px; 	
+    font-weight: bold;	
+}
+
+..cssSolidBorder
+{
+	border: 1px solid;
+}
+
+
+..cssDisplayNone
+{
+	DISPLAY: none;
+}

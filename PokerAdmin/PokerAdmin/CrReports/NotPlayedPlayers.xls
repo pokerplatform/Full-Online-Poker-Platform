@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<GenerigReportDataSet>
+  <NotPlayedPlayers>
+    <id>2262</id>
+    <LoginName>Igor3</LoginName>
+    <RecordDate>2005-02-08T16:34:07.0730000+02:00</RecordDate>
+  </NotPlayedPlayers>
+  <NotPlayedPlayers>
+    <id>2269</id>
+    <LoginName>Robot11</LoginName>
+    <RecordDate>2005-02-14T08:47:31.8970000+02:00</RecordDate>
+  </NotPlayedPlayers>
+</GenerigReportDataSet>

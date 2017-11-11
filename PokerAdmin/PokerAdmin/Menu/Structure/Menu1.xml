@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+	<item iconWidth="18" iconHeight="18" title="Game">
+		<item icon="RoomsList.gif" title="Processes" href="../Games/GameProcessMaintenance.aspx" />
+		<item icon="RoomsList.gif" title="Mini-Tournays" href="../Games/GameProcessMaintenance.aspx?mini=1" />
+		<item icon="TournamentList.gif" title="Tournaments" href="../Tournaments/TournamentMaintenance.aspx" />
+	</item>
+	<item title="Accounts">
+		<item icon="Users.gif" title="Users" href="../Users/UsersMaintenance.aspx" />
+		<item icon="Add_user.gif" title="Add User" href="../Users/UserDetails.aspx" />
+	</item>
+	<item title="History">
+		<item icon="Transactions.gif" title="Transactions" href="../Transactions/TxHistoryList.aspx" />
+		<item icon="gamehistory.gif" title="Games" href="../Transactions/GameHistoryList.aspx" />
+		<item icon="UserHistory.gif" title="User Game" href="../Transactions/GameHistoryUserList.aspx" />
+		<item title="Live Stats" href="../Support/LiveStats.aspx" />
+	</item>
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="Dictionary" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Dictionary" msdata:IsDataSet="true" msdata:Locale="">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="ChartsTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="0" type="xs:int" />
+              <xs:element name="Name" type="xs:string" default="" />
+              <xs:element name="FieldID" type="xs:int" default="0" />
+              <xs:element name="GroupID" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ChartsTypesGroups">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="0" type="xs:int" />
+              <xs:element name="Name" type="xs:string" default="" />
+              <xs:element name="DataSourceID" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//ChartsTypes" />
+      <xs:field xpath="ID" />
+    </xs:unique>
+    <xs:unique name="Constraint2" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//ChartsTypesGroups" />
+      <xs:field xpath="ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

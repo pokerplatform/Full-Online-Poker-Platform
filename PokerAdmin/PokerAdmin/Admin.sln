@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin", "http://localhost/ArkadiumPokerAdmin/Admin.csproj", "{77A52460-3D8D-46FC-91F4-90C3795CBE28}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\WebCommon\Common.csproj", "{9EFAA666-A446-4517-A58D-7BF4A27B5CAA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesktopAPIEngine", "..\DesktopAPIEngine\DesktopAPIEngine.vbproj", "{BDE5FC3E-1AC3-45CF-AC1D-641E64E998C7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesktopBaseClasses", "..\DesktopBaseClasses\DesktopBaseClasses.vbproj", "{532B42AD-283E-4127-BA23-B726199661CC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSCommonLib", "..\NSCommonLib\NSCommonLib.csproj", "{70784FE0-2F24-4F27-80C4-256769714CF5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataGridCustomColumns", "DataGridCustomColumns\DataGridCustomColumns.vbproj", "{8E3190A8-55F7-4936-89E8-71A509B52F79}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{77A52460-3D8D-46FC-91F4-90C3795CBE28}.Debug.ActiveCfg = Debug|.NET
+		{77A52460-3D8D-46FC-91F4-90C3795CBE28}.Debug.Build.0 = Debug|.NET
+		{77A52460-3D8D-46FC-91F4-90C3795CBE28}.Release.ActiveCfg = Debug|.NET
+		{77A52460-3D8D-46FC-91F4-90C3795CBE28}.Release.Build.0 = Debug|.NET
+		{9EFAA666-A446-4517-A58D-7BF4A27B5CAA}.Debug.ActiveCfg = Debug|.NET
+		{9EFAA666-A446-4517-A58D-7BF4A27B5CAA}.Debug.Build.0 = Debug|.NET
+		{9EFAA666-A446-4517-A58D-7BF4A27B5CAA}.Release.ActiveCfg = Debug|.NET
+		{BDE5FC3E-1AC3-45CF-AC1D-641E64E998C7}.Debug.ActiveCfg = Debug|.NET
+		{BDE5FC3E-1AC3-45CF-AC1D-641E64E998C7}.Debug.Build.0 = Debug|.NET
+		{BDE5FC3E-1AC3-45CF-AC1D-641E64E998C7}.Release.ActiveCfg = Release|.NET
+		{532B42AD-283E-4127-BA23-B726199661CC}.Debug.ActiveCfg = Release|.NET
+		{532B42AD-283E-4127-BA23-B726199661CC}.Debug.Build.0 = Release|.NET
+		{532B42AD-283E-4127-BA23-B726199661CC}.Release.ActiveCfg = Release|.NET
+		{70784FE0-2F24-4F27-80C4-256769714CF5}.Debug.ActiveCfg = Release|.NET
+		{70784FE0-2F24-4F27-80C4-256769714CF5}.Debug.Build.0 = Release|.NET
+		{70784FE0-2F24-4F27-80C4-256769714CF5}.Release.ActiveCfg = Release|.NET
+		{8E3190A8-55F7-4936-89E8-71A509B52F79}.Debug.ActiveCfg = Debug|.NET
+		{8E3190A8-55F7-4936-89E8-71A509B52F79}.Debug.Build.0 = Debug|.NET
+		{8E3190A8-55F7-4936-89E8-71A509B52F79}.Release.ActiveCfg = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

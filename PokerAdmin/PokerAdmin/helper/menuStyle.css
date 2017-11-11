@@ -1,0 +1,254 @@
+.TopStripe
+{
+  background-color: #FFFFFF; 
+}
+
+.Level1TabGroup
+{
+  background-color: #000088;
+  border:1px;
+  border-style:solid;
+  border-color:white;
+  border-top-color:#d9dbff;
+  border-left-color:#d9dbff;
+  cursor:default;
+}
+
+.Level1Tab
+{
+  color:white;
+  font-family:verdana; 
+  font-size:11px; 
+  border:1px;
+  border-style:solid;
+  border-color: #000088;
+  padding:4px;
+  padding-left:15px;
+  padding-right:15px;
+  cursor:hand;
+  text-transform : none;
+}
+
+.Level1TabOver 
+{
+  color:white;
+  font-family:verdana; 
+  font-size:11px; 
+  border:1px;
+  border-style:solid;
+  border-color:#cccccc;
+  border-right-color:black; 
+  border-bottom-color:black; 
+  padding:4px;
+  padding-left:15px;
+  padding-right:15px;
+  cursor:hand;
+  text-transform : none;  
+}
+
+.Level1TabSelected 
+{
+  background-color: #CFD3D8;
+  font-family:verdana; 
+  font-size:11px; 
+  border:1px;
+  border-style:solid;
+  border-color:white;
+  border-left-color:gray; 
+  border-top-color:gray; 
+  border-bottom-color:#CFD3D8; 
+  padding:4px;
+  padding-left:15px;
+  padding-right:15px;
+  position:relative;
+  color:black;
+  top:1px;
+  cursor:default;
+  text-transform : none;
+}
+
+.Level1TabSelectedOver
+{
+  background-color: #CFD3D8;
+  font-family:verdana; 
+  font-size:11px; 
+  color:black;
+  border:1px;
+  border-style:solid;
+  border-color:white;
+  border-left-color:gray; 
+  border-top-color:gray; 
+  border-bottom-color:#CFD3D8; 
+  padding:4px;
+  padding-left:15px;
+  padding-right:15px;
+  position:relative;
+  top:1px;
+  cursor:default;
+  text-transform : none;
+}
+
+.Level2TabGroup
+{
+color:black;
+  background-color: #CFD3D8;
+  border:1px;
+  border-style:solid;
+  border-color: #CFD3D8;
+  border-bottom-color:#CFD3D8; 
+  border-right-color:white; 
+  cursor:default;
+}
+
+.Level2Tab
+{
+  color:black;
+  font-family:verdana; 
+  font-size:10px; 
+  border:1px;
+  border-style:solid;
+  border-color:#CFD3D8;
+  padding:2px;
+  padding-left:5px;
+  padding-right:10px;
+  cursor:hand;
+  text-align:center;
+  text-transform : none;
+}
+
+.Level2TabOver
+{
+  color:black;
+  font-family:verdana; 
+  font-size:10px; 
+  border:1px;
+  border-style:solid;
+  border-color:#cccccc;
+  border-right-color:#000088; 
+  border-bottom-color:#000088; 
+  padding:2px;
+  padding-left:5px;
+  padding-right:10px;
+  cursor:hand;
+  text-align:center;
+  text-transform : none;
+}
+
+.Level2TabSelected
+{
+  color:black;
+  background-color: #f2f3f6;
+  font-family:verdana; 
+  font-size:10px; 
+  border:1px;
+  border-style:solid;
+  border-color:white;
+  border-left-color:#cccccc; 
+  border-top-color:#cccccc; 
+  border-bottom-color:#CFD3D8; 
+  padding:2px;
+  padding-left:5px;
+  padding-right:10px;
+  position:relative;
+  top:2px;
+  cursor:default;
+  text-align:center;
+  text-transform : none;
+}
+
+.Level2TabSelectedOver
+{
+  color:black;
+  background-color: #f2f3f6;
+  font-family:verdana; 
+  font-size:10px; 
+  border:1px;
+  border-style:solid;
+  border-color:white;
+  border-left-color:#cccccc; 
+  border-top-color:#cccccc; 
+  border-bottom-color:#CFD3D8; 
+  padding:2px;
+  padding-left:5px;
+  padding-right:10px;
+  position:relative;
+  top:2px;
+  cursor:default;
+  text-align:center;
+  text-transform : none;
+}
+
+a.TabText:active
+{
+  color:white;
+  font-family:verdana; 
+  font-size:11px; 
+  text-transform :  uppercase;
+}
+
+a.TabText:hover
+{
+  color:white;
+  font-family:verdana; 
+  font-size:11px; 
+  text-transform : none;
+}
+
+a.TabText:link
+{
+  color:white;
+  font-family:verdana; 
+  font-size:11px; 
+  text-transform : none;
+}
+
+a.TabText:visited
+{
+  color:white;
+  font-family:verdana; 
+  font-size:11px; 
+  text-transform : none;
+}
+
+a.TabTextSelected:active
+{
+  color:black;
+  font-family:verdana; 
+  font-size:11px; 
+  text-transform : none;
+}
+
+a.TabTextSelected:hover
+{
+  color:black;
+  font-family:verdana; 
+  font-size:11px; 
+  text-transform : none;
+}
+
+a.TabTextSelected:link
+{
+  color:black;
+  font-family:verdana; 
+  font-size:11px; 
+  text-transform : none;
+}
+
+a.TabTextSelected:visited
+{
+  color:black;
+  font-family:verdana; 
+  font-size:11px; 
+  text-transform : none;
+}
+.generaltxtLarge {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 16px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	letter-spacing: 1px;
+	text-transform :  none;
+	}

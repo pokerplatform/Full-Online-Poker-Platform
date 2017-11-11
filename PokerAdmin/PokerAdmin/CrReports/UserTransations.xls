@@ -1,0 +1,2992 @@
+<?xml version="1.0" standalone="yes"?>
+<GenerigReportDataSet>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:14:55.9270000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:15:32.2400000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:22:13.5400000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:26:12.7200000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:31:53.9200000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:32:33.0230000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:36:46.2600000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:43:59.1030000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:44:27.5000000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:44:50.3800000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:48:30.8400000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:52:18.2900000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:52:41.5600000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:56:09.7400000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:58:53.5070000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:58:58.1630000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T22:59:06.7130000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T23:01:34.1930000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T23:01:40.9470000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T23:02:36.0970000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T23:30:21.9470000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T23:30:24.9800000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T23:30:52.7330000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T23:30:53.2500000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-28T23:30:53.2500000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T15:05:48.5600000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T15:05:58.2600000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T15:16:56.5430000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T15:18:04.9370000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T15:18:04.9370000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T18:59:38.1430000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T18:59:57.0670000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:00:14.8630000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:00:34.7700000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:00:48.6430000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:00:57.8630000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:03:08.9900000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:06:58.3430000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:07:11.9070000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:09:54.2870000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:11:12.0830000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:11:12.0830000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:11:12.6000000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:11:12.6000000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:58:26.5630000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T19:58:41.6570000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T20:00:54.0470000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T20:01:51.5000000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-29T20:01:51.5000000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:10:41.4570000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:10:53.7670000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:22:43.5870000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:23:40.7330000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:23:48.8830000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:32:31.9370000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:33:08.9770000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:33:27.3070000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:33:41.4500000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:34:35.7830000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:34:39.4730000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:36:28.5630000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:37:06.3500000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:37:09.4430000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:40:19.7500000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:41:02.5600000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:41:05.6430000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:41:53.5630000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:41:57.2370000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T17:44:04.6870000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:37:18.2600000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:37:29.3400000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:45:35.9330000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:45:38.9570000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:46:03.2730000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:46:03.2730000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:48:15.6070000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:48:22.9170000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:50:56.1870000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:50:58.8200000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:51:14.2670000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:51:14.2670000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:56:52.1230000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T18:56:58.5630000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:05:27.8930000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:05:27.8930000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:09:30.2170000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Admin Correction</Name>
+    <Amount>10000.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:09:57.1700000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Admin Correction</Name>
+    <Amount>10000.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:11:48.7030000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:12:03.4670000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:13:32.3470000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Admin Correction</Name>
+    <Amount>10000.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:13:46.5370000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:15:21.2370000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>3.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:15:21.2370000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>4.5000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:15:21.2370000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>7.5000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:55:12.0030000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:55:20.6230000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T19:58:40.6400000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T20:15:07.2570000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T20:15:23.6500000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T20:15:33.2730000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:00:29.8470000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:00:33.1700000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:00:46.8930000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:01:05.6500000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:02:34.2570000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:02:47.3830000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:05:19.5830000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:18:48.9370000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:19:26.6730000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:19:29.8630000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:19:42.2030000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:20:49.8730000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:22:32.2300000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:23:09.2570000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:35:38.3700000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T21:55:33.3870000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T22:05:06.8130000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T22:05:07.2830000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T22:05:07.4530000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T22:05:07.6270000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T22:06:44.6070000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T22:16:09.2400000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T22:21:20.5630000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T22:21:25.9870000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T22:21:36.3130000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T22:21:39.8930000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:19:28.8000000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:21:03.2570000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:21:15.6170000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:22:28.4770000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:22:28.4770000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:29:37.8030000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:29:51.9900000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:31:02.0200000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:31:02.0200000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:31:52.1000000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:32:01.9400000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:44:40.5370000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:44:40.5370000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:45:14.7100000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:45:17.6170000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:46:12.1630000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Won</Name>
+    <Amount>8.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:46:12.3330000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Lose</Name>
+    <Amount>8.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:46:46.0700000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Won</Name>
+    <Amount>22.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:46:46.2270000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Lose</Name>
+    <Amount>22.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:46:53.0200000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>70.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:46:58.1930000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>130.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:48:25.8500000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:48:25.8500000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:55:05.9630000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:55:30.8530000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:56:34.2900000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Won</Name>
+    <Amount>45.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:56:34.4630000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>48.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:56:45.2130000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>145.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:56:45.2130000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>52.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:59:18.0130000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-01-31T23:59:29.4670000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:00:34.1830000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>48.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:00:34.1970000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>5.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:00:34.3530000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Won</Name>
+    <Amount>45.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:00:50.8530000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>145.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:00:57.2430000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>52.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:04:37.3030000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>5.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:04:37.3030000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:04:50.1800000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:05:06.1600000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:06:14.5670000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>3.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:06:14.5670000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>7.5000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:06:14.5670000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>4.5000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:08:53.4400000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:08:53.4400000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:20:11.1900000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:20:26.2370000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:22:30.8000000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>10.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:24:18.3600000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:24:23.1270000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T00:26:21.3930000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>10.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T18:46:37.4970000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T18:47:22.7570000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T18:47:38.7370000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T18:47:42.8830000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T18:47:49.4430000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T18:51:49.1630000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T18:52:24.4400000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:12:16.3370000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:36:48.5870000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:36:52.1600000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:37:56.4930000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:38:25.3500000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:38:46.4530000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:39:18.8400000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:39:37.2570000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:40:17.9130000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:40:44.6830000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:40:52.5630000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:41:16.6000000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:41:20.3430000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:41:26.6030000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:47:36.3370000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:47:36.6000000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:48:52.7670000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:49:40.8230000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T19:51:52.5070000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T20:09:12.5170000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T20:09:12.6270000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T20:09:58.0900000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T20:10:21.0200000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T20:11:47.2670000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T20:48:40.4200000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T20:52:25.7730000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T20:52:33.0170000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T21:31:16.3830000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T21:31:20.5700000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T21:31:45.4770000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T21:34:13.8130000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T21:39:28.5900000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T21:41:03.7130000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T21:41:07.1000000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T21:43:02.5770000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T22:53:16.5600000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T22:53:26.0000000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T22:53:29.5130000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T22:53:42.7800000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>500.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T22:53:58.4830000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>200.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T22:54:13.6100000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>1000.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T22:54:22.6900000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-01T23:14:18.4570000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:16:26.4670000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:17:38.5870000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:17:52.2670000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:18:04.2900000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:19:09.1300000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Won</Name>
+    <Amount>83.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:19:09.3200000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>44.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:19:09.5070000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Lose</Name>
+    <Amount>44.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:19:09.6930000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>2.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:20:07.9130000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>5.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:20:07.9130000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Won</Name>
+    <Amount>91.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:20:08.1000000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>5.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:20:08.1000000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>48.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:20:08.3030000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>5.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:20:08.3030000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Lose</Name>
+    <Amount>48.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:20:08.4900000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>2.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:20:40.6170000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Lose</Name>
+    <Amount>8.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:20:40.8200000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>8.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:20:41.0070000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Won</Name>
+    <Amount>11.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:20:41.3330000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>2.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:21:12.0370000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>5.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:21:12.0370000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Lose</Name>
+    <Amount>19.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:21:12.2400000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Won</Name>
+    <Amount>18.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:21:46.0200000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Won</Name>
+    <Amount>34.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:21:46.2070000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Lose</Name>
+    <Amount>37.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:23:30.3100000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>281.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:24:18.2830000+02:00</RecordDate>
+    <LoginName>ns_test</LoginName>
+    <ID>2415</ID>
+    <Name>Deposit</Name>
+    <Amount>550.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:27:21.8270000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:27:21.8270000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:27:21.8270000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:34:34.2700000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:34:44.9370000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:34:56.4000000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:38:32.0830000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Lose</Name>
+    <Amount>28.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:38:32.2570000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Won</Name>
+    <Amount>55.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:38:32.4430000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>5.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:38:32.4430000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Lose</Name>
+    <Amount>32.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:39:28.2270000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>68.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:39:28.3830000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>72.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T12:40:27.6170000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>68.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:13:38.6200000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:13:55.4400000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>87.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:13:55.6270000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:14:11.7270000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:14:41.1500000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:14:41.1500000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:14:41.1500000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:26:49.3370000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:27:00.0770000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:27:12.8570000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:28:40.7200000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>5.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:28:40.7200000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Lose</Name>
+    <Amount>48.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:28:40.9070000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>5.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:28:40.9070000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>48.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:28:41.0800000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Won</Name>
+    <Amount>91.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:28:41.2670000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>2.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:29:49.9070000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>52.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:29:49.9070000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>52.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:29:49.9070000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>191.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:30:57.8800000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:31:07.7000000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:31:17.0070000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:32:33.3470000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:32:33.5330000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Won</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:32:49.5000000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:33:49.7170000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>101.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:33:49.9800000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>99.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:34:28.7200000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:34:28.7200000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:34:28.7200000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:35:23.8100000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:35:34.6170000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:35:49.0200000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:36:36.9970000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:36:37.1670000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Won</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:37:18.2000000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:37:42.3730000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:37:42.3730000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>99.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:37:42.3730000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>101.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:38:10.8870000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:38:14.2300000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T13:38:45.0370000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:00:31.8830000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:00:47.4570000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:01:00.4200000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:01:26.1300000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:01:26.3170000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Won</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:02:58.5630000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Lose</Name>
+    <Amount>12.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:02:58.7800000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>14.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:02:58.9700000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Won</Name>
+    <Amount>21.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:02:58.9870000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>5.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:04:23.1270000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Lose</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:04:23.3130000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>2.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:04:23.5000000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Won</Name>
+    <Amount>3.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:05:43.4230000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>87.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:05:43.4230000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>83.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:05:43.4230000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>125.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:16:43.1470000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:16:54.0670000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:17:05.0300000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:17:36.6330000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Won</Name>
+    <Amount>3.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:17:36.9770000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:17:37.1470000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Lose</Name>
+    <Amount>2.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:18:57.1100000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Lose</Name>
+    <Amount>8.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:18:57.2800000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Won</Name>
+    <Amount>9.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:18:57.4700000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Lose</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:18:57.7670000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>2.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:18:57.7800000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>2.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:19:20.8530000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Won</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:19:20.8870000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Lose</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:19:24.2470000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>95.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:19:24.3870000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>91.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:19:29.6400000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>109.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:19:53.2130000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:19:53.2130000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:19:53.2300000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:20:16.3130000+02:00</RecordDate>
+    <LoginName>n_s_test</LoginName>
+    <ID>2416</ID>
+    <Name>Deposit</Name>
+    <Amount>550.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:23:01.3570000+02:00</RecordDate>
+    <LoginName>n1_s_test</LoginName>
+    <ID>2417</ID>
+    <Name>Deposit</Name>
+    <Amount>550.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:35:34.6030000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:35:50.9030000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:36:05.4900000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:36:21.5230000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>7.5000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:36:21.5230000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>3.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:36:21.5230000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>4.5000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:46:20.6400000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:47:07.6400000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:48:14.0500000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Lose</Name>
+    <Amount>48.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:48:14.2500000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Won</Name>
+    <Amount>45.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:48:27.7830000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Won</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:48:27.8130000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>1.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:48:30.7530000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>53.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:48:30.8770000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>144.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:49:13.5970000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T14:49:13.5970000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T15:33:08.2530000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T15:39:28.5030000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T16:53:16.4500000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T17:00:36.6130000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T17:01:18.8300000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T17:17:27.9630000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T19:26:38.4300000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T21:16:38.0870000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T21:17:01.9470000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T21:19:47.4330000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T21:20:24.1370000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T21:27:52.0000000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T21:30:47.0330000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T21:47:02.6900000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T21:47:49.7830000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T21:57:26.5700000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T22:09:20.9570000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-02T22:09:33.2670000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T19:36:53.5800000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Multi Tourney entry</Name>
+    <Amount>22.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T19:38:00.5870000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Multi Tourney return</Name>
+    <Amount>22.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T20:15:24.1070000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T20:23:50.3230000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T20:24:03.3730000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T20:27:30.1670000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T20:27:30.1670000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T20:29:08.3530000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T20:29:26.7800000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T20:29:44.8600000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T20:29:44.8600000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T21:10:01.1830000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T21:10:42.1600000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T21:20:10.6000000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>10.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T21:21:12.6570000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-03T21:41:07.1300000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-04T03:12:34.0170000+02:00</RecordDate>
+    <LoginName>qwerty</LoginName>
+    <ID>2411</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T18:58:30.6630000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T18:58:42.5530000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T18:59:48.2970000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:00:51.5470000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Lose</Name>
+    <Amount>18.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:00:51.7330000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Won</Name>
+    <Amount>17.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:00:51.7800000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>5.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:00:55.2000000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:01:56.3230000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>117.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:02:00.6200000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>82.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:02:32.6730000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:02:58.1800000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Reserv money</Name>
+    <Amount>100.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:04:43.4000000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Lose</Name>
+    <Amount>28.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:04:43.5870000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Won</Name>
+    <Amount>26.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:17:54.5400000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>126.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:17:58.5170000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>72.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:18:29.8930000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:19:00.4270000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:20:15.1600000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:20:41.3930000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:29:50.7200000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>10.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:47:17.9700000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:47:22.4530000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Single Table Tourney Return</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:55:22.7000000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T19:55:30.6400000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T20:14:10.9470000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Add Bonus Money</Name>
+    <Amount>2.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T20:14:11.0400000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>10.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T20:21:29.8900000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T20:21:45.5300000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Entry</Name>
+    <Amount>6.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T20:28:38.2400000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Single Table Tourney Won</Name>
+    <Amount>10.0000</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T20:30:17.7100000+02:00</RecordDate>
+    <LoginName>bs</LoginName>
+    <ID>2408</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T20:30:17.7230000+02:00</RecordDate>
+    <LoginName>bs1</LoginName>
+    <ID>2409</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+  <UserTransations>
+    <RecordDate>2005-02-05T20:30:17.7230000+02:00</RecordDate>
+    <LoginName>bs2</LoginName>
+    <ID>2410</ID>
+    <Name>Return money</Name>
+    <Amount>0</Amount>
+  </UserTransations>
+</GenerigReportDataSet>

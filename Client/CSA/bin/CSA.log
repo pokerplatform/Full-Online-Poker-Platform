@@ -1,0 +1,19 @@
+
+[12/13/2005 22:38:11.140] SessionModule.StartApplication
+[12/13/2005 22:38:11.140] SessionModule.InitConnect
+[12/13/2005 22:38:11.140] ConnectionModule.Connect
+[12/13/2005 22:38:11.140] ConnectionModule.ClientSocketConnect
+[12/13/2005 22:38:11.343] ConnectionModule.ElSecureClientOpenConnection using TLS1 and CipherSuite: 30
+[12/13/2005 22:38:12.828] ProcessModule.RunCommand started
+[12/13/2005 22:38:12.828] ProcessModule.RunCommand found apgetrecordedhands
+
+[12/13/2005 22:40:18.375] ProcessModule.StartProcess ID: 4245
+[12/13/2005 22:40:18.921] ProcessModule.RunCommand started
+[12/13/2005 22:40:18.921] ProcessModule.RunCommand found gaaction
+
+[12/13/2005 22:43:54.937] ProcessModule.RunCommand started
+[12/13/2005 22:43:54.937] ProcessModule.RunCommand found gaaction
+
+[12/13/2005 22:53:44.234] ProcessModule.RunCommand started
+[12/13/2005 22:53:44.234] ProcessModule.RunCommand found gaaction
+[12/13/2005 22:53:44.390] ProcessModule.StopProcess ID: 4245

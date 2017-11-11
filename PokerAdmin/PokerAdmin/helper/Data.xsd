@@ -1,0 +1,35 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+ <xsd:element name="Menu" type="menuType"/>
+
+ <xsd:complexType name="menuType">
+  <xsd:sequence maxOccurs="unbounded">
+   <xsd:element name="MainMenu"  type="mainMenuType"/>
+  </xsd:sequence>
+ </xsd:complexType>
+
+ <xsd:complexType name="mainMenuType">
+  <xsd:sequence>
+   <xsd:element name="SubMenu" type="SubMenuType"/>
+  </xsd:sequence>
+  <xsd:attribute name="MenuID" type="xsd:nonNegativeInteger"/>
+  <xsd:attribute name="MenuSequence" type="xsd:nonNegativeInteger"/>
+  <xsd:attribute name="MainSecurity" type="xsd:string"/>
+  <xsd:attribute name="BaseURL" type="xsd:string"/>
+  <xsd:attribute name="Label" type="xsd:string"/>
+  <xsd:attribute name="ImageUrl" type="xsd:string"/>
+ </xsd:complexType>
+ 
+ <xsd:complexType name="SubMenuType">  
+   <xsd:attribute name="SubMenuID" type="xsd:nonNegativeInteger"/>
+   <xsd:attribute name="SubMenuSequence" type="xsd:nonNegativeInteger"/>
+   <xsd:attribute name="Label" type="xsd:string"/>
+   <xsd:attribute name="URL"  type="xsd:string"/>
+   <xsd:attribute name="URLTarget" type="xsd:string"/>
+   <xsd:attribute name="Security" type="xsd:string"/>
+   <xsd:attribute name="CongSpecific" type="xsd:string"/>
+   <xsd:attribute name="MenuID" type="xsd:string"/>
+   <xsd:attribute name="ImageUrl" type="xsd:string"/>
+ </xsd:complexType> 
+
+</xsd:schema>

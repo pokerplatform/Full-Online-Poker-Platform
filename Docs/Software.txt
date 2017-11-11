@@ -1,0 +1,24 @@
+1. Runtime software
+There is no another commercial third-party components, that required runtime fees or must be installed 
+on client sides.
+On server side commercial runtime software are: Microsoft Windows Server 2000/2003, 
+and Microsoft SQL Server 2000.
+There are free software have to be installed:
+    - on client: Macromedia Flash Player 7.0 (included to the client software installation)
+    - on server: Microsoft Framework.NET 1.1, MS XML 4.0, MDAC 2.7, MSMQ, MS IIS
+ 
+2. Development software
+1) Delphi 7.0 (Client sofware, Server components, RoboPoker tool etc.)
+2) Microsoft Visual Studio 2003 (all Admin-side tools: Admin-site, Admin-tool, 
+  PokerWebService, PokerUserVerify, NetCompress)
+3) Macromedia Flash Studio MX 7.0 (Poker Table flash, Choose avatar flash, Avatars flashes)
+4) Delphi libraries:
+    a) commercial:
+        - DXSock Enterprise (DX, Inc) - TCP/IP server for Win32
+        - SSLBlackBox (EldoS Corp) - SSL/TLS support for Win32 (for server and client software)
+        - ThemeEngine (KSDev) - Skin engine for Win32 (for client application)
+	- Nexus Memory Manager - alternative fast memory manager
+    b) free:
+        - GIF package (Anders Melander) - for client application
+        - TurboPower LockBox (Mozilla Public License) - for client application and server components
+        - TurboPower SysTools (Mozilla Public License) - for client application and server components

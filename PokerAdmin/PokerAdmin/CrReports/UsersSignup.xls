@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="yes"?>
+<GenerigReportDataSet>
+  <UsersSignup>
+    <id>73</id>
+    <LoginName>admin</LoginName>
+    <Affiliate>Poker</Affiliate>
+    <RecordDate>2004-02-19T17:51:15.3100000+02:00</RecordDate>
+    <UserName>admin adminov</UserName>
+    <ChatAccess>enable </ChatAccess>
+    <Email>maximk@offshorecreations.com</Email>
+    <Status>enable</Status>
+    <IsEmailVerified>No </IsEmailVerified>
+    <GroupName>Default</GroupName>
+  </UsersSignup>
+  <UsersSignup>
+    <id>2258</id>
+    <LoginName>cs</LoginName>
+    <Affiliate>Poker</Affiliate>
+    <RecordDate>2004-02-19T17:51:15.3100000+02:00</RecordDate>
+    <UserName>CustomerSupport </UserName>
+    <ChatAccess>enable </ChatAccess>
+    <Email>CustomerSupport@poker.com</Email>
+    <Status>enable</Status>
+    <IsEmailVerified>No </IsEmailVerified>
+    <GroupName>Default</GroupName>
+  </UsersSignup>
+  <UsersSignup>
+    <id>2287</id>
+    <LoginName>bs1</LoginName>
+    <Affiliate>Poker</Affiliate>
+    <RecordDate>2004-12-22T16:52:01.4500000+02:00</RecordDate>
+    <UserName>1 1</UserName>
+    <ChatAccess>enable </ChatAccess>
+    <Email>bs1@.</Email>
+    <Status>enable</Status>
+    <IsEmailVerified>No </IsEmailVerified>
+    <GroupName>Default</GroupName>
+  </UsersSignup>
+  <UsersSignup>
+    <id>2288</id>
+    <LoginName>bs2</LoginName>
+    <Affiliate>Poker</Affiliate>
+    <RecordDate>2004-12-22T16:52:43.5530000+02:00</RecordDate>
+    <UserName>2 2</UserName>
+    <ChatAccess>enable </ChatAccess>
+    <Email>bs2@.</Email>
+    <Status>enable</Status>
+    <IsEmailVerified>No </IsEmailVerified>
+    <GroupName>Default</GroupName>
+  </UsersSignup>
+  <UsersSignup>
+    <id>2289</id>
+    <LoginName>bs3</LoginName>
+    <Affiliate>Poker</Affiliate>
+    <RecordDate>2004-12-22T17:05:39.1700000+02:00</RecordDate>
+    <UserName>3 3</UserName>
+    <ChatAccess>enable </ChatAccess>
+    <Email>bs3@.</Email>
+    <Status>enable</Status>
+    <IsEmailVerified>No </IsEmailVerified>
+    <GroupName>Default</GroupName>
+  </UsersSignup>
+  <UsersSignup>
+    <id>2290</id>
+    <LoginName>bs4</LoginName>
+    <Affiliate>Poker</Affiliate>
+    <RecordDate>2004-12-22T17:06:14.5270000+02:00</RecordDate>
+    <UserName>4 4</UserName>
+    <ChatAccess>enable </ChatAccess>
+    <Email>bs4@.</Email>
+    <Status>enable</Status>
+    <IsEmailVerified>No </IsEmailVerified>
+    <GroupName>Default</GroupName>
+  </UsersSignup>
+  <UsersSignup>
+    <id>2291</id>
+    <LoginName>bs5</LoginName>
+    <Affiliate>Poker</Affiliate>
+    <RecordDate>2004-12-22T17:06:44.4300000+02:00</RecordDate>
+    <UserName>5 5</UserName>
+    <ChatAccess>enable </ChatAccess>
+    <Email>bs5@.</Email>
+    <Status>enable</Status>
+    <IsEmailVerified>No </IsEmailVerified>
+    <GroupName>Default</GroupName>
+  </UsersSignup>
+</GenerigReportDataSet>

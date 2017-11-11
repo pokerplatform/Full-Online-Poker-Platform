@@ -1,0 +1,6 @@
+*.dll -k 'b'
+*.exe -k 'b'
+*.sys -k 'b'
+*.pdf -k 'b'
+*.doc -k 'b'
+*.incr -k 'b'

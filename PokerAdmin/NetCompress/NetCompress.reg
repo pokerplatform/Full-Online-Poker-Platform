@@ -1,0 +1,27 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\NetCompress.Zip]
+@="NetCompress.Zip"
+
+[HKEY_CLASSES_ROOT\NetCompress.Zip\CLSID]
+@="{E0018697-8E45-436E-960C-F450F69269E2}"
+
+[HKEY_CLASSES_ROOT\CLSID\{E0018697-8E45-436E-960C-F450F69269E2}]
+@="NetCompress.Zip"
+
+[HKEY_CLASSES_ROOT\CLSID\{E0018697-8E45-436E-960C-F450F69269E2}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="NetCompress.Zip"
+"Assembly"="NetCompress, Version=1.0.2050.26078, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{E0018697-8E45-436E-960C-F450F69269E2}\InprocServer32\1.0.2050.26078]
+"Class"="NetCompress.Zip"
+"Assembly"="NetCompress, Version=1.0.2050.26078, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{E0018697-8E45-436E-960C-F450F69269E2}\ProgId]
+@="NetCompress.Zip"
+
+[HKEY_CLASSES_ROOT\CLSID\{E0018697-8E45-436E-960C-F450F69269E2}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

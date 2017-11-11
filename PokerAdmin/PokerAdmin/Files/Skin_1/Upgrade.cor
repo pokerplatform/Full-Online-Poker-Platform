@@ -1,0 +1,42 @@
+FUNC ZaVidV; LOCAL DATA :=;
+{;
+{||APublic({"pIsKl","pcSep"}),pIsKl:=.f.,pcSep:=repl("-",pnLen:=32)+eol(),NIL},;
+{||padl("прим.1",pnLen)+eol()},;
+{||padc("ЗАЯВА НА ВИДАЧУ ГОТIВКИ "+left(Op[13,8,1],6),pnLen)+eol()},;
+{||"Дата операц.:"+RusDate(Op[3])+eol()},;
+{||StrCat("Банк отримувача: "+MarkOrd(),pnLen,," ")},;
+{||StrCat("Отримувач: "+pClnt[1],pnLen,," ")},;
+{|cn|if(Empty(cn:=alltrim(IsElm(Op,{13,2,1,1},""))),"",StrCat("Вклад: "+Cf_Name(Op[13,2,1])+", О/Р"+chr(0)+"No"+chr(0)+pPrSm+cn+pPoSm,pnLen,," "))},;
+{||if(pClnt[1]==IsElm(Op,{13,2,1,2},""),"",;
+   StrCat("Власник рахунку: "+IsElm(Op,{13,2,1,2},""),pnLen,," "))},;
+;//{||"Сума вкл.до опер."+mStr(Op[13,2,2]-OperDct(Op,-1,0)*Op[2],pnLen-17,2)+eol()},;
+;//{||"Сума % до опер."+mStr(Op[13,2,3]-OperDct(Op,-4)*Op[2],pnLen-15,2)+eol()},;
+{||"Валюта:Дебет :"+padr(pAcc[2,5],14)+eol()},;
+{||padc(pV[1],6)+":Кредит:"+padr(pAcc[3,5],14)+eol()},;
+;//{|k|k:=int(pnLen-6)/2,if("_"==Op[5],pcSep,Staff(pcSep,"Еквiвалент",pnLen-10,10))+;
+;//   " Cума:"+pPrSm+mStr(Op[2],k,2)+mStr(Op[2]*IsElm(pV,14,1),k,2)+pPoSm+eol()},;
+{|k|k:=int(pnLen-6)/2,pcSep+" Cума:"+pPrSm+mStr(Op[2],k,2)+pPoSm+eol()},;
+;//{||StrCat("Загальна сума: "+ScriptNumber(Op[2],pV,.t.,pV[4]$GetDat("IsMaleMan"));
+;//   +if("_"==Op[5],""," "+pV[12]+" ( НБУ :"+;
+;//   ScriptNumber(Op[2]*IsElm(pV,14,1),DctVal("_"),.t.,"_"$GetDat("IsMaleMan"))+")"),pnLen,," ")},;
+{||StrCat("Загальна сума: "+ScriptNumber(Op[2],pV,.t.,pV[4]$GetDat("IsMaleMan")),pnLen,," ")},;
+{||Op[1]#"VK".and.!"W"$Op[7].or.R_Skip(2)==NIL},;
+{||"  Залишок вкл."+pPrSm+mStr(Op[13,2,2],pnLen-17,2)+pPoSm+eol()},;
+{||"  Залишок %%  "+pPrSm+mStr(Op[13,2,3],pnLen-17,2)+pPoSm+eol()},;
+{||Op[1]=="VK".or.R_Skip(1)==NIL,StrCat("Змiст операцii "+pPrSm+;
+    OperDct(Op,4)+" "+pV[11]+pPoSm,pnLen,," ")},;
+{|a|Op:=a[pI:=pI+1],"Зал.вкл.пiсля опер."+pPrSm+mStr(Op[13,2,2],pnLen-21,2)+pPoSm+eol()},;
+{||"Пред'явлений: "+if(IsEmpty(pClnt[8]),"______________"+eol()+"серiя_________ номер_________",;
+   "паспорт"+eol()+"серiя "+padr(pClnt[8,1],9)+"номер "+padr(pClnt[8,2],10))+eol()},;
+{||StrCat("виданий "+if(Empty(pClnt[8,3]),space(pnLen),pClnt[8,3])+";"+FullDate(pClnt[8,4]),pnLen,," ");
+  +StrCat("д.н."+fulldate(pClnt[9])+",м.прож. "+pClnt[2],pnLen,," ")},;
+{||"C"$Op[1].or.R_Skip(1)==NIL},;
+{||"Виписку отримано. "+eol()},;
+{||"Iз залишком вкладу згодний(на)"+eol()},;
+{||"ПIБ "+repl("_",28)+eol()},;
+"Пiдпис отримувача ____________",;
+{||"Контролер "+padl(User(1,IsElm(Op,4),""),pnLen-10,"_")+EOL()},;
+"Касир ___________________";
+}
+RETURN 'Заявление на выдачу наличных',0,?
+//

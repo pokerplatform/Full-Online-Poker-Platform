@@ -1,0 +1,119 @@
+Before installation, please install MS SQL Server 2000, MSXML 4.0 of later and MDAC 2.7 or later.
+
+To install the server, please do the following:
+ 
+1.  In this description we will use folder "C:\Poker\" as the root folder for the system. 
+2.  Create using MMC (Computer management tool) private non-transactional MSMQ message queues:
+    A. Check first, if MS Windows's component "Message Queue Service" is installed. 
+       Run "Start->Settings->Control Panel->Add or Remove  Programs". 
+       Select "Add/Remove Windows Component". The box "Message Queue Service" must be checked. 
+       If not - check it and click on the "Next" button. Then follow the instructions of the 
+       Windows Components Wizard. 
+       Run "Start->Settings->Control Panel->Administrative Tools->Computer Management". 
+       Open "Services and Applications-> Message Queue". Select "Private Queue", right-click 
+       on the ListView and select "New->Private Queue". Enter in the "pokerservice" name.
+    B. It is neccessary to set all access permissions after private queue creating. 
+       To do this, right-click on the private queue and select "Properties". 
+       Switch on the "Security" bookmark and check full control for "All" user.
+    C. Repeat those steps to create queue "pokeradmin".
+3.  Create using MS SQL Server Enterprise Manager database named "Poker" or with another name:
+    A. MS SQL Server must be installed on your computer.
+    B. Run MS SQL Server Enterprise Manager on the server where
+       "Start->Programs->MS SQL Server->Enterprize Manager" database will be
+       located for creating database. Right-click on the "SQL Server Group -> local -> databases" 
+       and select "New database". Enter in "Poker" name and click on the "OK" button. 
+       As an alternative you can use "Run a Wizard"
+    C. Restore the database from the file "C:\Poker\DB\DB.dat" (choose "All tasks"->"Restore database" 
+       item from the created database ("Poker") context menu, then choose "From device" option and 
+       choose database backup file location in "Choose device" area, and then restore it)
+    D. Delete user "poker" (if such exists) from "Users" branch list of restored database "Poker" of "Database" branch.
+       Then create new security login in "Security"->"Logins" branch 
+       (user name "poker" and password "_poker_", you may use another name and passowrd, in this case you need to change
+       appropriate data in all poker system config files and registry) and apply it for the "Poker" 
+       database as "public" and "db owner" in "Database access" tab. 
+       Please choose "SQL server authentication" and enter the password. 
+       You may also use "Run a Wizard -> Database -> Create login wizard" from the 
+       SQL Server Enterprise to create security login. 
+    E. For clear the database - clear all its tables, please use "exec mhClearDatabase" script.
+4.  Register server components by running "C:\Poker\Server\bin\register.bat".
+5.  Install NetCompress library. Run setup.exe from "C:\Poker\PokerAdmin\NetCompress\Deploy" folder. 
+    During installation please set "Everyone" to be checked.
+6.  Start PokerService from "Services" console of Conputer management tool. Then immediately stop it. 
+    PokerService will create appropriate keys and parameters in Registry.
+    A. You can use "Start->Settings->Control Panel->Administration->Computer Management" for the 
+       admission to the "Services" console. Select "Services".
+    B. When PokerService starts, all required default keys will be automatically created within 
+       the Registry. For the further setting real keys you will need to stop PokerService.
+7.  Run Registry editor ("Regedit.exe") and change values. 
+    Expand "HKEY_LOCAL_MACHINE\Software\PokerService\ServerSettings" key and check each parameters. 
+    All parameters are named by their functions. Set "LogFolder" to "C:\Poker\Logs\". 
+    Set correct ActionDispatcher and ClientAdapter hosts and ports. Set correct MS SQL host, 
+    and change SQL connection string parameter - change "Initial Catalog" to database name and 
+    "User ID" and "Password" to appropriate security login and password settings. 
+    Set isActionDispatcher = 0 if PokerService on this computer will be running as balanced service; 
+    Set isActionDispatcher = 1 if PokerService will be running as ActionDispatcher;
+    Set isActionDispatcher = 2 if PokerService will be running as ActionDispatcher, ClientAdapter, GameAdapter and etc. - 
+    this option is needed for systems with one computer with one PokerService running.
+    Set correct values to another registry parameters if PokerService will be running in multi-service or 
+    multi-computer environment. In this case need to fill table "ActionDispatchers" into database with appropriate 
+    IP and Ports of all PokerServices running as ActionDispatchers.
+    Change parameters "ClientAdapterPort" - port that PokerService will listen for client connections 
+    (the same port number have to be set in client installation) and "ClientAdapterSSL" - 0 means that 
+    client-server traffic is not secured, and 1 - need to use SSL/TLS (256 bit encryprion). 
+    Check that "SSL" parameter is set to the same number in client installation.
+8.  Start PokerService using "Services"console. 
+9.  Check logs files (using "C:\Poker\Server\bin\LogViewer.exe") in "C:\Poker\Logs\PokerService" 
+    folder to verify the start is correct and Service have had the access to DB and MSMQ, 
+    and ActionDispatcher and ClientAdapter are working on correct ports.
+10. Try to connect to service by client application ("C:\Poker\Client\CSA\bin\PokerExcellence.exe"). 
+    Before directly run the application, please change connection settings in:
+    "HKEY_CURRENT_USER\Software\PokerExcellence\Settings". Add string parameter "host" 
+    with your server IP as value, and "port" as 
+    Check server logs to see the process to verify all is correct.
+11. Check if IIS is installed on you computer. If not, please install. Install MS .NET Framework 1.1, 
+    and register it in IIS by typing "aspnet_regiis -i"in Framework folder located in 
+    Windows root folder. 
+    Make full access rights to the user "aspnet" to the folder "C:\Poker\PokerAdmin" and
+    all subfolders.
+12. Create virtual folder ("PokerAdmin") in IIS and point it to admin-site folder - 
+    "C:\Poker\PokerAdmin\PokerAdmin\". Check parameters in "C:\Poker\PokerAdmin\PokerAdmin\Web.config" to set appropriate 
+    DB setting, client application files store folder, download url etc.
+13. Create virtual folder ("PokerClientFiles") in IIS for client installation download from 
+    "C:\Poker\PokerAdmin\PokerClientFiles"
+14. Type in IE link for admin-site ("http://localhost/pokeradmin/default.aspx") and try to do 
+    operations. Login as "admin" with password "_admin_"
+15. Change system options in "Misc"-> "Options" in admin-site.
+16. Create or modify default skin and affiliate in admin-site menu "Affiliates".
+17. Upload client application. Choose "Affiliates"-> "Client application files" in the admin-site, choose appropriate skin.
+    click "Browse" button in "Upload New" area and select "C:\Poker\Client\PokerExcellence.exe",
+    and then click "Save" button.
+    After file have been uploaded, set version #200508310 and click "Save" button.
+18. Upload flash files from "C:\Poker\Client\". To do that, click "Browse" button in 
+    "Upload New" area and select file to upload, choose type from the drop-down list, 
+    and after file have uploaded, set version. Files: 1) "Avatar.swf" - 
+    type "Main player logo", 2) "PokerExl.swf" - type "Flash Game", 
+    "Avatars_sp.zip" - type "Player Logo".
+19. Check server host and port parameters in 
+    "C:\Poker\PokerAdmin\PokerClientFiles\Skin_1\Installer\instscript_template.nsi" script 
+    (service host and port, SSL). 
+    Build the installation - click "Update skin" button on the 
+    "Affiliates"-> "Client application files" page.
+20. Check the client installation download from the link 
+    "http://localhost/PokerClientFiles/SKin_1/Installer/PokerExcellenceInst1.exe" or manually run it from 
+    c:\Poker\PokerAdmin\PokerClientFiles\SKin_1\Installer\PokerExcellenceInst1.exe
+    Install client software and try to do user actions.
+21. Try to create tables (processes), mini-tournaments and multi-tournaments. To do this, 
+    use "Processes" menu and appropriate subitems in the Admin-Site.
+    Check that those tables appears in client application in the Lobby. 
+    Check to enter to the tables.
+22. Optional. Admin-tool. Set correct setting in "C:\Poker\PokerAdmin\DesktopAdmin\DesktopAdmin.exe.config" 
+    and in registry key "HKEY_LOCAL_MACHINE\Software\PokerService\DesktopAdmin".
+    To use DesktopAdmin, just run the file "C:\Poker\PokerAdmin\DesktopAdmin\DesktopAdmin.exe".
+    Create virtual folder ("PokerWebService") in IIS from "C:\Poker\PokerAdmin\PokerWebService". 
+    Set correct setting in "C:\Poker\PokerAdmin\PokerWebService\web.config".
+    Create virtual folder ("PokerUserVerify") in IIS from "C:\Poker\PokerAdmin\PokerUserVerify". 
+    Set correct setting in "C:\Poker\PokerAdmin\PokerUserVerify\web.config".
+    Create virtual folder ("RemoteAdminWebService") in IIS from "C:\Poker\PokerAdmin\RemoteAdminWebService". 
+    Set correct setting in "C:\Poker\PokerAdmin\RemoteAdminWebService\web.config".
+23. Optional. To using admin-site reports, please install Crystal reports software from
+    C:\Poker\PokerAdmin\Report\Setup.exe.

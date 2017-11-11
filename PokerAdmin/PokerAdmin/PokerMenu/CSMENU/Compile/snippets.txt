@@ -1,0 +1,152 @@
+=====================================================================
+                  WebMenu Studio Code Snippets File
+=====================================================================
+
+This file is a quick reference for some of the code which you will
+use in the main HTML file.  For full details, please refer to the
+WebMenu Help file.
+
+There are 4 main requirements for integrating WebMenu with HTML your
+file:
+
+  1.  JavaScript Include statement which calls the Loader code.
+  2.  Load event handler which handles any necessary behavior when
+      the page is finished loading.
+  3.  Resize event handler which handles any necessary behavior when
+      the browser window is resized.
+  4.  (Optional) If not using the MenuBar object, invoking cswmShow()
+      and cswmHide() when you want to display a menu.
+
+---------------------------------------------------------------------
+1. Javascript Include Statement
+---------------------------------------------------------------------
+
+   The following script tag should be placed directory after the
+   <BODY> tag in your document, or directly before the </BODY> tag.
+
+   If using a relative positioned MenuBar object, place this line in
+   location where you want the MenuBar to appear (such as in between
+   <TD></TD> tags).
+
+     <script language="JavaScript" type="text/javascript" src="./Compile/loader.js"></script>
+
+---------------------------------------------------------------------
+2. Load Event Handler
+---------------------------------------------------------------------
+
+   In certain situations, instructions need to be carried out to set
+   up any MenuBar options, such as the MenuBar position on the page
+   or the Dock state.  This is accomplished by invoking
+   cswmMenuBarInit() as a Load event handler.  Attaching this
+   function to the Load event can be accomplished several ways:
+
+   ------------------------------------------------------------------
+   Choice a.
+   ------------------------------------------------------------------
+
+      Attach to OnLoad event via HTML Body tag:
+
+        <body OnLoad="cswmMenuBarInit()">
+
+   ------------------------------------------------------------------
+   Choice b.
+   ------------------------------------------------------------------
+
+      You can append or prefix to already existing OnLoad event:
+
+        <body OnLoad="MyOtherHandler(); cswmMenuBarInit()">
+
+   ------------------------------------------------------------------
+   Choice c.
+   ------------------------------------------------------------------
+
+      Attach to OnLoad via script:
+
+        window.onload = MyLoadHandler;
+
+        function MyLoadHandler()
+        {
+             cswmMenuBarInit();
+        }
+
+---------------------------------------------------------------------
+3. Resize Event Handler
+---------------------------------------------------------------------
+
+   In certain situations, the DHTML code will need to carry out
+   instructions when the browser is resized.  This is accomplished by
+   invoking cswmRefresh() as a Resize event handler.  This can be
+   accomplished several ways:
+
+   ------------------------------------------------------------------
+   Choice a.
+   ------------------------------------------------------------------
+
+      Attach to OnResize event via HTML Body tag:
+
+        <body OnResize="cswmRefresh()">
+
+   ------------------------------------------------------------------
+   Choice b.
+   ------------------------------------------------------------------
+
+      You can append or prefix to already existing OnResize event:
+
+        <body OnResize="MyOtherHandler(); cswmRefresh()">
+
+   ------------------------------------------------------------------
+   Choice c.
+   ------------------------------------------------------------------
+
+      Attach to OnResize via script:
+
+        window.onresize = MyResizeHandler;
+
+        function MyResizeHandler()
+        {
+             cswmRefresh();
+        }
+
+---------------------------------------------------------------------
+4. Invoking cswmShow() and cswmHide()
+---------------------------------------------------------------------
+
+   If you are not using the MenuBar object (MenuBar.DisplayMode = None),
+   then you can invoke the cswmShow() and cswmHide() functions as
+   necessary to display the menu's groups from custom areas on the
+   page. The following statements demonstrate several different ways
+   to control the placement of the menu, which react to <A> MouseOver
+   and MouseOut events.
+
+    -----------------------------------------------------------------
+    Relative Position Below an <IMG>:
+    -----------------------------------------------------------------
+
+     In this sample statement, an HTML <IMG> is used as the Button
+     for displaying the menu group with the ID of "File".  Note that
+     the <IMG> contains both and id= and name= attribute with the
+     same value.  This is so that the WebMenu's DHTML code can target
+     the <IMG> for automatic relative positioning.
+
+       <a href="default.htm" onMouseOver="cswmShow('File', 'Button', 'below')" onMouseOut="cswmHide()"><img id="Button" name="Button" src="/images/Button.gif"></a>
+
+    -----------------------------------------------------------------
+    Relative Position Below an <IMG>, with 10 px offset:
+    -----------------------------------------------------------------
+
+     In this sample statement, an HTML <IMG> is used as the Button
+     for displaying the menu group with the ID of "File".  The menu
+     appears in relation to the Button, but is offset by 10 px from
+     the Buttons position.
+
+       <a href="default.htm" onMouseOver="cswmShow('File', 'Button', 'below', 10, 10)" onMouseOut="cswmHide()"><img id="Button" name="Button" src="/images/Button.gif"></a>
+
+    -----------------------------------------------------------------
+    Absolute Position at coordinates 50 x 50:
+    -----------------------------------------------------------------
+
+      In this sample statement, a standard HREF anchor invokes the
+      cswmShow() function to display a menu at the specified
+      coordinates.
+
+        <a href="default.htm" onMouseOver="cswmShow('File', '', 'below', 50, 50, true)" onMouseOut="cswmHide()">Link Text</a>

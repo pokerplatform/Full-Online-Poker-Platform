@@ -1,0 +1,91 @@
+object MessageForm: TMessageForm
+  Left = 336
+  Top = 333
+  AutoScroll = False
+  BorderIcons = [biMinimize, biMaximize]
+  Caption = 'BikiniPoker'
+  ClientHeight = 100
+  ClientWidth = 285
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnKeyUp = FormKeyUp
+  PixelsPerInch = 96
+  TextHeight = 13
+  object TextLabel: TTeLabel
+    Left = 80
+    Top = 10
+    Width = 17
+    Height = 13
+    Performance = kspNoBuffer
+    Caption = 'text'
+    Color = clBtnFace
+    ParentColor = False
+    Layout = tlCenter
+    ThemeObject = 'BoldLabel'
+    WordWrap = True
+  end
+  object IconPanel: TTeHeaderPanel
+    Left = 10
+    Top = 10
+    Width = 55
+    Height = 55
+    Performance = kspNoBuffer
+    OnKeyUp = FormKeyUp
+    AnimateRoll = False
+    BevelWidth = 0
+    BorderWidth = 0
+    ButtonKind = kpbkRollUp
+    Caption = 'TeHeaderPanel1'
+    Rolled = False
+    ParentRoll = False
+    ShowBevel = False
+    ShowButton = False
+    ShowCaption = False
+    ThemeObject = 'ConfirmMessagePanel'
+    NormalHeight = {00000000}
+  end
+  object OkButton: TTeButton
+    Left = 66
+    Top = 72
+    Width = 70
+    Height = 25
+    Cursor = crHandPoint
+    Performance = kspDoubleBuffer
+    OnClick = OkButtonClick
+    OnKeyUp = FormKeyUp
+    BlackAndWhiteGlyph = False
+    Caption = 'Ok'
+    ThemeObject = 'default'
+    TabOrder = 1
+    WordWrap = False
+  end
+  object CancelButton: TTeButton
+    Left = 144
+    Top = 72
+    Width = 70
+    Height = 25
+    Cursor = crHandPoint
+    Performance = kspDoubleBuffer
+    OnClick = CancelButtonClick
+    OnKeyUp = FormKeyUp
+    BlackAndWhiteGlyph = False
+    Caption = 'Cancel'
+    ThemeObject = 'default'
+    TabOrder = 2
+    WordWrap = False
+  end
+  object TimeOutTimer: TTimer
+    Enabled = False
+    Interval = 30000
+    OnTimer = TimeOutTimerTimer
+    Left = 160
+    Top = 8
+  end
+end

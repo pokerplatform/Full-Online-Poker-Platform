@@ -1,0 +1,2311 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Common</name>
+    </assembly>
+    <members>
+        <member name="T:Common.Com.Remote">
+            <summary>
+            Implements routines handling remote objects
+            </summary>
+        </member>
+        <member name="M:Common.Com.Remote.#ctor">
+            <summary>
+            Base constructor
+            </summary>
+        </member>
+        <member name="M:Common.Com.Remote.CreateCom(System.String,System.String)">
+            <summary>
+            Creates an instance of COM object on remote server 
+            </summary>
+            <param name="sComName">Name of the COM-object to create an instance of</param>
+            <param name="sRemoteMachingName">Name of the remote server to create an object instance on</param>
+            <returns>Created object reference</returns>
+        </member>
+        <member name="T:Common.Db.Base">
+            <summary>
+            Provides base interface for SQL-Database operations.
+            DataBase connection string must be specified in 
+            "DatabaseConnectionString" key of the web.config file 
+            (AppSettings block)
+            </summary>
+        </member>
+        <member name="F:Common.Db.Base.oCnn">
+            <summary>
+            Connection object for any database call
+            </summary>
+        </member>
+        <member name="F:Common.Db.Base.oTransaction">
+            <summary>
+            Transaction object
+            </summary>
+        </member>
+        <member name="F:Common.Db.Base.sTransactionName">
+            <summary>
+            The name of the transaction
+            </summary>
+        </member>
+        <member name="F:Common.Db.Base.oDataAdapter">
+            <summary>
+            Data Adapter object
+            </summary>
+        </member>
+        <member name="F:Common.Db.Base.oParentClass">
+            <summary>
+            Reference to container class
+            </summary>
+        </member>
+        <member name="F:Common.Db.Base.bNeedCloseConnection">
+            <summary>
+            Microsoft recommends to close SQL connection after each database call.
+            Here this option is configurable through config file.
+            </summary>
+        </member>
+        <member name="M:Common.Db.Base.GetConnection">
+            <summary>
+            Retrieves existing (if connection exists) or creates new SqlConnection 
+            to the database
+            </summary>
+            <returns>SqlConnection object</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataTable">
+            <summary>
+            Executes SelectCommand on existing data adapter returning DataTable object.
+            </summary>
+            <returns>DataTable (recordset)</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataTable(System.Data.SqlClient.SqlDataAdapter)">
+            <summary>
+            Executes SelectCommand on specified data adapter returning DataTable object.
+            </summary>
+            <param name="oDA">Existing SqlDataAdapter object</param>
+            <returns>DataTable (recordset)</returns>
+        </member>
+        <member name="M:Common.Db.Base.PrepareDataAdapter(System.String,System.Object[])">
+            <summary>
+            Prepares SqlCommand object represented by parameters passed to the method
+            and sets the object to the SelectCommand property of the created (or existing)
+            data adapter
+            </summary>
+            <param name="sProcedureName">Stored procedure name</param>
+            <param name="args">Stored procedure parameters</param>
+            <returns>Prepared data adapter</returns>
+        </member>
+        <member name="M:Common.Db.Base.PrepareDataAdapter(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            Prepares SqlCommand object represented by parameters passed to the method
+            and sets the object to the SelectCommand property of the created (or existing)
+            data adapter
+            </summary>
+            <param name="sProcedureName">Stored procedure name</param>
+            <param name="sqlParams">Array of SqlParameter</param>
+            <returns>Prepared data adapter</returns>
+        </member>
+        <member name="M:Common.Db.Base.AppendCommandParameters(System.Data.SqlClient.SqlCommand,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            Adds specified parameters to the specified SqlCommand object 
+            </summary>
+            <param name="oCommand">SqlCommand object</param>
+            <param name="sqlParams">Array of SqlParameters</param>
+            <returns>Command with parameters</returns>
+        </member>
+        <member name="M:Common.Db.Base.AppendCommandParameters(System.Data.SqlClient.SqlCommand,System.Object[])">
+            <summary>
+            Adds specified parameters to the specified SqlCommand object 
+            </summary>
+            <param name="oCommand">SqlCommand object</param>
+            <param name="args">Command parameters</param>
+            <returns>Command with parameters</returns>
+        </member>
+        <member name="M:Common.Db.Base.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Common.Db.Base.#ctor(System.Object)">
+            <summary>
+            Constructs object with specified parent class.
+            If any exception occurs, specified class name (type)
+            will be written to log file.
+            </summary>
+            <param name="oParent"></param>
+        </member>
+        <member name="M:Common.Db.Base.Finalize">
+            <summary>
+            Destructor
+            </summary>
+        </member>
+        <member name="M:Common.Db.Base.CloseConnectionAnyway">
+            <summary>
+            Closes open connection anyway
+            </summary>
+        </member>
+        <member name="M:Common.Db.Base.CloseConnection">
+            <summary>
+            Closes open connection
+            </summary>
+        </member>
+        <member name="M:Common.Db.Base.BeginTransaction(System.String)">
+            <summary>
+            Initializes new database transaction with specified name
+            </summary>
+            <param name="sTransactionName">Transaction name</param>
+            <returns>Created transaction object</returns>
+        </member>
+        <member name="M:Common.Db.Base.CommitTransaction">
+            <summary>
+            Commits opened transaction
+            </summary>
+        </member>
+        <member name="M:Common.Db.Base.CommitTransaction(System.String)">
+            <summary>
+            Commits specified transaction
+            </summary>
+            <param name="sTransactionName">Name of the Transaction to commit</param>
+        </member>
+        <member name="M:Common.Db.Base.ResetTransaction">
+            <summary>
+            Resets opened transaction object.
+            </summary>
+        </member>
+        <member name="M:Common.Db.Base.RollbackTransaction">
+            <summary>
+            Rollback opened transaction.
+            </summary>
+        </member>
+        <member name="M:Common.Db.Base.RollbackTransaction(System.String)">
+            <summary>
+            Rollback specified transaction
+            </summary>
+            <param name="sTransactionName">Name of the transaction to rollback.</param>
+        </member>
+        <member name="M:Common.Db.Base.GetCommand(System.String)">
+            <summary>
+            Creates new SqlCommand object based on passed stored procedure name.
+            </summary>
+            <param name="sCommand">Name of the stored procedure to execute</param>
+            <returns>SqlCommand object</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetCommand(System.String,System.String)">
+            <summary>
+            Creates new SqlCommand object based on passed stored procedure name
+            and initiates new transaction.
+            </summary>
+            <param name="sCommand">Stored procedure name</param>
+            <param name="sTransactionName">Name of transaction</param>
+            <returns>SqlCommand object</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetCommand(System.String,System.Object[])">
+            <summary>
+            Creates new SqlCommand object based on passed stored procedure name
+            and appends specified parameters to the created object.
+            </summary>
+            <param name="sCommand">Name of the stored procedure to execute</param>
+            <param name="args">Stored procedure parameters</param>
+            <returns>SqlCommand object</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetCommand(System.String,System.Data.CommandType)">
+            <summary>
+            Creates new SqlCommand object based on passed SQL-query text
+            </summary>
+            <param name="sCommand">Command text (stored procedure name, TSQL statement, table or view name)</param>
+            <param name="eType">Command type</param>
+            <returns>SqlCommand object</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetCommand(System.String,System.Data.CommandType,System.String)">
+            <summary>
+            Creates new SqlCommand object based on passed query text and assigns passed transaction object to the created command if passed object isn't empty
+            </summary>
+            <param name="sCommand">Command text (stored procedure name, TSQL statement, table or view name)</param>
+            <param name="eType">Command type</param>
+            <param name="sTransactionName">Name of transaction</param>
+            <returns>SqlCommand object</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataAdapter">
+            <summary>
+            Retrieves (if exist) or creates data adapter object
+            </summary>
+            <returns>Empty data adapter object</returns>
+        </member>
+        <member name="M:Common.Db.Base.Update(System.Data.DataTable)">
+            <summary>
+            Updates specified table using existing dataadapter object
+            </summary>
+            <param name="oDT">Name of the DataTable object</param>
+            <returns>Bool showing whether update procedure was successfully completed</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataAdapter(System.String)">
+            <summary>
+            Retrieves existing or creates new SqlDataAdapter object
+            and sets SelectCommand property of the object with SqlCommand object
+            based on passed stored procedure name
+            </summary>
+            <param name="sCommand">Name of the stored procedure to execute</param>
+            <returns>Data adapter object with specified select command</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataAdapter(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Retrieves existing or creates new SqlDataAdapter object
+            and sets SelectCommand property of the object with SqlCommand object
+            </summary>
+            <param name="cmd">Command object</param>
+            <returns>Data adapter with specified select command</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataAdapter(System.String,System.Data.CommandType)">
+            <summary>
+            Retrieves existing or creates new SqlDataAdapter object
+            and sets SelectCommand property of the object with SqlCommand object
+            based on passed command text and command type.
+            </summary>
+            <param name="sCommand">Command text</param>
+            <param name="eType">Command type</param>
+            <returns>Data adapter with specified select command</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataTable(System.String,System.Data.CommandType)">
+            <summary>
+            Creates SqlCommand object based on specified command/command type, and executes it returning DataTable object.
+            </summary>
+            <param name="sCommand">Sql command text/stored procedure name</param>
+            <param name="eType">Type of sql command to execute</param>
+            <returns>DataTable (recordset)</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataTableBatch(System.String)">
+            <summary>
+            Creates SqlCommand object based on specified command text, and executes it returning DataTable object.
+            </summary>
+            <param name="sCommand">Sql command text</param>
+            <returns>DataTable (recordset)</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataSet(System.String,System.Object[])">
+            <summary>
+            Creates SqlCommand object based on specified stored procedure name and parameters, and executes it returning DataSet object.
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="args">Parameters array</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataSet(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            Creates SqlCommand object based on specified stored procedure name and parameters, and executes it returning DataSet object.
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="sqlParams">Array of SqlParameters</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataSet(System.Data.SqlClient.SqlDataAdapter)">
+            <summary>
+            Executes SelectCommand in the specified data adapter and fills DataSet object.
+            </summary>
+            <param name="oDA">Existing SqlDataAdapter object</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataTable(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Executes SqlCommand object and returning DataTable object.
+            </summary>
+            <param name="cmd">Command object</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataTable(System.String)">
+            <summary>
+            Creates SqlCommand object based on specified stored procedure name, and executes it returning DataTable object.
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <returns>DataTable (recordset)</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataTable(System.String,System.Object[])">
+            <summary>
+            Creates SqlCommand object based on specified stored procedure name and parameters, and executes it returning DataTable object.
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="args">Parameters array</param>
+            <returns>DataTable (recordset)</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetDataTable(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            Creates SqlCommand object based on specified stored procedure name and parameters, executes it and return DataTable object.
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="sqlParams">Array of SqlParameter</param>
+            <returns>DataTable (recordset)</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetScalar(System.String,System.Object[])">
+            <summary>
+            Executes specified stored procedure with specified parameters
+            and returns one (scalar) value (first column from first row)
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="args">Parameters array</param>
+            <returns>object</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetScalarInt(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Executes specified SqlCommand and returns one 
+            (scalar) value (first column from first row) 
+            converted into Int32
+            </summary>
+            <param name="oCommand">SqlCommand object</param>
+            <returns>Scalar integer value</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetScalarInt(System.String,System.Object[])">
+            <summary>
+            Executes specified stored procedure with specified parameters
+            and returns one (scalar) value (first column from first row) 
+            converted into Int32
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="args">Stored procedure parameters</param>
+            <returns>Scalar integer value</returns>
+        </member>
+        <member name="M:Common.Db.Base.Execute(System.String,System.Object[])">
+            <summary>
+            Executes specified stored procedure with specified parameters returning 
+            number of affected rows
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="args">Stored procedure parameters</param>
+            <returns>Number of affected rows</returns>
+        </member>
+        <member name="M:Common.Db.Base.ExecuteNonQuery(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            Executes specified stored procedure with specified parameters returning 
+            number of affected rows or -1 in case or error
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="sqlParams">Array of SqlParameters</param>
+            <returns>Number of affected rows</returns>
+        </member>
+        <member name="M:Common.Db.Base.ExecuteNonQuery(System.String,System.Object[])">
+            <summary>
+            Executes specified stored procedure with specified parameters returning 
+            number of affected rows or -1 in case or error
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="args">Stored procedure parameters</param>
+            <returns>Number of affected rows</returns>
+        </member>
+        <member name="M:Common.Db.Base.ExecuteReturnInt(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Executes specified SqlCommand and returns int value
+            </summary>
+            <param name="oCommand">SqlCommand to execute</param>
+            <returns>Integer result</returns>
+        </member>
+        <member name="M:Common.Db.Base.ExecuteReturnInt(System.String,System.Object[])">
+            <summary>
+            Executes specified stored procedure with specified parameters returning 
+            int value
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="args">Sql procedure parameters</param>
+            <returns>Integer result</returns>
+        </member>
+        <member name="M:Common.Db.Base.ExecuteReturnInt(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            Executes specified stored procedure with specified parameters returning 
+            int value
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="sqlParams">Sql procedure parameters</param>
+            <returns>Integer result</returns>
+        </member>
+        <member name="M:Common.Db.Base.GetFirstRow(System.String,System.Object[])">
+            <summary>
+            Executes specified stored procedure with specified parameters returning 
+            only first row from recordset
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="args">Sql procedure parameters</param>
+            <returns>DataRow object</returns>
+        </member>
+        <member name="M:Common.Db.Base.DeleteRows(System.Data.DataTable,System.Data.DataRowState)">
+            <summary>
+            Deletes rows from specified DataTable according to the specified DataRowState
+            </summary>
+            <param name="oDT">DataTable object to delete dataRows from</param>
+            <param name="state">DataRowState filter</param>
+            <returns>Number of deleted DataRows</returns>
+        </member>
+        <member name="P:Common.Db.Base.Parent">
+            <summary>
+            Access to container object
+            </summary>
+        </member>
+        <member name="P:Common.Db.Base.NeedCloseConnection">
+            <summary>
+            Wheither connection will be closed after each statement execution
+            </summary>
+        </member>
+        <member name="T:Common.Files.Access">
+            <summary>
+            Provides base file access routines
+            such as read (write) from (into) a string 
+            </summary>
+        </member>
+        <member name="M:Common.Files.Access.#ctor">
+            <summary>
+            Base constructor
+            </summary>
+        </member>
+        <member name="M:Common.Files.Access.WriteFile(System.String,System.String)">
+            <summary>
+            Writes specified content into specified file
+            </summary>
+            <param name="fileName">String containing complete path to the file we writing into</param>
+            <param name="content">String containing data to be written into	the file</param>            
+            <returns></returns>
+        </member>
+        <member name="M:Common.Files.Access.ReadFile(System.String)">
+            <summary>
+            Reads content from specified file
+            </summary>
+            <param name="fileName">String containing complete path to the file we reading from</param>
+            <returns>String containing the content of the file</returns>
+        </member>
+        <member name="T:Common.Web.Controls.ISqlParameter">
+            <summary>
+            ISqlParameter interface declarates three methods that will be used 
+            to get Sql parameters assigned to derived server controls
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.ISqlParameter.GetSqlParamName">
+            <summary>
+            Returns name of SQL parameter assigned to derived server control
+            </summary>
+            <returns>String value</returns>
+        </member>
+        <member name="M:Common.Web.Controls.ISqlParameter.GetSqlParamValue">
+            <summary>
+            Returns value of SQL parameter assigned to derived server control
+            </summary>
+            <returns>String value</returns>
+        </member>
+        <member name="M:Common.Web.Controls.ISqlParameter.GetSqlParam">
+            <summary>
+            Returns SQL parameter controlled assigned to server control. Control
+            will be based on the values returned by GetSqlParamName() and GetSqlParamValue()
+            </summary>
+            <returns>SqlParameter object</returns>
+        </member>
+        <member name="T:Common.Web.Controls.SqlTextBox">
+            <summary>
+            SqlTextBox class extends base asp.net TextBox class by following capabilities:  
+            1) ability to assign an sql parameter to the Control by specifying SqlParamName property
+            2) ability to access assigned sql parameter by using methods declared in ISqlParameter 
+            interface. GetSqlParamValue() returns value of the Text property.
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlTextBox.GetSqlParamName">
+            <summary>
+            Returns name of the sql parameter assigned to the control
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlTextBox.GetSqlParamValue">
+            <summary>
+            Returns value of the Text property as a value of the sql parameter 
+            assigned to the control
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlTextBox.GetSqlParam">
+            <summary>
+            Returns SqlParameter object based on the values returned by
+            GetSqlParamName() and GetSqlParamValue() methods
+            </summary>
+        </member>
+        <member name="P:Common.Web.Controls.SqlTextBox.SqlParamName">
+            <summary>
+            Represents name of SqlParameter assigned to the control.
+            Returns String.Empty by default.
+            </summary>
+        </member>
+        <member name="T:Common.Web.Controls.SqlHidden">
+            <summary>
+            SqlHidden class extends base asp.net HtmlInputHidden class by following capabilities:  
+            1) ability to assign an sql parameter to the Control by specifying SqlParamName property
+            2) ability to access assigned sql parameter by using methods declared in ISqlParameter 
+            interface. GetSqlParamValue() returns value of the Value property.
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlHidden.GetSqlParamName">
+            <summary>
+            Returns name of the sql parameter assigned to the control
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlHidden.GetSqlParamValue">
+            <summary>
+            Returns value of the Value property as a value of the sql parameter 
+            assigned to the control
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlHidden.GetSqlParam">
+            <summary>
+            Returns SqlParameter object based on the values returned by
+            GetSqlParamName() and GetSqlParamValue() methods
+            </summary>
+        </member>
+        <member name="P:Common.Web.Controls.SqlHidden.SqlParamName">
+            <summary>
+            Represents name of SqlParameter assigned to the control.
+            Returns String.Empty by default.
+            </summary>
+        </member>
+        <member name="T:Common.Web.Controls.SqlCheckBox">
+            <summary>
+            SqlCheckBox class extends base asp.net CheckBox class by following capabilities:  
+            1) ability to assign an sql parameter to the Control by specifying SqlParamName property
+            2) ability to access assigned sql parameter by using methods declared in ISqlParameter 
+            interface. GetSqlParamValue() returns bit value depending on Checked property.
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlCheckBox.GetSqlParamName">
+            <summary>
+            Returns name of the sql parameter assigned to the control
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlCheckBox.GetSqlParamValue">
+            <summary>
+            Returns bit value depending on Checked property as a value of the sql parameter 
+            assigned to the control
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlCheckBox.GetSqlParam">
+            <summary>
+            Returns SqlParameter object based on the values returned by
+            GetSqlParamName() and GetSqlParamValue() methods
+            </summary>
+        </member>
+        <member name="P:Common.Web.Controls.SqlCheckBox.SqlParamName">
+            <summary>
+            Represents name of SqlParameter assigned to the control.
+            Returns String.Empty by default.
+            </summary>
+        </member>
+        <member name="T:Common.Web.Controls.SqlDDL">
+            <summary>
+            SqlDDL class extends base asp.net DropDownList class by following capabilities:  
+            1) ability to assign an sql parameter to the Control by specifying SqlParamName property
+            2) ability to access assigned sql parameter by using methods declared in ISqlParameter 
+            interface. GetSqlParamValue() returns value of the SelectedItem.Value property.
+            3) ability to set FirstItem of the DropDownList (value equals 0)
+            4) ability to set SrcQuery, SrcParamName, SrcParamValue properties. Control's DataSource will be 
+            generated based on these properties
+            5) ability to set the default value of the control. Appropriate  ListItem will be selected upon
+            binding the Control
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlDDL.GetSqlParamName">
+            <summary>
+            Returns name of the sql parameter assigned to the control
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlDDL.GetSqlParamValue">
+            <summary>
+            Returns value of the SelectedItem.value property as a value of the sql parameter 
+            assigned to the control
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlDDL.GetSqlParam">
+            <summary>
+            Returns SqlParameter object based on the values returned by
+            GetSqlParamName() and GetSqlParamValue() methods
+            </summary>
+        </member>
+        <member name="M:Common.Web.Controls.SqlDDL.OnDataBinding(System.EventArgs)">
+            <summary>
+            Extends base OnDataBinding method with DataSource generating, FirstItem inserting
+            and default item selecting capabilities (features based on SrcQuery, SrcParamName, 
+            SrcParamValue, FirstItem, DefaultValue properties)
+            </summary>
+        </member>
+        <member name="P:Common.Web.Controls.SqlDDL.SqlParamName">
+            <summary>
+            Represents name of SqlParameter assigned to the control
+            </summary>
+        </member>
+        <member name="P:Common.Web.Controls.SqlDDL.SrcQuery">
+            <summary>
+            Represents name of the stored procedure based on which Control's DataSource will be 
+            generated. Returns String.Empty by default.
+            </summary>
+        </member>
+        <member name="P:Common.Web.Controls.SqlDDL.SrcParamName">
+            <summary>
+            Represents name of the sql parameter to pass to the SrcQuery procedure.
+            Returns String.Empty by default.
+            </summary>
+        </member>
+        <member name="P:Common.Web.Controls.SqlDDL.SrcParamValue">
+            <summary>
+            Represents value of the sql parameter to pass to the SrcQuery procedure.
+            Returns String.Empty by default.
+            </summary>
+        </member>
+        <member name="P:Common.Web.Controls.SqlDDL.FirstItem">
+            <summary>
+            Represents string to insert into DropDownList item collection as a first item.
+            Returns String.Empty by default.
+            </summary>
+        </member>
+        <member name="P:Common.Web.Controls.SqlDDL.DefaultValue">
+            <summary>
+            Represents value of the ListItem to select upon DataBinding by default.
+            Returns String.Empty by default.
+            </summary>
+        </member>
+        <member name="T:Common.Web.Creator">
+            <summary>
+            Implements static methods generating render strings for HTML controls
+            </summary>
+        </member>
+        <member name="M:Common.Web.Creator.#ctor">
+            <summary>
+            Base constructor
+            </summary>
+        </member>
+        <member name="M:Common.Web.Creator.GetCheckBoxHtml(System.String,System.String)">
+            <summary>
+            Generates HTML render string containing 
+            CheckBox object with specified name and value
+            </summary>
+            <param name="sName">Name of the CheckBox object</param>
+            <param name="sValue">Value of the CheckBox object</param>
+            <returns>HTML render string containing generated CheckBox</returns>
+        </member>
+        <member name="M:Common.Web.Creator.GetCheckBoxHtml(System.String)">
+            <summary>
+            Generates HTML render string containing 
+            CheckBox object with specified name and empty value
+            </summary>
+            <param name="sName">Name of the CheckBox object</param>
+            <returns>HTML render string containing generated CheckBox</returns>
+        </member>
+        <member name="M:Common.Web.Creator.GetTextBoxHtml(System.String,System.String)">
+            <summary>
+            Generates HTML render string containing 
+            TextBox object with specified name and value
+            </summary>
+            <param name="sName">Name of the TextBox object</param>
+            <param name="sValue">Value of the TextBox object</param>
+            <returns>HTML render string containing generated TextBox</returns>
+        </member>
+        <member name="M:Common.Web.Creator.GetTextBoxHtml(System.String,System.String,System.String)">
+            <summary>
+            Generates HTML render string containing 
+            TextBox object with specified name, value and optional 
+            additional attributes
+            </summary>
+            <param name="sName">Name of the TextBox object</param>
+            <param name="sValue">Value of the TextBox object</param>
+            <param name="sOther">Optional editional attributes of TextBox control</param>
+            <returns>HTML render string containing generated TextBox</returns>
+        </member>
+        <member name="M:Common.Web.Creator.GetTextBoxHtml(System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Generates HTML render string containing 
+            TextBox object with specified name, value, enabled status 
+            and optional additional parameters
+            </summary>
+            <param name="sName">Name of the TextBox object</param>
+            <param name="sValue">Value of the TextBox object</param>
+            <param name="bIsDisabled">Boolean indicating whether TextBox should be rendered as disabled</param>
+            <param name="sOther">Optional editional attributes of TextBox control</param>
+            <returns>HTML render string containing generated TextBox</returns>
+        </member>
+        <member name="M:Common.Web.Creator.GetHiddenHtml(System.String,System.String)">
+            <summary>
+            Generates HTML render string containing 
+            Hidden object with specified name and value
+            </summary>
+            <param name="sName">Name of the Hidden object</param>
+            <param name="sValue">Value of the Hidden object</param>
+            <returns>HTML render string containing generated Hidden</returns>
+        </member>
+        <member name="M:Common.Web.Creator.GetDropDownListHtml(System.String,System.Data.DataTable,System.String)">
+            <summary>
+            Generates HTML render string containing 
+            DropDownList object with specified name.
+            DropDownList will be filled out with options according 
+            to the passed DataTable object. 
+            </summary>
+            <param name="sName">Name of the DropDownList object</param>
+            <param name="oSource">DataTable object to fill DropDownList from</param>
+            <param name="sToSelect">String that represents value of the option that should be selected by default</param>
+            <returns>HTML render string containing generated DropDownList object</returns>
+        </member>
+        <member name="M:Common.Web.Creator.GetDropDownListHtml(System.String,System.Data.DataTable,System.String,System.String)">
+            <summary>
+            Generates HTML render string containing 
+            DropDownList object with specified name.
+            DropDownList will be filled out with options according 
+            to the passed DataTable object. 
+            </summary>
+            <param name="sName">Name of the DropDownList object</param>
+            <param name="oSource">DataTable object to fill DropDownList from</param>
+            <param name="sToSelect">String that represents value of the option that should be selected by default</param>
+            <param name="sOnChange">String representing script function name to call upon changing selection in DropDownList</param>
+            <returns>HTML render string containing generated DropDownList object</returns>
+        </member>
+        <member name="M:Common.Web.Creator.GetDropDownListHtml(System.String,System.Data.DataTable,System.String,System.String,System.String)">
+            <summary>
+            Generates HTML render string containing 
+            DropDownList object with specified name.
+            DropDownList will be filled out with options according 
+            to the passed DataTable object. 
+            </summary>
+            <param name="sName">Name of the DropDownList object</param>
+            <param name="oSource">DataTable object to fill DropDownList from</param>
+            <param name="sToSelect">String that represents value of the option that should be selected by default</param>
+            <param name="sOnChange">String representing script function name to call upon changing selection in DropDownList</param>
+            <param name="cssClass">String representing css class name to assign DropDownList to</param>
+            <returns>HTML render string containing generated DropDownList object</returns>
+        </member>
+        <member name="T:Common.Web.Page">
+            <summary>
+            Implements enhanced base page class. Includes Navigation 
+            History / Simple SQLdb routines / Request parameters processing
+            and other capabilities.
+            </summary>
+        </member>
+        <member name="M:Common.Web.Page.#ctor">
+            <summary>
+            Base constructor
+            </summary>
+        </member>
+        <member name="M:Common.Web.Page.GetFirstRow(System.String,System.Object[])">
+            <summary>
+            Returns first row from recordset retrieved by specified procedure
+            </summary>
+            <param name="sProcedureName">Stored procedure name to execute</param>
+            <param name="args">Stored procedure parameters</param>
+            <returns>DataRow object or null</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetFirstRow(System.String)">
+            <summary>
+            Returns first row from recordset retrieved by specified procedure
+            </summary>
+            <param name="sProcedureName">Sql procedure name to execute</param>
+            <returns>DataRow object or null</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetDataTable(System.String,System.Object[])">
+            <summary>
+            Creates SqlCommand object based on specified stored procedure name and parameters, and executes it returning DataTable object.
+            </summary>
+            <param name="sProcedureName">Name of the stored procedure to execute</param>
+            <param name="args">Parameters array</param>
+            <returns>DataTable (recordset)</returns>
+        </member>
+        <member name="M:Common.Web.Page.ModifySetOfRecordsFromCombo(System.String,System.Object[])">
+            <summary>
+            Executes specified sql procedure on set of records
+            corresponding to default checkbox object. Additional 
+            stored procedure parameters array is also acceptable.
+            </summary>
+            <param name="sProcedureName">Name of stored procedure to execute</param>
+            <param name="args">Argument set for the stored procedure</param>
+            <returns>Number of affected rows</returns>
+        </member>
+        <member name="M:Common.Web.Page.ModifySetOfRecordsFromCombo(System.String,System.String,System.String,System.String)">
+            <summary>
+            Executes specified sql procedure on set of records
+            corresponding to specified checkbox object. 
+            </summary>
+            <param name="sProcedureName">Name of stored procedure to execute</param>
+            <param name="sCheckBoxName">name of the Checkbox object</param>
+            <param name="sProcedureParameterName">Name of the stored procedure parameter</param>
+            <param name="sSqlQuote">Encapsulate character</param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.Web.Page.ModifySetOfRecordsFromCombo(System.String)">
+            <summary>
+            Executes specified sql procedure on set of records
+            corresponding to default checkbox object.
+            </summary>
+            <param name="sProcedureName">Stored procedure name to execute</param>
+            <returns>Number of rows affected</returns>
+        </member>
+        <member name="M:Common.Web.Page.OnInit(System.EventArgs)">
+            <summary>
+            Initialize page class OnInit page event
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Common.Web.Page.IsPageInHistory(Common.Web.PageInfo)">
+            <summary>
+            Determine whether specified page need to be added (used) to the Navigation history
+            </summary>
+        </member>
+        <member name="M:Common.Web.Page.StoreFilter(System.String)">
+            <summary>
+            Stores filter settings in the navigation history object
+            </summary>
+            <param name="filterParam">filter string to store</param>
+        </member>
+        <member name="M:Common.Web.Page.StorePager(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="filterParam"></param>
+        </member>
+        <member name="M:Common.Web.Page.StoreBackID(System.Object)">
+            <summary>
+            Stores created ID in the navigation history object
+            </summary>
+            <param name="oID">ID to store</param>
+        </member>
+        <member name="M:Common.Web.Page.PeekHistory">
+            <summary>
+            Peeks previous Uri object from Navigation History stack
+            </summary>
+        </member>
+        <member name="M:Common.Web.Page.PopHistory">
+            <summary>
+            Retrieve previous Uri object from Navigation History stack
+            </summary>
+        </member>
+        <member name="M:Common.Web.Page.GetGoBackUrl">
+            <summary>
+            Returns back (previous) URL for the current page
+            </summary>
+            <returns>string Url</returns>
+        </member>
+        <member name="M:Common.Web.Page.btnBack_click(System.Object,System.EventArgs)">
+            <summary>
+            Button Back event handler
+            </summary>
+        </member>
+        <member name="M:Common.Web.Page.IsEqualPage(System.Uri)">
+            <summary>
+            Returns whether current page Uri is equal to the specified Uri object
+            </summary>
+            <param name="oUrl">Uri object to compare with</param>
+            <returns>bool result</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetCurrentUrl">
+            <summary>
+            Returns Uri object for the current page
+            </summary>
+            <returns>Uri object</returns>
+        </member>
+        <member name="M:Common.Web.Page.IncludeJsFile(System.Int32)">
+            <summary>
+            Registers js file on the page
+            </summary>
+            <param name="nPageNum">ID of the page</param>
+        </member>
+        <member name="M:Common.Web.Page.FindPage(System.Int32)">
+            <summary>
+            Returns PageInfo object by specified number of page
+            </summary>
+            <param name="nPage">page number to find</param>
+            <returns>PageInfo object</returns>
+        </member>
+        <member name="M:Common.Web.Page.FindPageAbsoluteUrl(System.Int32)">
+            <summary>
+            Returns absolute Url for the specified page number
+            </summary>
+            <param name="nPage">page number to find</param>
+            <returns>Url string</returns>
+        </member>
+        <member name="M:Common.Web.Page.FindPageBaseUrl(System.Int32)">
+            <summary>
+            Returns base (/Application/Other/Path/pg1.aspx) Url for the specified page number
+            </summary>
+            <param name="nPage">page number to find</param>
+            <returns>string base Url</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetPageInfoName">
+            <summary>
+            Returns name of the current page
+            </summary>
+            <returns>string name</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetUrlWithMainParam(System.Int32,System.Object)">
+            <summary>
+            For the specified page, returns Url string with specified parameter.
+            </summary>
+            <param name="nPage">ID of the page</param>
+            <param name="objParam">Object to append to Url as Url param value</param>
+            <returns>string Url</returns>
+        </member>
+        <member name="M:Common.Web.Page.Redirect(System.String)">
+            <summary>
+            Redirects current page to the specified Url
+            </summary>
+            <param name="sUrl">Url string to redirect to</param>
+        </member>
+        <member name="M:Common.Web.Page.Redirect(System.Int32)">
+            <summary>
+            Redirects current page to the page with specified ID
+            </summary>
+            <param name="nPageNum">ID of the page to redirect to</param>
+        </member>
+        <member name="M:Common.Web.Page.Redirect(System.Int32,System.String)">
+            <summary>
+            Redirects current page to the page with specified ID
+            </summary>
+            <param name="nPageNum">ID of the page to redirect to</param>
+            <param name="additParams">Additional parameters</param>
+        </member>
+        <member name="M:Common.Web.Page.GetCheckedValues(System.String,System.String)">
+            <summary>
+            Retrieves checked items of the specified CheckBox object.
+            </summary>
+            <param name="sInputName">Name of CheckBox object</param>
+            <param name="sSqlQuote">Sql quote: "'" or ""</param>
+        </member>
+        <member name="M:Common.Web.Page.GetCheckedValues(System.String)">
+            <summary>
+            Retrieves checked items of the specified CheckBox object.
+            </summary>
+            <param name="sInputName">Name of CheckBox object</param>
+            <returns>String containing comma separated checked values encapsulated without SQL quote</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetCheckedValues">
+            <summary>
+            Retrieves checked items of the default CheckBox object.
+            </summary>
+            <returns>String containing comma separated checked values encapsulated without SQL quote</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetCheckBoxHtml(System.Object)">
+            <summary>
+            Generates HTML render string containing CheckBox object 
+            based on values contained in specified object. Value would be extracted from
+            this object according to Config.SqlDefaultIdColumnName key. This means, object
+            would be converted into DataRowView object, this object would be than parsed for 
+            Config.SqlDefaultIdColumnName column, and found column value would be used as chechbox object value.
+            </summary>
+            <param name="oRow">Object that can be converted into DataRowView object</param>
+            <returns>HTML render string containing generated CheckBox</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetCheckBoxHtml(System.Object,System.String)">
+            <summary>
+            Generates HTML render string containing CheckBox object 
+            based on values contained in specified object. Value would be extracted from
+            this object according to the specified string. This means, object
+            would be converted into DataRowView object, this object would be than parsed for 
+            a column with specified name, and found column value would be used as chechbox object value.
+            </summary>
+            <param name="oRow">Object that can be converted into DataRowView object</param>
+            <param name="sIsShowFiled">Column name to extract values from</param>
+            <returns>HTML render string containing generated CheckBox</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetCheckBoxHtml(System.String,System.String)">
+            <summary>
+            Generates HTML render string containing CheckBox object 
+            with specified name and value.
+            </summary>
+            <param name="sName">Name of the CheckBox object</param>
+            <param name="sValue">Value of the CheckBox object</param>
+            <returns>HTML render string containing generated CheckBox</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetParamInt(System.String)">
+            <summary>
+            Returns specified parameter from request as integer value
+            Returns zero if specified parameter doesn't exist in request.
+            </summary>
+            <param name="sParamName">Name of the parameter to extract</param>
+            <returns>Integer parameter value</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetParamString(System.String)">
+            <summary>
+            Returns specified parameter from request as string value. 
+            Returns an empty string if specified parameter doesn't exist in request.
+            </summary>
+            <param name="sParamName">Name of the parameter to extract</param>
+            <returns>String parameter value</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetParamDecimal(System.String)">
+            <summary>
+            Returns specified parameter from request as decimal value. 
+            Returns zero if specified parameter doesn't exist in request.
+            </summary>
+            <param name="sParamName">Name of the parameter to extract</param>
+            <returns>Decimal parameter value</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetMainParamInt">
+            <summary>
+            Returns default page's parameter from request as integer value. 
+            Returns zero if specified parameter doesn't exist in request.
+            </summary>
+            <returns>Integer parameter value</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetMainParamInt(System.Web.UI.HtmlControls.HtmlInputHidden)">
+            <summary>
+            Returns value of the specified hidden field as integer, 
+            or, if the value is 0, value of the page's default parameter.
+            </summary>
+            <param name="hdnID">Name of the hidden field to extract value from</param>
+            <returns>Integer</returns>
+        </member>
+        <member name="M:Common.Web.Page.GetCurrentUserID">
+            <summary>
+            Returns current user's ID from security context of the page.
+            </summary>
+            <returns>Integer</returns>
+        </member>
+        <member name="M:Common.Web.Page.DoSignOut">
+            <summary>
+            Signs current logged in user out.
+            </summary>
+        </member>
+        <member name="M:Common.Web.Page.DoSignOut(System.Int32)">
+            <summary>
+            Signs current logged in user out and redirects browser to the specified page
+            <param name="nPage">ID of the page to redirect browser to</param>
+            </summary>
+        </member>
+        <member name="P:Common.Web.Page.PageInfo">
+            <summary>
+            Returns existing or creates new PageInfo object. Read-only.
+            </summary>
+        </member>
+        <member name="P:Common.Web.Page.RelativePageUrl">
+            <summary>
+            Returns relative URL to the currently requested page. Read-only.
+            </summary>
+        </member>
+        <member name="P:Common.Web.Page.DBase">
+            <summary>
+            Returns existing or creates new Web.Core object. Read-only.
+            </summary>
+        </member>
+        <member name="T:Common.Web.PageInfo">
+            <summary>
+            PageInfo implements base page functionality related with site Navigation.
+            </summary>
+        </member>
+        <member name="F:Common.Web.PageInfo.AuthorizationRequired">
+            <summary>
+            Represents whether authorization is required for the page
+            </summary>
+        </member>
+        <member name="M:Common.Web.PageInfo.#ctor">
+            <summary>
+            Base constructor
+            </summary>
+        </member>
+        <member name="M:Common.Web.PageInfo.#ctor(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Reloaded constructor
+            </summary>
+            <param name="PageName">Name of the page to create an instance for</param>
+            <param name="PageRelativeUrl">String containing relative URL to the page</param>
+            <param name="PageNumber">ID of the page</param>
+            <param name="PageMainParam">String containing name of the page's main param</param>
+            
+        </member>
+        <member name="M:Common.Web.PageInfo.#ctor(System.String,System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            Reloaded constructor
+            </summary>
+            <param name="PageName">Name of the page to create an instance for</param>
+            <param name="PageRelativeUrl">String containing relative URL to the page</param>
+            <param name="PageNumber">ID of the page</param>
+            <param name="PageMainParam">String containing name of the page's main param</param>
+            <param name="DefaultBackPage">ID of the default back page</param>
+        </member>
+        <member name="M:Common.Web.PageInfo.#ctor(System.String,System.String,System.Int32,System.String,System.Boolean,System.Int32)">
+            <summary>
+            Reloaded constructor
+            </summary>
+            <param name="PageName">Name of the page to create an instance for</param>
+            <param name="PageRelativeUrl">String containing relative URL to the page</param>
+            <param name="PageNumber">ID of the page</param>
+            <param name="PageMainParam">String containing name of the page's main param</param>
+            <param name="StoreSeparately">Bool indicating whether navigation history for the page should be stored separately</param>
+            <param name="DefaultBackPage">ID of the default back page</param>
+        </member>
+        <member name="M:Common.Web.PageInfo.#ctor(System.String,System.String,System.Int32,System.String,System.Int32,System.Boolean)">
+            <summary>
+            Reloaded constructor
+            </summary>
+            <param name="PageName">Name of the page to create an instance for</param>
+            <param name="PageRelativeUrl">String containing relative URL to the page</param>
+            <param name="PageNumber">ID of the page</param>
+            <param name="PageMainParam">String containing name of the page's main param</param>
+            <param name="DefaultBackPage">ID of the default back page</param>
+            <param name="bAlwaysAllowed">Bool indicating whether authorization wouldn't be always required for the page</param>
+        </member>
+        <member name="M:Common.Web.PageInfo.#ctor(System.String,System.String,System.Int32,System.String,System.Boolean)">
+            <summary>
+            Reloaded constructor
+            </summary>
+            <param name="PageName">Name of the page to create an instance for</param>
+            <param name="PageRelativeUrl">String containing relative URL to the page</param>
+            <param name="PageNumber">ID of the page</param>
+            <param name="PageMainParam">String containing name of the page's main param</param>
+            <param name="bAlwaysAllowed">Bool indicating whether authorization wouldn't be always required for the page</param>
+        </member>
+        <member name="M:Common.Web.PageInfo.GetUrlWithMainParam(System.Object)">
+            <summary>
+            Returns page's Url string with specified parameter.
+            </summary>
+            <param name="objParam">Object to append to Url as Url param value</param>
+            <returns>string Url</returns>
+        </member>
+        <member name="P:Common.Web.PageInfo.PageMainParam">
+            <summary>
+            Returns string containing page's main parameter. Read-only.
+            </summary>
+        </member>
+        <member name="P:Common.Web.PageInfo.DefaultBackPage">
+            <summary>
+            Returns default back page's ID. Read-only.
+            </summary>
+        </member>
+        <member name="P:Common.Web.PageInfo.PageNumber">
+            <summary>
+            Returns page's ID. Read-only.
+            </summary>
+        </member>
+        <member name="P:Common.Web.PageInfo.PageName">
+            <summary>
+            Returns page's name. Read-only.
+            </summary>
+        </member>
+        <member name="P:Common.Web.PageInfo.PageRelativeUrl">
+            <summary>
+            Returns page's relative Url. Read-only.
+            </summary>
+        </member>
+        <member name="P:Common.Web.PageInfo.PageBaseUrl">
+            <summary>
+            Returns page's base Url. Read-only.
+            </summary>
+        </member>
+        <member name="P:Common.Web.PageInfo.PageAbsoluteUrl">
+            <summary>
+            Returns page's absolute Url. Read-only.
+            </summary>
+        </member>
+        <member name="P:Common.Web.PageInfo.StoreStoreseparately">
+            <summary>
+            Returns page's absolute Url. Read-only.
+            </summary>
+        </member>
+        <member name="T:Common.Web.BaseTable">
+            <summary>
+            Implements routines to generate HTML tables, table rows and cells
+            </summary>
+        </member>
+        <member name="M:Common.Web.BaseTable.#ctor">
+            <summary>
+            Base constructor
+            </summary>
+        </member>
+        <member name="M:Common.Web.BaseTable.AddHeaderRow(System.String,System.String,System.Int32,System.Web.UI.WebControls.HorizontalAlign)">
+            <summary>
+            Generates header row for the table, appends it to the table and
+            returns generated TableRow object
+            </summary>
+            <param name="sText">String to insert into table header row (cell)</param>
+            <param name="sCss">CSS class to assign table row to</param>
+            <param name="nColspan">Colspan to use in generated table row</param>
+            <param name="align">Member of HorizontalAlign enumeration</param>
+            <returns>TableRow object</returns>
+        </member>
+        <member name="M:Common.Web.BaseTable.GetHeaderRow(System.String,System.String,System.Int32,System.Web.UI.WebControls.HorizontalAlign)">
+            <summary>
+            Generates header row for the table and
+            returns generated TableRow object
+            </summary>
+            <param name="sText">String to insert into table header row (cell)</param>
+            <param name="sCss">CSS class to assign table row to</param>
+            <param name="nColspan">Colspan to use in generated table row</param>
+            <param name="align">Member of HorizontalAlign enumeration</param>
+            <returns>TableRow object</returns>
+        </member>
+        <member name="M:Common.Web.BaseTable.GetTableCell(System.String,System.Web.UI.WebControls.Unit,System.Int32,System.Web.UI.WebControls.HorizontalAlign)">
+            <summary>
+            Generates cell for the table and
+            returns generated TableRow object
+            </summary>
+            <param name="sText">String to insert into table cell</param>
+            <param name="uWidth">Width of the cell</param>
+            <param name="nColspan">Colspan to use in generated table cell</param>
+            <param name="align">Member of HorizontalAlign enumeration</param>
+            <returns>TableCell object</returns>
+        </member>
+        <member name="M:Common.Web.BaseTable.GetTableCell(System.String)">
+            <summary>
+            Generates cell for the table and
+            returns generated TableRow object.
+            Unit.Empty will be used as cell width,
+            HorizontalAlign.NotSet as HorizontalAlign
+            and colspan will be set to 0
+            </summary>
+            <param name="sText">String to insert into table cell</param>
+            <returns>TableCell object</returns>
+        </member>
+        <member name="M:Common.Web.BaseTable.GetTableCell(System.Object,System.Web.UI.WebControls.HorizontalAlign)">
+            <summary>
+            Generates cell for the table and
+            returns generated TableRow object.
+            Unit.Empty will be used as cell width
+            and colspan will be set to 0
+            </summary>
+            <param name="oText">String to insert into table cell</param>
+            <param name="align">Member of HorizontalAlign enumeration</param>
+            <returns>TableCell object</returns>
+        </member>
+        <member name="M:Common.Web.BaseTable.GetTableCell(System.Int32)">
+            <summary>
+            Generates cell for the table and
+            returns generated TableRow object.
+            Unit.Empty will be used as cell width
+            HorizontalAlign.NotSet as HorizontalAlign for the cell
+            </summary>
+            <param name="nColspan">Colspan to use in generated table cell</param>
+            <returns>TableCell object</returns>
+        </member>
+        <member name="T:Common.Web.Core">
+            <summary>
+            Implements web-control relate utilities
+            </summary>
+        </member>
+        <member name="M:Common.Web.Core.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Common.Web.Core.#ctor(System.Object)">
+            <summary>
+            Reloaded Constructor
+            </summary>
+            <param name="oParent">Represents parent object</param>
+        </member>
+        <member name="M:Common.Web.Core.FindPage(System.Int32,System.Web.HttpApplicationState)">
+            <summary>
+            Returns Pageinfo object by specified ID of the page
+            </summary>
+            <param name="nPage">ID of the page to find</param>
+            <param name="Application">Application object</param>
+            <returns>PageInfo object</returns>
+        </member>
+        <member name="M:Common.Web.Core.FindPageAbsoluteUrl(System.Int32,System.Web.HttpApplicationState)">
+            <summary>
+            Returns page's absolute Url by specified ID of the page
+            </summary>
+            <param name="nPage">ID of the page</param>
+            <param name="Application">Application object</param>
+            <returns>string Url</returns>
+        </member>
+        <member name="M:Common.Web.Core.FindPageBaseUrl(System.Int32,System.Web.HttpApplicationState)">
+            <summary>
+            Returns page's base Url by specified ID of the page
+            </summary>
+            <param name="nPage">ID of the page</param>
+            <param name="Application">Application object</param>
+            <returns>string Url</returns>
+        </member>
+        <member name="M:Common.Web.Core.PrepareHyperLinkColumn(System.Web.UI.WebControls.DataGrid,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="oGrid">DataGrid object to add hyperlink column to</param>
+            <param name="nIndex">Index of the hyperlink column in DataGrid</param>
+            <param name="DataTextField">String to use as DataTextField for the column</param>
+            <param name="DataNavigateUrlField">String to use as DataNavigateUrlField for the column</param>
+            <param name="DataNavigateUrlFormatString">String to use as DataNavigateUrlFormatString for the column</param>
+        </member>
+        <member name="M:Common.Web.Core.GetSelectedValue(System.Web.UI.WebControls.DropDownList)">
+            <summary>
+            Returns selected value from specified DropDownList object. 
+            Returns zero by default.
+            </summary>
+            <param name="oCombo">DropDownList object</param>
+            <returns>Object containing selected value or zero</returns>
+        </member>
+        <member name="M:Common.Web.Core.GetSelectedValueInt(System.Web.UI.WebControls.DropDownList)">
+            <summary>
+            Returns selected value from specified DropDownList object as integer. 
+            Returns zero by default.
+            </summary>
+            <param name="oCombo">DropDownList object</param>
+            <returns>Integer value</returns>
+        </member>
+        <member name="M:Common.Web.Core.GetDbDate(System.Web.UI.WebControls.TextBox)">
+            <summary>
+            Converts text property of specified TextBox object into DateTime. 
+            Returns DBNull.Value if convertation failed.
+            </summary>
+            <param name="obj">TextBox object</param>
+            <returns>DateTime object or DBNull.Value object</returns>
+        </member>
+        <member name="M:Common.Web.Core.GetInt(System.Web.UI.HtmlControls.HtmlInputHidden)">
+            <summary>
+            Converts value of the specified HtmlInputHidden object into integer. 
+            Returns zero by default
+            </summary>
+            <param name="obj">HtmlInputHidden object to get the value from</param>
+            <returns>Integer</returns>
+        </member>
+        <member name="M:Common.Web.Core.GetInt(System.Web.UI.WebControls.TextBox)">
+            <summary>
+            Converts Text property of the specified TextBox object into integer. 
+            Returns zero by default
+            </summary>
+            <param name="obj">TextBox object to get the value from</param>
+            <returns>Integer</returns>
+        </member>
+        <member name="M:Common.Web.Core.GetDecimal(System.Web.UI.WebControls.TextBox)">
+            <summary>
+            Converts Text property of the specified TextBox object into decimal. 
+            Returns zero by default
+            </summary>
+            <param name="obj">TextBox object to get the value from</param>
+            <returns>Decimal value</returns>
+        </member>
+        <member name="M:Common.Web.Core.SelectItemByText(System.Web.UI.WebControls.ListControl,System.String)">
+            <summary>
+            Sets selection of the specified ListControl object by specified string.
+            Selection will be set to the ListItem with the specified text.
+            </summary>
+            <param name="oList">ListControl object to set selection in</param>
+            <param name="sText">String representing text of the ListItem to select</param>
+        </member>
+        <member name="M:Common.Web.Core.SelectItemByValue(System.Web.UI.WebControls.ListControl,System.String)">
+            <summary>
+            Sets selection of the specified ListControl object by specified string.
+            Selection will be set to the ListItem with the specified value.
+            </summary>
+            <param name="oList">ListControl object to set selection in</param>
+            <param name="sValue">String representing value of the ListItem to select</param>
+        </member>
+        <member name="M:Common.Web.Core.SelectItemByValue(System.Web.UI.WebControls.DropDownList,System.String)">
+            <summary>
+            Sets selection of the specified DropDownList object by specified string.
+            Selection will be set to the ListItem with the specified value.
+            </summary>
+            <param name="oList">DropDownList object to set selection in</param>
+            <param name="sValue">String representing value of the ListItem to select</param>
+        </member>
+        <member name="M:Common.Web.Core.SelectItems(System.Web.UI.WebControls.ListControl,System.Data.DataView,System.String)">
+            <summary>
+            Selects multiple ListItems in specified ListControl.
+            </summary>
+            <param name="oList">ListControl object to set selection in</param>
+            <param name="oDV">DataSource of the ListControl object</param>
+            <param name="sFldName">DataSource Bound field name</param>
+        </member>
+        <member name="M:Common.Web.Core.SelectItems(System.Web.UI.WebControls.ListControl,System.Data.DataTable,System.String)">
+            <summary>
+            Selects multiple ListItems in specified ListControl.
+            </summary>
+            <param name="oList">ListControl object to set selection in</param>
+            <param name="oDT">DataTable object used as DataSource of the ListControl object</param>
+            <param name="sFldName">DataSource Bound field name</param>
+            
+        </member>
+        <member name="M:Common.Web.Core.FillList(System.Web.UI.WebControls.ListControl,System.String,System.String,System.Boolean)">
+            <summary>
+            Fills specified ListControl object binding 
+            it to the dataset retrieved by specified stored procedure,
+            and sets selection of the ListControl by specified value.
+            </summary>
+            <param name="oList">ListControl object</param>
+            <param name="sIdToSelect">String representing value of the ListItem to select</param>
+            <param name="sQuery">String representing stored procedure name</param>
+            <param name="bCashed">Bool indicating whether retrieved dataset should be placed in Application Cache</param>
+        </member>
+        <member name="M:Common.Web.Core.FillList(Common.Db.Base,System.Web.UI.WebControls.ListControl,System.String,System.String,System.Boolean)">
+            <summary>
+            Fills specified ListControl object binding 
+            it to the dataset retrieved by specified stored procedure,
+            and sets selection of the ListControl by specified value.
+            </summary>
+            <param name="DBase">DBase object that will be used for SQL interoperations</param>
+            <param name="oList">ListControl object</param>
+            <param name="sIdToSelect">String representing value of the ListItem to select</param>
+            <param name="sQuery">String representing stored procedure name</param>
+            <param name="bCashed">Bool indicating whether retrieved dataset should be placed in Application Cache</param>
+        </member>
+        <member name="M:Common.Web.Core.FillList(System.Web.UI.WebControls.ListControl,System.Int32,System.String,System.Boolean)">
+            <summary>
+            Fills specified ListControl object binding 
+            it to the dataset retrieved by specified stored procedure,
+            and sets selection of the ListControl by specified value.
+            </summary>
+            <param name="oList">ListControl object</param>
+            <param name="nIdToSelect">Integer representing value of the ListItem to select</param>
+            <param name="sQuery">String representing stored procedure name</param>
+            <param name="bCashed">Bool indicating whether retrieved datatable should be placed in Application Cache</param>
+        </member>
+        <member name="M:Common.Web.Core.FillList(System.Web.UI.WebControls.ListControl,System.String,System.Boolean)">
+            <summary>
+            Fills specified ListControl object binding 
+            it to the dataset retrieved by specified stored procedure
+            </summary>
+            <param name="oList">ListControl object</param>
+            <param name="sQuery">String representing stored procedure name</param>
+            <param name="bCashed">Bool indicating whether retrieved dataset should be placed in Application Cache</param>
+        </member>
+        <member name="M:Common.Web.Core.FillList(Common.Db.Base,System.Web.UI.WebControls.ListControl,System.String,System.Boolean)">
+            <summary>
+            Fills specified ListControl object binding 
+            it to the dataset retrieved by specified stored procedure
+            </summary>
+            <param name="DBase">DBase object that will be used for SQL interoperations</param>
+            <param name="oList">ListControl object</param>
+            <param name="sQuery">String representing stored procedure name</param>
+            <param name="bCashed">Bool indicating whether retrieved dataset should be placed in Application Cache</param>
+        </member>
+        <member name="M:Common.Web.Core.FillList(System.Web.UI.WebControls.ListControl,System.Data.DataTable)">
+            <summary>
+            Fills specified ListControl object binding 
+            it to the specified DataTable object
+            </summary>
+            <param name="oList">ListControl object</param>
+            <param name="oData">DataTable object</param>
+        </member>
+        <member name="M:Common.Web.Core.FillList(System.Web.UI.WebControls.ListControl,System.String,System.Data.DataView)">
+            <summary>
+            Fills specified ListControl object binding 
+            it to the specified DataView object
+            and sets selection of the ListControl by specified value.
+            </summary>
+            <param name="oList">ListControl object</param>
+            <param name="sIdToSelect">String representing value of the ListItem to select</param>
+            <param name="oData">DataView object</param>
+        </member>
+        <member name="M:Common.Web.Core.FillList(System.Web.UI.WebControls.ListControl,System.Data.DataView)">
+            <summary>
+            Fills specified ListControl object binding 
+            it to the specified DataView object
+            </summary>
+            <param name="oList">ListControl object</param>
+            <param name="oData">DataView object</param>
+        </member>
+        <member name="M:Common.Web.Core.RemoveItemByValue(System.Web.UI.WebControls.ListControl,System.Object)">
+            <summary>
+            Remove Item by value
+            </summary>
+            <param name="oList">ListControl object</param>
+            <param name=" RemoveValue">object value to find</param>
+        </member>
+        <member name="M:Common.Web.Core.RemoveItemByValue(System.Web.UI.WebControls.ListControl,System.String)">
+            <summary>
+            Remove Item by values as string
+            </summary>
+            <param name="oList">ListControl object</param>
+            <param name=" RemoveValues"> values in string by "," to find</param>
+        </member>
+        <member name="M:Common.Web.Core.GetValueFieldName(System.Data.DataColumnCollection,System.String)">
+            <summary>
+            Implements search of the field in DataColumnCollection to use 
+            as DataValueField in ListControls. If specified field doesn't contained 
+            in DataColumnCollection, first field which type corresponds to the type 
+            of specified field will be used as a value field.
+            </summary>
+            <param name="oColumns">DataColumnCollection to search in</param>
+            <param name="sFieldName">Name of the field to search for</param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.Web.Core.RenderControl(System.Web.UI.Control)">
+            <summary>
+            Returns HTML render string for specified control.
+            Returns string.Empty by default. 
+            </summary>
+            <param name="oCtrl">Control to retrieve render string for</param>
+            <returns>String object</returns>
+        </member>
+        <member name="M:Common.Web.Core.SetControlTreeEnabled(System.Web.UI.Control,System.Boolean)">
+            <summary>
+            Sets enable state for all controls in specified control's tree
+            </summary>
+            <param name="oControl">Control to set enable state for</param>
+            <param name="bState">Bool representing required state</param>
+        </member>
+        <member name="T:Common.WebControls.ClientTableBatch">
+            <summary>
+            This class provides routines to build html tables on the client side.
+            Storing dataset updates into database implemented as well.
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.ClientTableBatch.cmdRetrieve">
+            <summary>
+            Represents command to retrieve DataSource
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.ClientTableBatch.FilterIdField">
+            <summary>
+            Represents name of the field to filter DataSet by
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.ClientTableBatch.fnGetTableRow">
+            <summary>
+            Delegate to GetTableRow method
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.ClientTableBatch.fnSaveTableRow">
+            <summary>
+            Delegate to SaveTableRow method
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.ClientTableBatch.#ctor(System.Web.UI.WebControls.Table)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="oTable">Table reference</param>
+        </member>
+        <member name="M:Common.WebControls.ClientTableBatch.PrepareTable(System.String,System.Object[])">
+            <summary>
+            Builds Table object
+            </summary>
+            <param name="sCommandName">DataSource sql command</param>
+            <param name="args">Sql command parameters</param>
+        </member>
+        <member name="M:Common.WebControls.ClientTableBatch.SaveTable(System.String,System.String)">
+            <summary>
+            Implements saving any updates of the table 
+            content into database using Page.Request object
+            </summary>
+            <param name="sStartKey">Common prefix used to build html hidden fields
+            names (e.g. hdnID_1, hdnID_2, hdnID_3)</param>
+            <param name="sSelectQuery">Select command that will be used
+            to generate Update, Insert, Delete commands</param>
+            <returns>Whether operation succeeded</returns>
+        </member>
+        <member name="T:Common.WebControls.ClientTableBatch.Delegates">
+            <summary>
+            Implements required delegates
+            </summary>
+        </member>
+        <member name="T:Common.WebControls.ClientTableBatch.Delegates.GetTableRow">
+            <summary>
+            Represents delegate to method returning TableRow object
+            </summary>
+        </member>
+        <member name="T:Common.WebControls.ClientTableBatch.Delegates.SaveTableRow">
+            <summary>
+            Represents delegate to method saving TableRow object
+            </summary>
+        </member>
+        <member name="T:Common.WebControls.GridFilter">
+            <summary>
+            Implements server control representing filter for the specified 
+            DataGrid control. Is container for FilterItem controls.
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.GridFilter.oWebUtils">
+            <summary>
+            Web.Core object to perform WebUtils
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.GridFilter.oGrid">
+            <summary>
+            Represents target DataGrid object
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.GridFilter.oDataSource">
+            <summary>
+            Represents DataSet to generate
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.GridFilter.oGridHeader">
+            <summary>
+            represents Grid header table
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.GridFilter.Grid">
+            <summary>
+            Represents name of the target Grid control
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.GridFilter.SqlProcedureName">
+            <summary>
+            Represents name of the sql procedure to apply filter parameters to
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.GridFilter.MoveHeader">
+            <summary>
+            represents whether filter must be moved into Grid header
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.GridFilter.nVisibleColumnCount">
+            <summary>
+            Represents count of the visible columns in target Grid
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.#ctor">
+            <summary>
+            Base Constructor
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.AppendCustomSqlParam(System.String,System.Object)">
+            <summary>
+            Appends custom (not from grid filter) parameter
+            to a stored procedure that is data source
+            for a grid
+            </summary>
+            <param name="sParamName">Custom parameter name for a datasource procedure</param>
+            <param name="objValue">Castom parameter value</param>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.CreateChildControls">
+            <summary>
+            Attach grid filter row to a page controls
+            And register client script block if needed
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.RegisterClientScript">
+            <summary>
+            Registers client site javascript block
+            which move grid filter row in the grid table
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.GetScriptText">
+            <summary>
+            Generate client site javascript block
+            which move grid filter row in the grid table
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.GetVisibleColumnsCount">
+            <summary>
+            Compute number of visible columns in the grid filter
+            </summary>
+            <returns>Number of visible columns</returns>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.PrepareFilter">
+            <summary>
+            Build grid filter:
+            1. Add empty row in a grid table
+            2. Add header row in a grid table
+            3. Build and add row with filter contols 
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.AddFilterLine">
+            <summary>
+            Build and add row with filter contols
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.GetFilterCell(System.Int32)">
+            <summary>
+            Build a filter control (combo box, edit etc.) and init it
+            </summary>
+            <param name="nIndex">Column index</param>
+            <returns>TableCell with prepared filter item</returns>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.InitItem(System.Int32)">
+            <summary>
+            Retrieve and initialize filter item object
+            </summary>
+            <param name="nIndex">Item number in the items collection</param>
+            <returns>Initialized filter item</returns>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.AddFirstEmptyLine">
+            <summary>
+            Add empty row in the grid header
+            (have no functionality design only)
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.FormatFilterCell(System.Web.UI.WebControls.TableCell@)">
+            <summary>
+            Formats filter table cell
+            (apply css etc.)
+            </summary>
+            <param name="oTC"></param>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.CopyGridHeaderCell(System.Web.UI.WebControls.DataGridColumn)">
+            <summary>
+            Apply declared grid column style to a custom grid table
+            </summary>
+            <param name="oGC">Grid column to clone format</param>
+            <returns>Designed table cell</returns>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.GetHeaderRow(System.Web.UI.WebControls.TableItemStyle)">
+            <summary>
+            Clone grid header style to a table row
+            </summary>
+            <param name="oStyle">Style to clone</param>
+            <returns>Designed table row</returns>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.AddHeaderLine">
+            <summary>
+            Add header row in a grid table
+            with design maintenance
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.OnInit(System.EventArgs)">
+            <summary>
+            Calls by framework enviroment during object construction
+            </summary>
+            <param name="e">Event agrumenrs</param>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.PrepareGridSource">
+            <summary>
+            Build grid filter objects
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.BindGrid">
+            <summary>
+            Generates DataSource object for the DataGrid using current FilterItems state
+            and binds DataGrid.
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.GenerateParamString">
+            <summary>
+            Get current values from grid filter
+            and create param string
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:Common.WebControls.GridFilter.Clear">
+            <summary>
+            Get current values from grid filter
+            and appent it to a data sorce stored procedure
+            as parameters
+            </summary>
+            <returns>DataTable (or null)</returns>
+        </member>
+        <member name="P:Common.WebControls.GridFilter.Item(System.Int32)">
+            <summary>
+            returns FilterItem with specified index
+            </summary>
+        </member>
+        <member name="P:Common.WebControls.GridFilter.FilterItems">
+            <summary>
+            returns ArrayList representing filter items
+            </summary>
+        </member>
+        <member name="P:Common.WebControls.GridFilter.DBase">
+            <summary>
+            Returns Web.Core object to perform DB routines
+            </summary>
+        </member>
+        <member name="P:Common.WebControls.GridFilter.DataSource">
+            <summary>
+            Implements write access to DataSource object
+            </summary>
+        </member>
+        <member name="T:Common.WebControls.FilterColumnType">
+            <summary>
+            Type of filter item control
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.FilterColumnType.None">
+            <summary>
+            No control specified for a grid column
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.FilterColumnType.Edit">
+            <summary>
+            Edit contol specified for a grid column
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.FilterColumnType.Combo">
+            <summary>
+            Drop down list contol specified for a grid column
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.FilterColumnType.Range">
+            <summary>
+            Double edit contol specified for a grid column
+            </summary>
+        </member>
+        <member name="T:Common.WebControls.SqlParamType">
+            <summary>
+            Type of required SQL stored procedure parameter
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.SqlParamType.None">
+            <summary>
+            Do not use this item as SQL parameter
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.SqlParamType.Int">
+            <summary>
+            Integer parameter
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.SqlParamType.Varchar">
+            <summary>
+            Varchar parameter
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.SqlParamType.Date">
+            <summary>
+            DateTime parameter
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.SqlParamType.Bit">
+            <summary>
+            Bit (true/false) parameter 
+            </summary>
+        </member>
+        <member name="T:Common.WebControls.FilterItem">
+            <summary>
+            This class represents each filter item control
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.FilterItem.IdAlt">
+            <summary>
+            Server side ID of alternating control
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.FilterItem.GridSourceParameterAlt">
+            <summary>
+            SQL parameter name for a alternating control
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.FilterItem.ControlCssClass">
+            <summary>
+            Control's CSS class
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.FilterItem.CssClass">
+            <summary>
+            Container table cell's CSS class
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.FilterItem.InnerControl">
+            <summary>
+            Reference to a inner WebControl object
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.FilterItem.InnerControlAlt">
+            <summary>
+            Reference to a alternating inner WebControl object
+            </summary>
+        </member>
+        <member name="F:Common.WebControls.FilterItem.sParentUniqueID">
+            <summary>
+            Server side parent object ID
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.FilterItem.GetValueToSql(System.Object)">
+            <summary>
+            Converts control value to a SQL required form
+            </summary>
+            <param name="oVal">Object to convert</param>
+            <returns>Converted object</returns>
+        </member>
+        <member name="M:Common.WebControls.FilterItem.CreateControls(System.Web.UI.WebControls.TableCell@)">
+            <summary>
+            Create a control with required type
+            and attach it on the passed table cell
+            </summary>
+            <param name="oTC"></param>
+        </member>
+        <member name="M:Common.WebControls.FilterItem.GetEditControl(System.Boolean)">
+            <summary>
+            Creates TextBox control, apply required style to it
+            and fill it value if needed.
+            Set proper control's ID 
+            </summary>
+            <param name="bIsAlternating">Is alternating control(can be true when second TextBox in date range)</param>
+            <returns>TextBox object</returns>
+        </member>
+        <member name="M:Common.WebControls.FilterItem.GetEditControl">
+            <summary>
+            Create normal edit control (first TextBox)
+            </summary>
+            <returns>TextBox object</returns>
+        </member>
+        <member name="M:Common.WebControls.FilterItem.GetControlClientName(System.String)">
+            <summary>
+            Retrieve client side control name by server side control ID
+            </summary>
+            <param name="sLocalId">Server side control ID</param>
+            <returns>Client side control name</returns>
+        </member>
+        <member name="M:Common.WebControls.FilterItem.GetComboControl">
+            <summary>
+            Creates DropDownList control, apply required style to it
+            and fill it value if needed.
+            </summary>
+            <returns>Prepared DropDownList object</returns>
+        </member>
+        <member name="P:Common.WebControls.FilterItem.Value">
+            <summary>
+            Sets or retrieve control value
+            </summary>
+        </member>
+        <member name="P:Common.WebControls.FilterItem.ValueAlt">
+            <summary>
+            Sets or retrieve alternating control value
+            </summary>
+        </member>
+        <member name="P:Common.WebControls.FilterItem.WebUtils">
+            <summary>
+            Sets or retrieves Web.Core reference
+            provides access to the DBase and WebUtils functions 
+            </summary>
+        </member>
+        <member name="P:Common.WebControls.FilterItem.Type">
+            <summary>
+            Sets or retrieves type of control
+            </summary>
+        </member>
+        <member name="P:Common.WebControls.FilterItem.SqlType">
+            <summary>
+            Sets or retrieves type of SQL parameter
+            </summary>
+        </member>
+        <member name="P:Common.WebControls.FilterItem.GridSourceParameter">
+            <summary>
+            Sets or retrieves SQL parameter name for this class
+            </summary>
+        </member>
+        <member name="P:Common.WebControls.FilterItem.ComboSourceQuery">
+            <summary>
+            Sets or retrieves SQL stored procedure which will be used
+            as data source for a DropDownList
+            </summary>
+        </member>
+        <member name="P:Common.WebControls.FilterItem.Cashed">
+            <summary>
+            Boolean property indicating whether retrieved datatable should be placed in Application Cache
+            </summary>
+        </member>
+        <member name="T:Common.WebControls.UserControlWithEvents">
+            <summary>
+            Base class for a user controls:
+            Inherits from System.Web.UI.UserControl
+            	and from IPostBackEventHandler
+            Main purpose - raise OnClick event
+            </summary>
+        </member>
+        <member name="M:Common.WebControls.UserControlWithEvents.OnClick(System.EventArgs)">
+            <summary>
+            Retrieves OnClick event and translate call to a parent class
+            </summary>
+            <param name="e">Event agrumenrs</param>
+        </member>
+        <member name="M:Common.WebControls.UserControlWithEvents.RaisePostBackEvent(System.String)">
+            <summary>
+            Raises Post back event
+            </summary>
+            <param name="eventArgument"></param>
+        </member>
+        <member name="E:Common.WebControls.UserControlWithEvents.Click">
+            <summary>
+            Define +- (add/remove) event operators
+            </summary>
+        </member>
+        <member name="T:Common.Config">
+            <summary>
+            Site configuration properties. Load configuration properties from file:
+            SiteBaseUrl
+            DatabaseConnectionString
+            </summary>
+        </member>
+        <member name="F:Common.Config.IsNotInHistoryPage">
+            <summary>
+            Returns whether app's page will be presented in Navigation History
+            </summary>
+        </member>
+        <member name="F:Common.Config.IsCloseConnectionDefault">
+            <summary>
+            Indicates whether db connection should be automatically closed 
+            after db operation has been executed ( skipped while processing 
+            BatchTable operation or Transaction ) 
+            </summary>
+        </member>
+        <member name="F:Common.Config.ApplicationPagesList">
+            <summary>
+            Name of the Application-level variable containing list of app pages
+            </summary>
+        </member>
+        <member name="F:Common.Config.MainCheckboxName">
+            <summary>
+            Name of the page's default checkbox
+            </summary>
+        </member>
+        <member name="F:Common.Config.SqlIDsParameterName">
+            <summary>
+            Default sql parameter name used in batch sql processing based 
+            on comma separated IDs
+            </summary>
+        </member>
+        <member name="F:Common.Config.SqlDefaultIdColumnName">
+            <summary>
+            String used as a default column name for columns containing identity's ID
+            </summary>
+        </member>
+        <member name="F:Common.Config.SessionNavigateHistoryName">
+            <summary>
+            Session's object name, containing navigate history array
+            </summary>
+        </member>
+        <member name="F:Common.Config.oSettingsReader">
+            <summary>
+            Object for reading config values
+            </summary>
+        </member>
+        <member name="M:Common.Config.GetConfigValue(System.String)">
+            <summary>
+            Returns string containing value of specified 
+            key from applications .config file
+            </summary>
+            <param name="sKeyName">Name of the key to return value from</param>
+            <returns></returns>
+        </member>
+        <member name="F:Common.Config.SiteBaseUrl">
+            <summary>
+            Returns value of SiteBaseUrl param from web.config
+            </summary>
+        </member>
+        <member name="F:Common.Config.SmtpServer">
+            <summary>
+            Returns value of SmtpServer param from web.config
+            </summary>
+        </member>
+        <member name="F:Common.Config.SiteRoot">
+            <summary>
+            Returns value of SiteRoot param from web.config
+            </summary>
+        </member>
+        <member name="F:Common.Config.BasePath">
+            <summary>
+            Returns local path to the application directory
+            </summary>
+        </member>
+        <member name="F:Common.Config.DbConnectionString">
+            <summary>
+            Returns value of DatabaseConnectionString param from web.config
+            </summary>
+        </member>
+        <member name="F:Common.Config.LogFile">
+            <summary>
+            Returns value of LogFile param from web.config
+            </summary>
+        </member>
+        <member name="T:Common.Log">
+            <summary>
+            Provides base interface to application's log file.
+            Location of the log file must be set in 
+            application's .config file ("LogFile" key)
+            </summary>
+        </member>
+        <member name="M:Common.Log.WriteStringToLog(System.String)">
+            <summary>
+            Write exectly specified text to log file
+            </summary>
+            <param name="sMessage">Text to write</param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.Log.WriteStringToLog(System.String,System.String)">
+            <summary>
+            Writes string to log
+            </summary>
+            <param name="sLogFile">Log file name</param>
+            <param name="sMessage">Log message</param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.Log.GetSenderString(System.Object)">
+            <summary>
+            Get sender
+            </summary>
+            <param name="oSender">Sender object</param>
+            <returns>Sender name</returns>
+        </member>
+        <member name="M:Common.Log.GetDatePlusSenderString(System.Object)">
+            <summary>
+            Get date and sender
+            </summary>
+            <param name="oSender">Sender object</param>
+            <returns>date and sender name</returns>
+        </member>
+        <member name="M:Common.Log.GetMessage(System.Exception)">
+            <summary>
+            Get exception text in user friendly format 
+            </summary>
+            <param name="oEx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.Log.GetMessage(System.Data.SqlClient.SqlException)">
+            <summary>
+            Get exception text in user friendly format 
+            </summary>
+            <param name="oEx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.Log.Write(System.String)">
+            <summary>
+            Writes specified text into log file stamping current date and time
+            </summary>
+            <param name="sMessage">Text to write</param>
+            <returns>Whether the operation succeeded</returns>
+        </member>
+        <member name="M:Common.Log.Write(System.Object,System.String)">
+            <summary>
+            Writes specified text, current date and time,
+            name of an object caused exception into the log file 
+            </summary>
+            <param name="oSender">Object caused exception</param>
+            <param name="sMessage">Text to write</param>
+            <returns>Whether the operation succeeded</returns>
+        </member>
+        <member name="M:Common.Log.Write(System.String,System.String)">
+            <summary>
+            Writes specified text into specified log file
+            </summary>
+            <param name="sLogFile">Path to the log file</param>
+            <param name="sMessage">Text to write</param>
+            <returns>Whether the operation succeeded</returns>
+        </member>
+        <member name="M:Common.Log.Write(System.String,System.Object,System.Exception)">
+            <summary>
+            Writes current date and time, name of an object caused exception 
+            and exception message into specified log file 
+            </summary>
+            <param name="sLogFile">Path to the log file</param>
+            <param name="parent">Object caused exception</param>
+            <param name="oEx">Exception object</param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.Log.Write(System.Data.SqlClient.SqlException)">
+            <summary>
+            Writes specified SqlException into the log file
+            without sender object information
+            </summary>
+            <param name="oEx">SqlException object</param>
+            <returns>Whether the operation succeeded</returns>
+        </member>
+        <member name="M:Common.Log.Write(System.Object,System.Data.SqlClient.SqlException)">
+            <summary>
+            Writes specified SqlException into the log file
+            with sender object information
+            </summary>
+            <param name="oSender">Parent class</param>
+            <param name="oEx">SqlException object</param>
+            <returns>Whether the operation succeeded</returns>
+        </member>
+        <member name="M:Common.Log.Write(System.Exception)">
+            <summary>
+            Writes specified Exception into the log file
+            without sender object information
+            </summary>
+            <param name="oEx">Exception object</param>
+            <returns>Whether the operation succeeded</returns>
+        </member>
+        <member name="M:Common.Log.Write(System.Object,System.Exception)">
+            <summary>
+            Writes specified Exception into the log file
+            with sender object information
+            </summary>
+            <param name="oSender">Parent class caused exception</param>
+            <param name="oEx">Exception object</param>
+            <returns>Whether the operation succeeded</returns>
+        </member>
+        <member name="T:Common.Utils">
+            <summary>
+            Class provides safe functions for values convertion.
+            </summary>
+        </member>
+        <member name="M:Common.Utils.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Common.Utils.GetInt(System.Object)">
+            <summary>
+            Convert specified object into int. Returns zero by default.
+            </summary>
+            <param name="obj">Object to convert</param>
+            <returns>Integer value</returns>
+        </member>
+        <member name="M:Common.Utils.GetLong(System.Object)">
+            <summary>
+            Convert specified object to Int64. Returns zero by default.
+            </summary>
+            <param name="obj">Object to convert</param>
+            <returns>Integer value</returns>
+        </member>
+        <member name="M:Common.Utils.GetDecimal(System.Object,System.Int32)">
+            <summary>
+            Returns string value representing specified 
+            number ( usually decimal ). Object->Decimal->String
+            </summary>
+            <param name="obj">Source object to convert to decimal</param>
+            <param name="nDecimals">Number of decimal digits to extract</param>
+            <returns>String value</returns>
+        </member>
+        <member name="M:Common.Utils.GetDecimal(System.Object)">
+            <summary>
+            Convert specified object into decimal.
+            Returns zero by default.
+            </summary>
+            <param name="obj">Object to convert</param>
+            <returns>Decimal value</returns>
+        </member>
+        <member name="M:Common.Utils.GetNumber(System.Object)">
+            <summary>
+            Safe converts an object into number string without trailing zerous
+            </summary>
+            <param name="obj">Object to convert</param>
+            <returns>Value as string</returns>
+        </member>
+        <member name="M:Common.Utils.GetMoneySimple(System.Object)">
+            <summary>
+            Safe converts an object into money string (xxxx.00 format)
+            </summary>
+            <param name="obj">Object to convert</param>
+            <returns>Money value as string</returns>
+        </member>
+        <member name="M:Common.Utils.GetMoneyFull(System.Object)">
+            <summary>
+            Safe converts object into money string
+            </summary>
+            <param name="obj">Object to convert</param>
+            <returns>Money string</returns>
+        </member>
+        <member name="M:Common.Utils.GetMoney(System.Object,System.String)">
+            <summary>
+            Safe converts an object to
+            string representing decimal using specified format
+            </summary>
+            <param name="obj">Object to convert</param>
+            <param name="sFormat">String representing required format</param>
+            <returns>String value</returns>
+        </member>
+        <member name="M:Common.Utils.GetDate(System.Object)">
+            <summary>
+            Safe converts from object into Date string. 
+            Returns string.Empty by default.
+            </summary>
+            <param name="obj">Object to convert</param>
+            <returns>String value</returns>
+        </member>
+        <member name="M:Common.Utils.GetDateTime(System.Object)">
+            <summary>
+            Safe converts specified object into general DateTime string
+            </summary>
+            <param name="obj">Object to convert</param>
+            <returns>String representing DateTime object</returns>
+        </member>
+        <member name="M:Common.Utils.GetBool(System.Object)">
+            <summary>
+            Safe converts object into bool.
+            Returns false by default.
+            </summary>
+            <param name="obj">Object to convert</param>
+            <returns>Bool value</returns>
+        </member>
+        <member name="M:Common.Utils.GetDbDate(System.Object)">
+            <summary>
+            Converts specified object into DateTime object. 
+            Returns DBNull.Value by default.
+            </summary>
+            <param name="obj">Object to convert</param>
+            <returns>DateTime object or DBNull.Value object</returns>
+        </member>
+        <member name="M:Common.Utils.GetTableFromCSV(System.String)">
+            <summary>
+            Parses specified CSV file returning generated DataTable object.
+            </summary>
+            <remarks>
+            Registry value for the key "HKLM/Software/Microsoft/Jet/4.0/Engines/Text/Format" must
+            be set to "CSVDelimited". Check it on the target server.
+            </remarks>
+            <param name="file">Server filename</param>
+            <returns>DataTable object</returns>
+        </member>
+    </members>
+</doc>

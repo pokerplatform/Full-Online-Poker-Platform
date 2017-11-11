@@ -1,0 +1,24 @@
+Notice to User-
+
+Installation of the WinstonPoker Software constitutes your acceptance and acknowledgement of the terms listed herein.  This agreement is binding and should be read completely before completing the installation process.  This agreement governs the agreement between you ("Installer" or "User"), WinstonPoker server ("Server"), the WinstonPoker client ("Client") and all intellectual property contained therein ("Software").
+
+All software, applications, images, and related materials are protected under copyright laws and international copyright treaties.
+
+The Server software runs from a remote computer owned and operated by WinstonPoker.  The User will not have access to the Server software, except through the means provided via the operation of the Client software.  User agrees to use the software for its intended purposes according to the terms stated in this agreement.  The Client software will be made available to the User, under the terms outlined in this Agreement. The User will identify himself/herself to the Server by logging in with a unique Player Identification Username and Secret Password.  It is solely the User's responsibility to safeguard Username and Password.
+
+1. Grant of License - WinstonPoker grants the User the right to install and run the WinstonPoker Client software on any computer for which it was designed.  The User may only use the Software to connect to the WinstonPoker Servers.
+
+2. No Warranties - WinstonPoker does not in any form provide any written or implied warranties or guarantees for this software.  All risk for usage of this Software and Related Materials is assumed solely by the User.
+
+3. Usage - User agrees to utilize this software for its intended purposes only and not attempt to tamper with, modify, re-program, or disassemble the software in any way.  WinstonPoker may terminate this agreement at any time if a user violates any terms within or is believed to be in violation of any terms within.
+
+4. Security - User agrees to keep confidential his or her Player Identification or Username and Secret Password.  All Poker (and/or Sportsbook, Buddy Wager) play via a Player's Identification and Password shall be assumed to have originated from lawful User and shall be considered valid.  Any liability is the responsibility of the User.
+
+5. Limitation of Liability - Under no circumstances, including negligence, shall WinstonPoker be liable for any direct, indirect, or consequential damages whatsoever including but not limited to the following: damages for loss of business profits, business interruption, loss of business information, or any other loss arising out of the use (or misuse) of the Software.
+
+6. Personal Usage - The software is licensed to the User solely for personal use and any commercial use is strictly prohibited.  This software allows poker play for both real money or play money depending on the preferences of the User.  It is the responsibility of the User to know the gambling laws of their place of residence and use this software in a legal manner.  User must certify that they are of at least 18 years of age or the age of majority in their place of residence.  WinstonPoker reserves the right to request age verification.
+
+WinstonPoker may ammend this Agreement or any part herein at the sole discretion of WinstonPoker.  WinstonPoker reserves the right to settle any disputes that may arise out of the usage of this software. Under no circumstances does WinstonPoker, its management, employees, subsidiaries, software developers, or marketing partners assume any responsibility for any damages that may come as a result of use of this software or related materials.  User accepts this software in "as is" condition agrees to indemnify and hold harmless WinstonPoker for any problems or damages, financial or otherwise, that could result from use of this software.
+
+Copyright WinstonPoker
+All Rights Reserved

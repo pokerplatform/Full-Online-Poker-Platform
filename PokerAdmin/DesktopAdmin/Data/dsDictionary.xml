@@ -1,0 +1,347 @@
+<?xml version="1.0" standalone="yes"?>
+<Dictionary>
+  <ChartsTypes>
+    <ID>1</ID>
+    <Name>Players Registered Count</Name>
+    <FieldID>1</FieldID>
+    <GroupID>1</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>2</ID>
+    <Name>Players Connected Count</Name>
+    <FieldID>2</FieldID>
+    <GroupID>1</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>3</ID>
+    <Name>Players Logged Count</Name>
+    <FieldID>3</FieldID>
+    <GroupID>1</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>4</ID>
+    <Name>Players Deposited Count</Name>
+    <FieldID>4</FieldID>
+    <GroupID>1</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>5</ID>
+    <Name>PR Hold'em PM Tables</Name>
+    <FieldID>5</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>6</ID>
+    <Name>PR Hold'em PM Players</Name>
+    <FieldID>6</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>7</ID>
+    <Name>PR Hold'em RM Tables</Name>
+    <FieldID>7</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>8</ID>
+    <Name>PR Hold'em RM Players</Name>
+    <FieldID>8</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>9</ID>
+    <Name>PR Omaha PM Tables</Name>
+    <FieldID>9</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>10</ID>
+    <Name>PR Omaha PM Players</Name>
+    <FieldID>10</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>11</ID>
+    <Name>PR Omaha RM Tables</Name>
+    <FieldID>11</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>12</ID>
+    <Name>PR Omaha RM Players</Name>
+    <FieldID>12</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>13</ID>
+    <Name>PR Omaha Hi/Low PM Tables</Name>
+    <FieldID>13</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>14</ID>
+    <Name>PR Omaha Hi/Low PM Players</Name>
+    <FieldID>14</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>15</ID>
+    <Name>PR Omaha Hi/Low RM Tables</Name>
+    <FieldID>15</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>16</ID>
+    <Name>PR Omaha Hi/Low RM Players</Name>
+    <FieldID>16</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>17</ID>
+    <Name>PR Seven Stud PM Tables</Name>
+    <FieldID>17</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>18</ID>
+    <Name>PR Seven Stud PM Players</Name>
+    <FieldID>18</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>19</ID>
+    <Name>PR Seven Stud RM Tables</Name>
+    <FieldID>19</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>20</ID>
+    <Name>PR Seven Stud RM Players</Name>
+    <FieldID>20</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>21</ID>
+    <Name>PR Seven Stud Hi/Low PM Tables</Name>
+    <FieldID>21</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>22</ID>
+    <Name>PR Seven Stud Hi/Low PM Players</Name>
+    <FieldID>22</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>23</ID>
+    <Name>PR Seven Stud Hi/Low RM Tables</Name>
+    <FieldID>23</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>24</ID>
+    <Name>PR Seven Stud Hi/Low RM Players</Name>
+    <FieldID>24</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>25</ID>
+    <Name>MT Hold'em PM Tables</Name>
+    <FieldID>25</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>26</ID>
+    <Name>MT Hold'em PM Players</Name>
+    <FieldID>26</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>27</ID>
+    <Name>MT Hold'em RM Tables</Name>
+    <FieldID>27</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>28</ID>
+    <Name>MT Hold'em RM Players</Name>
+    <FieldID>28</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>29</ID>
+    <Name>MT Omaha PM Tables</Name>
+    <FieldID>29</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>30</ID>
+    <Name>MT Omaha PM Players</Name>
+    <FieldID>30</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>31</ID>
+    <Name>MT Omaha RM Tables</Name>
+    <FieldID>31</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>32</ID>
+    <Name>MT Omaha RM Players</Name>
+    <FieldID>32</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>33</ID>
+    <Name>MT Omaha Hi/Low PM Tables</Name>
+    <FieldID>33</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>34</ID>
+    <Name>MT Omaha Hi/Low PM Players</Name>
+    <FieldID>34</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>35</ID>
+    <Name>MT Omaha Hi/Low RM Tables</Name>
+    <FieldID>35</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>36</ID>
+    <Name>MT Omaha Hi/Low RM Players</Name>
+    <FieldID>36</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>37</ID>
+    <Name>MT Seven Stud PM Tables</Name>
+    <FieldID>37</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>38</ID>
+    <Name>MT Seven Stud PM Players</Name>
+    <FieldID>38</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>39</ID>
+    <Name>MT Seven Stud RM Tables</Name>
+    <FieldID>39</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>40</ID>
+    <Name>MT Seven Stud RM Players</Name>
+    <FieldID>40</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>41</ID>
+    <Name>MT Seven Stud Hi/Low PM Tables</Name>
+    <FieldID>41</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>42</ID>
+    <Name>MT Seven Stud Hi/Low PM Players</Name>
+    <FieldID>42</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>43</ID>
+    <Name>MT Seven Stud Hi/Low RM Tables</Name>
+    <FieldID>43</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>44</ID>
+    <Name>MT Seven Stud Hi/Low RM Players</Name>
+    <FieldID>44</FieldID>
+    <GroupID>2</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>45</ID>
+    <Name>Tournament Prize Sum</Name>
+    <FieldID>45</FieldID>
+    <GroupID>3</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>46</ID>
+    <Name>Tournament Time</Name>
+    <FieldID>46</FieldID>
+    <GroupID>3</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>47</ID>
+    <Name>Tournament Registered</Name>
+    <FieldID>47</FieldID>
+    <GroupID>3</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>48</ID>
+    <Name>Tournament Sum</Name>
+    <FieldID>48</FieldID>
+    <GroupID>3</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>49</ID>
+    <Name>Tournament Prize Count</Name>
+    <FieldID>49</FieldID>
+    <GroupID>3</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>50</ID>
+    <Name>Tournament Game Types</Name>
+    <FieldID>50</FieldID>
+    <GroupID>3</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>51</ID>
+    <Name>Money Deposited</Name>
+    <FieldID>1</FieldID>
+    <GroupID>4</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>52</ID>
+    <Name>Money Withdrawed</Name>
+    <FieldID>2</FieldID>
+    <GroupID>4</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>53</ID>
+    <Name>Money Reserved</Name>
+    <FieldID>3</FieldID>
+    <GroupID>4</GroupID>
+  </ChartsTypes>
+  <ChartsTypes>
+    <ID>54</ID>
+    <Name>Money Unreserved</Name>
+    <FieldID>4</FieldID>
+    <GroupID>4</GroupID>
+  </ChartsTypes>
+  <ChartsTypesGroups>
+    <ID>1</ID>
+    <Name>Users Data</Name>
+    <DataSourceID>0</DataSourceID>
+  </ChartsTypesGroups>
+  <ChartsTypesGroups>
+    <ID>2</ID>
+    <Name>Processes Data</Name>
+    <DataSourceID>0</DataSourceID>
+  </ChartsTypesGroups>
+  <ChartsTypesGroups>
+    <ID>3</ID>
+    <Name>Tournaments Data</Name>
+    <DataSourceID>0</DataSourceID>
+  </ChartsTypesGroups>
+  <ChartsTypesGroups>
+    <ID>4</ID>
+    <Name>Money Data</Name>
+    <DataSourceID>1</DataSourceID>
+  </ChartsTypesGroups>
+</Dictionary>

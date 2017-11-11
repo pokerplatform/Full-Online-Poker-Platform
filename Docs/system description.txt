@@ -1,0 +1,50 @@
+Poker System consists of the Client and Server sides.
+
+The client side contains client application software and 
+Poker table and set of player logos flash files.
+
+
+The server system consists of the following parts:
+
+  - PokerService.exe - one executable Windows NT Service that have build-on all server objects. 
+  - LogViewer.exe - tool for looking log files with filtering/separating/search features
+  - Admin-site - Web-site based on .NET technology used for manage the Poker System Context remotely. 
+  - Admin-tool - Desktop application to contol the Poker System Services and 
+      manage the Poker System Context locally (all Admin-Site functionality 
+      are included in Admin-tool)
+  - Data Base  - MS SQL Server Database with stored procedures, triggers, constraints etc. - 
+      store all information of Poker System - User Accounts, Money Transactions, 
+      Lists of Categories, Processes, Process States and Statistics etc.
+  - RoboPoker - Desktop application to test the system and emulate client activity.
+      Admin can connect many bots by different screennames, sit them to the tables and
+      they are playing by choosing random answers or by using intellect. 
+      Admin can change robot answer.
+
+PokerService might be running on one or more computers. It might be running in different modes 
+in each machine depending of Registry settings:
+ - ActionDispatcher (if set - work as Action Server, do not set - as Action Client);
+ - ActionProcessor (if set - Process Action in Pooled Objects);
+ - ClientAdapter (if set - Work as TCP/IP Server for Client Sessions);
+ - GameAdapter (if set - Service create pool of different threads for Process actions 
+   for different Processes - keep sessions for GameEngines);
+ - Reminder (if set - create, change, reset and delete, and process actions that must be runned 
+   in assigned time;
+ - Tournament - (if set - process actions for tournaments).
+
+PokerService have the following structure:
+
+ - Service Core - include ServiceDataModule, CommonDataModule - the central part of the system 
+   that include Logger unit, Settings unit, Error Constants and XML Constants units, 
+   Object Pooling unit, Process actions routines. 
+ - Internal system Communication modules - ActionDispatcher, ActionServer and ActionClient, 
+   MSMQReader. 
+ - External Client-Server communication module - ClientAdapter. 
+ - Pooled Objects used in all Modes: API, Account, EMail, FileManager, SQLAdapter, User. 
+ - Game actions support modules: GameAdapter, GameEngine, Tourmanent.
+
+The communication between PokerServices running on different machines are implemented using TCP/IP 
+protocol. One of the Services must be running as ActionServer mode, and all other - as ActionClient.
+Communication between admin side and PokerService - using MSMQ.
+
+Admin-site and PokerService.exe running in MSMQReader mode must be running in one machine.
+Database (MS SQL Server) might be running on any machine.

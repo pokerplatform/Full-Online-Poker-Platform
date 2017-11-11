@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality" Type="String">CSharp.Personality</Option>
+			<Option Name="GUID" Type="String">{77A52460-3D8D-46FC-91F4-90C3795CBE28}</Option>
+			<Option Name="ProjectType" Type="String">AspProject</Option>
+			<Option Name="Version" Type="String">1.0</Option>
+		</Option>
+	</PersonalityInfo>
+	<CSharp.Personality>
+		<Options>
+			<SelectedOptionSet Name="OptionsSet" Type="String">Debug  <SelectedOptionSet Name="OptionsSet" Type="String">Debug</SelectedOptionSet>
+			</SelectedOptionSet>
+			<OptionsSet Name="Debug">
+				<Options>
+					<Options Name="DebugInformation" Type="Boolean">True</Options>
+					<Options Name="Optimization" Type="Boolean">False</Options>
+					<Options Name="Incremental" Type="Boolean">True</Options>
+					<Options Name="Overflow" Type="Boolean">False</Options>
+					<Options Name="DocumentationFile" Type="String"></Options>
+					<Options Name="ivUnsafe" Type="Boolean">False</Options>
+					<Options Name="WarningAsError" Type="Boolean">False</Options>
+					<Options Name="Warning" Type="Integer">4</Options>
+					<Options Name="Defines" Type="String">DEBUG;TRACE</Options>
+					<Options Name="TargetName" Type="String">Admin</Options>
+					<Options Name="TargetType" Type="String">Assembly</Options>
+					<Options Name="BaseAddress" Type="String">285212672</Options>
+					<Options Name="OutputDirectory" Type="String">bin\</Options>
+					<Options Name="DefaultNamespace" Type="String">Admin</Options>
+					<Options Name="Main" Type="String"></Options>
+					<Options Name="RunParams" Type="String"></Options>
+					<Options Name="HostApplication" Type="String">http://localhost/POAdmin/default.aspx</Options>
+					<Options Name="Launcher" Type="String">"C:\Program Files\Internet Explorer\iexplore.exe"</Options>
+					<Options Name="UseLauncher" Type="Boolean">True</Options>
+					<Options Name="DebugCWD" Type="String"></Options>
+					<Options Name="RemotePath" Type="String"></Options>
+					<Options Name="RemoteHost" Type="String"></Options>
+					<Options Name="RemoteLauncher" Type="String"></Options>
+					<Options Name="RemoteDebug" Type="Boolean">False</Options>
+					<Options Name="AspNetUseHostServer" Type="Boolean">True</Options>
+					<Options Name="AspNetLaunchBrowser" Type="Boolean">False</Options>
+					<Options Name="AspNetStartPage" Type="String">default.aspx</Options>
+					<Options Name="AspNetHostServer" Type="String">IIS</Options>
+					<Options Name="AspNetCassiniVirtualDirectory" Type="String"></Options>
+					<Options Name="AspNetIISVirtualDirectory" Type="String">POAdmin</Options>
+					<Options Name="AspNetHTTPAddress" Type="String"></Options>
+					<Options Name="ApplicationIcon" Type="String"></Options>
+					<Options Name="BuildInOutput" Type="Boolean">True</Options>
+					<Options Name="RemoteCWD" Type="String"></Options>
+				</Options>
+			</OptionsSet>
+			<OptionsSet Name="Release">
+				<Options>
+					<Options Name="DebugInformation" Type="Boolean">false</Options>
+					<Options Name="Optimization" Type="Boolean">true</Options>
+					<Options Name="Incremental" Type="Boolean">false</Options>
+					<Options Name="Overflow" Type="Boolean">false</Options>
+					<Options Name="DocumentationFile" Type="String"></Options>
+					<Options Name="ivUnsafe" Type="Boolean">false</Options>
+					<Options Name="WarningAsError" Type="Boolean">false</Options>
+					<Options Name="Warning" Type="Integer">4</Options>
+					<Options Name="Defines" Type="String">TRACE</Options>
+					<Options Name="TargetName" Type="String">Admin</Options>
+					<Options Name="TargetType" Type="String">Assembly</Options>
+					<Options Name="BaseAddress" Type="String">285212672</Options>
+					<Options Name="OutputDirectory" Type="String">bin\</Options>
+					<Options Name="DefaultNamespace" Type="String">Admin</Options>
+					<Options Name="Main" Type="String"></Options>
+					<Options Name="RunParams" Type="String"></Options>
+					<Options Name="HostApplication" Type="String">http://localhost</Options>
+					<Options Name="Launcher" Type="String"></Options>
+					<Options Name="UseLauncher" Type="Boolean">False</Options>
+					<Options Name="DebugCWD" Type="String"></Options>
+					<Options Name="RemotePath" Type="String"></Options>
+					<Options Name="RemoteHost" Type="String"></Options>
+					<Options Name="RemoteLauncher" Type="String"></Options>
+					<Options Name="RemoteDebug" Type="Boolean">False</Options>
+					<Options Name="AspNetUseHostServer" Type="Boolean">False</Options>
+					<Options Name="AspNetLaunchBrowser" Type="Boolean">False</Options>
+					<Options Name="AspNetStartPage" Type="String">default.aspx</Options>
+					<Options Name="AspNetHostServer" Type="String">IIS</Options>
+					<Options Name="AspNetCassiniVirtualDirectory" Type="String"></Options>
+					<Options Name="AspNetIISVirtualDirectory" Type="String"></Options>
+					<Options Name="AspNetHTTPAddress" Type="String"></Options>
+					<Options Name="ApplicationIcon" Type="String"></Options>
+					<Options Name="BuildInOutput" Type="Boolean">True</Options>
+				</Options>
+			</OptionsSet>
+		</Options>  
+    <FileList>
+      <File FileName="default.aspx.resx" ContainerId="ResXCompiler" ModuleName="default" Parent="default.aspx.cs"/>
+      <File FileName="Global.asax.resx" ContainerId="ResXCompiler" ModuleName="Global"/>
+      <File FileName="Login.aspx.resx" ContainerId="ResXCompiler" ModuleName="Login" Parent="Login.aspx.cs"/>
+      <File FileName="Logout.aspx.resx" ContainerId="ResXCompiler" ModuleName="Logout" Parent="Logout.aspx.cs"/>
+      <File FileName="Affiliate\AffiliateDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="AffiliateDetails" Parent="Affiliate\AffiliateDetails.aspx.cs"/>
+      <File FileName="Affiliate\AffiliateMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="AffiliateMaintenance" Parent="Affiliate\AffiliateMaintenance.aspx.cs"/>
+      <File FileName="Categories\SBCategoryDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="SBCategoryDetails" Parent="Categories\SBCategoryDetails.aspx.cs"/>
+      <File FileName="Categories\SBCategoryMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="SBCategoryMaintenance" Parent="Categories\SBCategoryMaintenance.aspx.cs"/>
+      <File FileName="Categories\SBSubCategoryDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="SBSubCategoryDetails" Parent="Categories\SBSubCategoryDetails.aspx.cs"/>
+      <File FileName="Categories\SBSubCategoryMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="SBSubCategoryMaintenance" Parent="Categories\SBSubCategoryMaintenance.aspx.cs"/>
+      <File FileName="Categories\SubCategoryDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="SubCategoryDetails" Parent="Categories\SubCategoryDetails.aspx.cs"/>
+      <File FileName="Categories\SubCategoryMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="SubCategoryMaintenance" Parent="Categories\SubCategoryMaintenance.aspx.cs"/>
+      <File FileName="Controls\ButtonImage.ascx.resx" ContainerId="ResXCompiler" ModuleName="ButtonImage"/>
+      <File FileName="Controls\GridPager.ascx.resx" ContainerId="ResXCompiler" ModuleName="GridPager"/>
+      <File FileName="Controls\PageFooter.ascx.resx" ContainerId="ResXCompiler" ModuleName="PageFooter"/>
+      <File FileName="Controls\PageHeader.ascx.resx" ContainerId="ResXCompiler" ModuleName="PageHeader"/>
+      <File FileName="DHTML\images\bgHeaders.gif" ContainerId="Gif" ModuleName="bgHeaders" BuildAction="Content"/>
+      <File FileName="DHTML\images\bold.gif" ContainerId="Gif" ModuleName="bold" BuildAction="Content"/>
+      <File FileName="DHTML\images\bullist.gif" ContainerId="Gif" ModuleName="bullist" BuildAction="Content"/>
+      <File FileName="DHTML\images\center.gif" ContainerId="Gif" ModuleName="center" BuildAction="Content"/>
+      <File FileName="DHTML\images\copy.gif" ContainerId="Gif" ModuleName="copy" BuildAction="Content"/>
+      <File FileName="DHTML\images\cut.gif" ContainerId="Gif" ModuleName="cut" BuildAction="Content"/>
+      <File FileName="DHTML\images\deindent.gif" ContainerId="Gif" ModuleName="deindent" BuildAction="Content"/>
+      <File FileName="DHTML\images\fgcolor.gif" ContainerId="Gif" ModuleName="fgcolor" BuildAction="Content"/>
+      <File FileName="DHTML\images\find.gif" ContainerId="Gif" ModuleName="find" BuildAction="Content"/>
+      <File FileName="DHTML\images\help.gif" ContainerId="Gif" ModuleName="help" BuildAction="Content"/>
+      <File FileName="DHTML\images\hr.gif" ContainerId="Gif" ModuleName="hr" BuildAction="Content"/>
+      <File FileName="DHTML\images\htmltaboff.gif" ContainerId="Gif" ModuleName="htmltaboff" BuildAction="Content"/>
+      <File FileName="DHTML\images\image.gif" ContainerId="Gif" ModuleName="image" BuildAction="Content"/>
+      <File FileName="DHTML\images\inindent.gif" ContainerId="Gif" ModuleName="inindent" BuildAction="Content"/>
+      <File FileName="DHTML\images\instable.gif" ContainerId="Gif" ModuleName="instable" BuildAction="Content"/>
+      <File FileName="DHTML\images\italic.gif" ContainerId="Gif" ModuleName="italic" BuildAction="Content"/>
+      <File FileName="DHTML\images\left.gif" ContainerId="Gif" ModuleName="left" BuildAction="Content"/>
+      <File FileName="DHTML\images\link.gif" ContainerId="Gif" ModuleName="link" BuildAction="Content"/>
+      <File FileName="DHTML\images\normaltabon.gif" ContainerId="Gif" ModuleName="normaltabon" BuildAction="Content"/>
+      <File FileName="DHTML\images\paste.gif" ContainerId="Gif" ModuleName="paste" BuildAction="Content"/>
+      <File FileName="DHTML\images\redo.gif" ContainerId="Gif" ModuleName="redo" BuildAction="Content"/>
+      <File FileName="DHTML\images\right.gif" ContainerId="Gif" ModuleName="right" BuildAction="Content"/>
+      <File FileName="DHTML\images\space.gif" ContainerId="Gif" ModuleName="space" BuildAction="Content"/>
+      <File FileName="DHTML\images\spacer.gif" ContainerId="Gif" ModuleName="spacer" BuildAction="Content"/>
+      <File FileName="DHTML\images\specialchar.gif" ContainerId="Gif" ModuleName="specialchar" BuildAction="Content"/>
+      <File FileName="DHTML\images\spell.gif" ContainerId="Gif" ModuleName="spell" BuildAction="Content"/>
+      <File FileName="DHTML\images\tbdown.gif" ContainerId="Gif" ModuleName="tbdown" BuildAction="Content"/>
+      <File FileName="DHTML\images\toolbar.gif" ContainerId="Gif" ModuleName="toolbar" BuildAction="Content"/>
+      <File FileName="DHTML\images\under.gif" ContainerId="Gif" ModuleName="under" BuildAction="Content"/>
+      <File FileName="DHTML\images\undo.gif" ContainerId="Gif" ModuleName="undo" BuildAction="Content"/>
+      <File FileName="EmailTemplates\EmailTemplateDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="EmailTemplateDetails" Parent="EmailTemplates\EmailTemplateDetails.aspx.cs"/>
+      <File FileName="EmailTemplates\EmailTemplateMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="EmailTemplateMaintenance" Parent="EmailTemplates\EmailTemplateMaintenance.aspx.cs"/>
+      <File FileName="Event\EventDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="EventDetails" Parent="Event\EventDetails.aspx.cs"/>
+      <File FileName="Event\EventMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="EventMaintenance" Parent="Event\EventMaintenance.aspx.cs"/>
+      <File FileName="Games\GameDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="GameDetails" Parent="Games\GameDetails.aspx.cs"/>
+      <File FileName="Games\GameDetailsFile.aspx.resx" ContainerId="ResXCompiler" ModuleName="GameDetailsFile" Parent="Games\GameDetailsFile.aspx.cs"/>
+      <File FileName="Games\GameMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="GameMaintenance" Parent="Games\GameMaintenance.aspx.cs"/>
+      <File FileName="Games\GameProcessDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="GameProcessDetails" Parent="Games\GameProcessDetails.aspx.cs"/>
+      <File FileName="Games\GameProcessMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="GameProcessMaintenance" Parent="Games\GameProcessMaintenance.aspx.cs"/>
+      <File FileName="Img\btn_bg.gif" ContainerId="Gif" ModuleName="btn_bg" BuildAction="Content"/>
+      <File FileName="Img\btn_delete.bmp" ContainerId="Bmp" ModuleName="btn_delete" BuildAction="Content"/>
+      <File FileName="Img\btn_left.gif" ContainerId="Gif" ModuleName="btn_left" BuildAction="Content"/>
+      <File FileName="Img\btn_right.gif" ContainerId="Gif" ModuleName="btn_right" BuildAction="Content"/>
+      <File FileName="Img\GoFirst.gif" ContainerId="Gif" ModuleName="GoFirst" BuildAction="Content"/>
+      <File FileName="Img\GoFirstDisabled.gif" ContainerId="Gif" ModuleName="GoFirstDisabled" BuildAction="Content"/>
+      <File FileName="Img\GoLast.gif" ContainerId="Gif" ModuleName="GoLast" BuildAction="Content"/>
+      <File FileName="Img\GoLastDisabled.gif" ContainerId="Gif" ModuleName="GoLastDisabled" BuildAction="Content"/>
+      <File FileName="Img\GoNext.gif" ContainerId="Gif" ModuleName="GoNext" BuildAction="Content"/>
+      <File FileName="Img\GoNextDisabled.gif" ContainerId="Gif" ModuleName="GoNextDisabled" BuildAction="Content"/>
+      <File FileName="Img\GoPrev.gif" ContainerId="Gif" ModuleName="GoPrev" BuildAction="Content"/>
+      <File FileName="Img\GoPrevDisabled.gif" ContainerId="Gif" ModuleName="GoPrevDisabled" BuildAction="Content"/>
+      <File FileName="Img\PokerOasisLogo.gif" ContainerId="Gif" ModuleName="PokerOasisLogo" BuildAction="Content"/>
+      <File FileName="Menu\img\add_user.gif" ContainerId="Gif" ModuleName="add_user" BuildAction="Content"/>
+      <File FileName="Menu\img\CategoriesList.gif" ContainerId="Gif" ModuleName="CategoriesList" BuildAction="Content"/>
+      <File FileName="Menu\img\email_templates.gif" ContainerId="Gif" ModuleName="email_templates" BuildAction="Content"/>
+      <File FileName="Menu\img\games.gif" ContainerId="Gif" ModuleName="games" BuildAction="Content"/>
+      <File FileName="Menu\img\options.gif" ContainerId="Gif" ModuleName="options" BuildAction="Content"/>
+      <File FileName="Menu\img\RoomsList.gif" ContainerId="Gif" ModuleName="RoomsList" BuildAction="Content"/>
+      <File FileName="Menu\img\TournamentList.gif" ContainerId="Gif" ModuleName="TournamentList" BuildAction="Content"/>
+      <File FileName="Menu\img\transactions.gif" ContainerId="Gif" ModuleName="transactions" BuildAction="Content"/>
+      <File FileName="Menu\img\users.gif" ContainerId="Gif" ModuleName="users" BuildAction="Content"/>
+      <File FileName="Misc\AllowedIP.aspx.resx" ContainerId="ResXCompiler" ModuleName="AllowedIP" Parent="Misc\AllowedIP.aspx.cs"/>
+      <File FileName="Misc\ClientApplicationFile.aspx.resx" ContainerId="ResXCompiler" ModuleName="ClientApplicationFile" Parent="Misc\ClientApplicationFile.aspx.cs"/>
+      <File FileName="Misc\MiscMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="MiscMaintenance" Parent="Misc\MiscMaintenance.aspx.cs"/>
+      <File FileName="Misc\Options.aspx.resx" ContainerId="ResXCompiler" ModuleName="Options" Parent="Misc\Options.aspx.cs"/>
+      <File FileName="News\NewsDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="NewsDetails" Parent="News\NewsDetails.aspx.cs"/>
+      <File FileName="Outcome\OutcomeDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="OutcomeDetails" Parent="Outcome\OutcomeDetails.aspx.cs"/>
+      <File FileName="Reports\ReportUser.aspx.resx" ContainerId="ResXCompiler" ModuleName="ReportUser" Parent="Reports\ReportUser.aspx.cs"/>
+      <File FileName="Support\SupportDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="SupportDetails" Parent="Support\SupportDetails.aspx.cs"/>
+      <File FileName="Support\SupportMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="SupportMaintenance" Parent="Support\SupportMaintenance.aspx.cs"/>
+      <File FileName="Tournaments\TournamentDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="TournamentDetails" Parent="Tournaments\TournamentDetails.aspx.cs"/>
+      <File FileName="Tournaments\TournamentDetailsPrize.aspx.resx" ContainerId="ResXCompiler" ModuleName="TournamentDetailsPrize"/>
+      <File FileName="Tournaments\TournamentHistory.ascx.resx" ContainerId="ResXCompiler" ModuleName="TournamentHistory"/>
+      <File FileName="Tournaments\TournamentMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="TournamentMaintenance" Parent="Tournaments\TournamentMaintenance.aspx.cs"/>
+      <File FileName="Tournaments\TournamentPrizeDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="TournamentPrizeDetails"/>
+      <File FileName="Tournaments\TournamentPrizeMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="TournamentPrizeMaintenance"/>
+      <File FileName="Transactions\DeleteFile.aspx.resx" ContainerId="ResXCompiler" ModuleName="DeleteFile" Parent="Transactions\DeleteFile.aspx.cs"/>
+      <File FileName="Transactions\GameHistory.ascx.resx" ContainerId="ResXCompiler" ModuleName="GameHistory" Parent="Transactions\GameHistory.ascx.cs"/>
+      <File FileName="Transactions\GameHistoryDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="GameHistoryDetails" Parent="Transactions\GameHistoryDetails.aspx.cs"/>
+      <File FileName="Transactions\GameHistoryList.aspx.resx" ContainerId="ResXCompiler" ModuleName="GameHistoryList"/>
+      <File FileName="Transactions\GameHistoryPlay.aspx.resx" ContainerId="ResXCompiler" ModuleName="GameHistoryPlay" Parent="Transactions\GameHistoryPlay.aspx.cs"/>
+      <File FileName="Transactions\GameHistoryUserList.aspx.resx" ContainerId="ResXCompiler" ModuleName="GameHistoryUserList" Parent="Transactions\GameHistoryUserList.aspx.cs"/>
+      <File FileName="Transactions\TxHistoryDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="TxHistoryDetails" Parent="Transactions\TxHistoryDetails.aspx.cs"/>
+      <File FileName="Transactions\TxHistoryList.aspx.resx" ContainerId="ResXCompiler" ModuleName="TxHistoryList"/>
+      <File FileName="Users\UserDetails.aspx.resx" ContainerId="ResXCompiler" ModuleName="UserDetails" Parent="Users\UserDetails.aspx.cs"/>
+      <File FileName="Users\UserDetailsAccount.aspx.resx" ContainerId="ResXCompiler" ModuleName="UserDetailsAccount"/>
+      <File FileName="Users\UsersMaintenance.aspx.resx" ContainerId="ResXCompiler" ModuleName="UsersMaintenance" Parent="Users\UsersMaintenance.aspx.cs"/>
+      <File FileName="c:\windows\microsoft.net\framework\v1.1.4322\System.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="System" AssemblyName="System" Version="1.0.5000.0"/>
+      <File FileName="c:\windows\microsoft.net\framework\v1.1.4322\System.Drawing.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="System.Drawing" AssemblyName="System.Drawing" Version="1.0.5000.0"/>
+      <File FileName="c:\windows\microsoft.net\framework\v1.1.4322\System.Data.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="System.Data" AssemblyName="System.Data" Version="1.0.5000.0"/>
+      <File FileName="c:\windows\microsoft.net\framework\v1.1.4322\System.Web.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="System.Web" AssemblyName="System.Web" Version="1.0.5000.0"/>
+      <File FileName="c:\windows\microsoft.net\framework\v1.1.4322\System.XML.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="System.XML" AssemblyName="System.Xml" Version="1.0.5000.0"/>
+      <File FileName="Admin.vsdisco" ContainerId="" ModuleName="Admin"/>
+      <File FileName="AssemblyInfo.cs" ContainerId="CSharpCompiler" ModuleName="AssemblyInfo"/>
+      <File FileName="Config.cs" ContainerId="CSharpCompiler" ModuleName="Config"/>
+      <File FileName="default.aspx" ContainerId="AspMarkupContainer" ModuleName="default" BuildAction="Content" FileTypeString="Common.Web.Page" RootComponentClassName="Admin._default"/>
+      <File FileName="default.aspx.cs" ContainerId="CSharpCompiler" ModuleName="default" Parent="default.aspx" FileTypeString="Common.Web.Page" RootComponentClassName="Admin._default"/>
+      <File FileName="Global.asax" ContainerId="AspMarkupContainer" ModuleName="Global" FileTypeString="System.Web.HttpApplication" RootComponentClassName="Admin.Global"/>
+      <File FileName="Global.asax.cs" ContainerId="CSharpCompiler" ModuleName="Global" FileTypeString="System.Web.HttpApplication" RootComponentClassName="Admin.Global"/>
+      <File FileName="Login.aspx" ContainerId="AspMarkupContainer" ModuleName="Login" BuildAction="Content" FileTypeString="Common.Web.Page" RootComponentClassName="Admin.Login"/>
+      <File FileName="Login.aspx.cs" ContainerId="CSharpCompiler" ModuleName="Login" Parent="Login.aspx" FileTypeString="Common.Web.Page" RootComponentClassName="Admin.Login"/>
+      <File FileName="Logout.aspx" ContainerId="AspMarkupContainer" ModuleName="Logout" BuildAction="Content"/>
+      <File FileName="Logout.aspx.cs" ContainerId="CSharpCompiler" ModuleName="Logout" Parent="Logout.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.Logout"/>
+      <File FileName="styles.css" ContainerId="" ModuleName="styles" BuildAction="Content"/>
+      <File FileName="Web.config" ContainerId="" ModuleName="Web" BuildAction="Content"/>
+      <File FileName="Affiliate\AffiliateDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="AffiliateDetails" FileTypeString="Common.Web.Page" RootComponentClassName="Admin.Affiliate.AffiliateDetails"/>
+      <File FileName="Affiliate\AffiliateDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="AffiliateDetails" Parent="Affiliate\AffiliateDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.AffiliateDetails"/>
+      <File FileName="Affiliate\AffiliateMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="AffiliateMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.AffiliateMaintenance"/>
+      <File FileName="Affiliate\AffiliateMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="AffiliateMaintenance" Parent="Affiliate\AffiliateMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.AffiliateMaintenance"/>
+      <File FileName="Categories\comboMove.js" ContainerId="" ModuleName="comboMove" BuildAction="Content"/>
+      <File FileName="Categories\SBCategoryDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="SBCategoryDetails" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SBCategoryDetails"/>
+      <File FileName="Categories\SBCategoryDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="SBCategoryDetails" Parent="Categories\SBCategoryDetails.aspx" FileTypeString="Common.Web.Page" RootComponentClassName="Admin.Categories.SBCategoryDetails"/>
+      <File FileName="Categories\SBCategoryMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="SBCategoryMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SBCategoryMaintenance"/>
+      <File FileName="Categories\SBCategoryMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="SBCategoryMaintenance" Parent="Categories\SBCategoryMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SBCategoryMaintenance"/>
+      <File FileName="Categories\SBSubCategoryDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="SBSubCategoryDetails" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SBSubCategoryDetails"/>
+      <File FileName="Categories\SBSubCategoryDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="SBSubCategoryDetails" Parent="Categories\SBSubCategoryDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SBSubCategoryDetails"/>
+      <File FileName="Categories\SBSubCategoryMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="SBSubCategoryMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SBSubCategoryMaintenance"/>
+      <File FileName="Categories\SBSubCategoryMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="SBSubCategoryMaintenance" Parent="Categories\SBSubCategoryMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SBSubCategoryMaintenance"/>
+      <File FileName="Categories\SubCategoryDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="SubCategoryDetails" FileTypeString="Common.Web.Page" RootComponentClassName="Admin.Categories.SubCategoryDetails"/>
+      <File FileName="Categories\SubCategoryDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="SubCategoryDetails" Parent="Categories\SubCategoryDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SubCategoryDetails"/>
+      <File FileName="Categories\SubCategoryMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="SubCategoryMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SubCategoryMaintenance"/>
+      <File FileName="Categories\SubCategoryMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="SubCategoryMaintenance" Parent="Categories\SubCategoryMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SubCategoryMaintenance"/>
+      <File FileName="Categories\Table.js" ContainerId="" ModuleName="Table" BuildAction="Content"/>
+      <File FileName="CommonUse\Affiliate.cs" ContainerId="CSharpCompiler" ModuleName="Affiliate"/>
+      <File FileName="CommonUse\ComProperty.cs" ContainerId="CSharpCompiler" ModuleName="ComProperty"/>
+      <File FileName="CommonUse\jsTable.js" ContainerId="" ModuleName="jsTable" BuildAction="Content"/>
+      <File FileName="CommonUse\PostedFile.cs" ContainerId="CSharpCompiler" ModuleName="PostedFile"/>
+      <File FileName="CommonUse\PrizeTable.cs" ContainerId="CSharpCompiler" ModuleName="PrizeTable"/>
+      <File FileName="Components\BetPriceConvert.cs" ContainerId="CSharpCompiler" ModuleName="BetPriceConvert"/>
+      <File FileName="Components\ComAdmin.cs" ContainerId="CSharpCompiler" ModuleName="ComAdmin"/>
+      <File FileName="Components\MaintenancePage.cs" ContainerId="CSharpCompiler" ModuleName="MaintenancePage" FileTypeString="Common.Web.Page" RootComponentClassName="Admin.Components.MaintenancePage"/>
+      <File FileName="Controls\ButtonImage.ascx" ContainerId="AspMarkupContainer" ModuleName="ButtonImage" BuildAction="Content" FileTypeString="Common.WebControls.UserControlWithEvents" RootComponentClassName="Admin.Controls.ButtonImage"/>
+      <File FileName="Controls\ButtonImage.ascx.cs" ContainerId="CSharpCompiler" ModuleName="ButtonImage" FileTypeString="Common.WebControls.UserControlWithEvents" RootComponentClassName="Admin.Controls.ButtonImage"/>
+      <File FileName="Controls\GridPager.ascx" ContainerId="AspMarkupContainer" ModuleName="GridPager" BuildAction="Content"/>
+      <File FileName="Controls\GridPager.ascx.cs" ContainerId="CSharpCompiler" ModuleName="GridPager" FileTypeString="System.Web.UI.UserControl" RootComponentClassName="Admin.Controls.GridPager"/>
+      <File FileName="Controls\PageFooter.ascx" ContainerId="AspMarkupContainer" ModuleName="PageFooter" BuildAction="Content"/>
+      <File FileName="Controls\PageFooter.ascx.cs" ContainerId="CSharpCompiler" ModuleName="PageFooter" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.PageFooter"/>
+      <File FileName="Controls\PageHeader.ascx" ContainerId="AspMarkupContainer" ModuleName="PageHeader" BuildAction="Content"/>
+      <File FileName="Controls\PageHeader.ascx.cs" ContainerId="CSharpCompiler" ModuleName="PageHeader" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.PageHeader"/>
+      <File FileName="Controls\CVS\Entries" ContainerId="" ModuleName="Entries"/>
+      <File FileName="Controls\CVS\Repository" ContainerId="" ModuleName="Repository"/>
+      <File FileName="Controls\CVS\Root" ContainerId="" ModuleName="Root"/>
+      <File FileName="DHTML\include\dhtmled.js" ContainerId="" ModuleName="dhtmled" BuildAction="Content"/>
+      <File FileName="DHTML\include\editjs.js" ContainerId="" ModuleName="editjs" BuildAction="Content"/>
+      <File FileName="EmailTemplates\EmailTemplateDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="EmailTemplateDetails" BuildAction="Content"/>
+      <File FileName="EmailTemplates\EmailTemplateDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="EmailTemplateDetails" Parent="EmailTemplates\EmailTemplateDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.EmailTemplateDetails"/>
+      <File FileName="EmailTemplates\EmailTemplateMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="EmailTemplateMaintenance" BuildAction="Content"/>
+      <File FileName="EmailTemplates\EmailTemplateMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="EmailTemplateMaintenance" Parent="EmailTemplates\EmailTemplateMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.EmailTemplateMaintenance"/>
+      <File FileName="Event\event.js" ContainerId="" ModuleName="event" BuildAction="Content"/>
+      <File FileName="Event\EventDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="EventDetails" BuildAction="Content"/>
+      <File FileName="Event\EventDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="EventDetails" Parent="Event\EventDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.EventDetails"/>
+      <File FileName="Event\EventMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="EventMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.EventMaintenance"/>
+      <File FileName="Event\EventMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="EventMaintenance" Parent="Event\EventMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.EventMaintenance"/>
+      <File FileName="Games\GameDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="GameDetails" FileTypeString="Common.Web.Page" RootComponentClassName="Admin.Games.GameDetails"/>
+      <File FileName="Games\GameDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="GameDetails" Parent="Games\GameDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameDetails"/>
+      <File FileName="Games\GameDetailsFile.aspx" ContainerId="AspMarkupContainer" ModuleName="GameDetailsFile" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameDetailsFile"/>
+      <File FileName="Games\GameDetailsFile.aspx.cs" ContainerId="CSharpCompiler" ModuleName="GameDetailsFile" Parent="Games\GameDetailsFile.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameDetailsFile"/>
+      <File FileName="Games\GameMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="GameMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameMaintenance"/>
+      <File FileName="Games\GameMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="GameMaintenance" Parent="Games\GameMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameMaintenance"/>
+      <File FileName="Games\GameProcessDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="GameProcessDetails" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameProcessDetails"/>
+      <File FileName="Games\GameProcessDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="GameProcessDetails" Parent="Games\GameProcessDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameProcessDetails"/>
+      <File FileName="Games\GameProcessMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="GameProcessMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameProcessMaintenance"/>
+      <File FileName="Games\GameProcessMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="GameProcessMaintenance" Parent="Games\GameProcessMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameProcessMaintenance"/>
+      <File FileName="JS\MoveListItems.js" ContainerId="" ModuleName="MoveListItems" BuildAction="Content"/>
+      <File FileName="Menu\fallback.js" ContainerId="" ModuleName="fallback" BuildAction="Content"/>
+      <File FileName="Menu\ie4.js" ContainerId="" ModuleName="ie4" BuildAction="Content"/>
+      <File FileName="Menu\ie5.js" ContainerId="" ModuleName="ie5" BuildAction="Content"/>
+      <File FileName="Menu\ie6.js" ContainerId="" ModuleName="ie6" BuildAction="Content"/>
+      <File FileName="Menu\loader.js" ContainerId="" ModuleName="loader" BuildAction="Content"/>
+      <File FileName="Menu\moz1.js" ContainerId="" ModuleName="moz1" BuildAction="Content"/>
+      <File FileName="Menu\nn4.js" ContainerId="" ModuleName="nn4" BuildAction="Content"/>
+      <File FileName="Menu\nn6.js" ContainerId="" ModuleName="nn6" BuildAction="Content"/>
+      <File FileName="Misc\AllowedIP.aspx" ContainerId="AspMarkupContainer" ModuleName="AllowedIP" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.AllowedIP"/>
+      <File FileName="Misc\AllowedIP.aspx.cs" ContainerId="CSharpCompiler" ModuleName="AllowedIP" Parent="Misc\AllowedIP.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.AllowedIP"/>
+      <File FileName="Misc\ClientApplicationFile.aspx" ContainerId="AspMarkupContainer" ModuleName="ClientApplicationFile" BuildAction="Content"/>
+      <File FileName="Misc\ClientApplicationFile.aspx.cs" ContainerId="CSharpCompiler" ModuleName="ClientApplicationFile" Parent="Misc\ClientApplicationFile.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.ClientApplicationFile"/>
+      <File FileName="Misc\MiscMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="MiscMaintenance" BuildAction="Content"/>
+      <File FileName="Misc\MiscMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="MiscMaintenance" Parent="Misc\MiscMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.MiscMaintenance"/>
+      <File FileName="Misc\Options.aspx" ContainerId="AspMarkupContainer" ModuleName="Options" BuildAction="Content"/>
+      <File FileName="Misc\Options.aspx.cs" ContainerId="CSharpCompiler" ModuleName="Options" Parent="Misc\Options.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.Options"/>
+      <File FileName="News\NewsDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="NewsDetails" BuildAction="Content"/>
+      <File FileName="News\NewsDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="NewsDetails" Parent="News\NewsDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.NewsDetails"/>
+      <File FileName="Outcome\OutcomeDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="OutcomeDetails" BuildAction="Content"/>
+      <File FileName="Outcome\OutcomeDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="OutcomeDetails" Parent="Outcome\OutcomeDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.OutcomeDetails"/>
+      <File FileName="Reports\ReportUser.aspx" ContainerId="AspMarkupContainer" ModuleName="ReportUser" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.ReportUser"/>
+      <File FileName="Reports\ReportUser.aspx.cs" ContainerId="CSharpCompiler" ModuleName="ReportUser" Parent="Reports\ReportUser.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.ReportUser"/>
+      <File FileName="Support\SupportDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="SupportDetails" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SupportDetails"/>
+      <File FileName="Support\SupportDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="SupportDetails" Parent="Support\SupportDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SupportDetails"/>
+      <File FileName="Support\SupportMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="SupportMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SupportMaintenance"/>
+      <File FileName="Support\SupportMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="SupportMaintenance" Parent="Support\SupportMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.SupportMaintenance"/>
+      <File FileName="Tournaments\TournamentDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="TournamentDetails" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TournamentDetails"/>
+      <File FileName="Tournaments\TournamentDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="TournamentDetails" Parent="Tournaments\TournamentDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TournamentDetails"/>
+      <File FileName="Tournaments\TournamentDetailsPrize.aspx" ContainerId="AspMarkupContainer" ModuleName="TournamentDetailsPrize" BuildAction="Content"/>
+      <File FileName="Tournaments\TournamentDetailsPrize.aspx.cs" ContainerId="CSharpCompiler" ModuleName="TournamentDetailsPrize" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TournamentDetailsPrize"/>
+      <File FileName="Tournaments\TournamentHistory.ascx" ContainerId="AspMarkupContainer" ModuleName="TournamentHistory" BuildAction="Content"/>
+      <File FileName="Tournaments\TournamentHistory.ascx.cs" ContainerId="CSharpCompiler" ModuleName="TournamentHistory" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TournamentHistory"/>
+      <File FileName="Tournaments\TournamentMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="TournamentMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TournamentMaintenance"/>
+      <File FileName="Tournaments\TournamentMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="TournamentMaintenance" Parent="Tournaments\TournamentMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TournamentMaintenance"/>
+      <File FileName="Tournaments\TournamentPrizeDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="TournamentPrizeDetails" BuildAction="Content"/>
+      <File FileName="Tournaments\TournamentPrizeDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="TournamentPrizeDetails" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TournamentPrizeDetails"/>
+      <File FileName="Tournaments\TournamentPrizeMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="TournamentPrizeMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TournamentPrizeMaintenance"/>
+      <File FileName="Tournaments\TournamentPrizeMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="TournamentPrizeMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TournamentPrizeMaintenance"/>
+      <File FileName="Transactions\DeleteFile.aspx" ContainerId="AspMarkupContainer" ModuleName="DeleteFile" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.DeleteFile"/>
+      <File FileName="Transactions\DeleteFile.aspx.cs" ContainerId="CSharpCompiler" ModuleName="DeleteFile" Parent="Transactions\DeleteFile.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.DeleteFile"/>
+      <File FileName="Transactions\GameHistory.ascx" ContainerId="AspMarkupContainer" ModuleName="GameHistory" BuildAction="Content"/>
+      <File FileName="Transactions\GameHistory.ascx.cs" ContainerId="CSharpCompiler" ModuleName="GameHistory" Parent="Transactions\GameHistory.ascx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameHistory"/>
+      <File FileName="Transactions\GameHistoryDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="GameHistoryDetails" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameHistoryDetails"/>
+      <File FileName="Transactions\GameHistoryDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="GameHistoryDetails" Parent="Transactions\GameHistoryDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameHistoryDetails"/>
+      <File FileName="Transactions\GameHistoryList.aspx" ContainerId="AspMarkupContainer" ModuleName="GameHistoryList" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameHistoryList"/>
+      <File FileName="Transactions\GameHistoryList.aspx.cs" ContainerId="CSharpCompiler" ModuleName="GameHistoryList" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameHistoryList"/>
+      <File FileName="Transactions\GameHistoryPlay.aspx" ContainerId="AspMarkupContainer" ModuleName="GameHistoryPlay" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameHistoryPlay"/>
+      <File FileName="Transactions\GameHistoryPlay.aspx.cs" ContainerId="CSharpCompiler" ModuleName="GameHistoryPlay" Parent="Transactions\GameHistoryPlay.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameHistoryPlay"/>
+      <File FileName="Transactions\GameHistoryUserList.aspx" ContainerId="AspMarkupContainer" ModuleName="GameHistoryUserList" BuildAction="Content"/>
+      <File FileName="Transactions\GameHistoryUserList.aspx.cs" ContainerId="CSharpCompiler" ModuleName="GameHistoryUserList" Parent="Transactions\GameHistoryUserList.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.GameHistoryUserList"/>
+      <File FileName="Transactions\TxHistoryDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="TxHistoryDetails" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TxHistoryDetails"/>
+      <File FileName="Transactions\TxHistoryDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="TxHistoryDetails" Parent="Transactions\TxHistoryDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TxHistoryDetails"/>
+      <File FileName="Transactions\TxHistoryList.aspx" ContainerId="AspMarkupContainer" ModuleName="TxHistoryList" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TxHistoryList"/>
+      <File FileName="Transactions\TxHistoryList.aspx.cs" ContainerId="CSharpCompiler" ModuleName="TxHistoryList" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.TxHistoryList"/>
+      <File FileName="Users\UserDetails.aspx" ContainerId="AspMarkupContainer" ModuleName="UserDetails" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.UserDetails"/>
+      <File FileName="Users\UserDetails.aspx.cs" ContainerId="CSharpCompiler" ModuleName="UserDetails" Parent="Users\UserDetails.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.UserDetails"/>
+      <File FileName="Users\UserDetailsAccount.aspx" ContainerId="AspMarkupContainer" ModuleName="UserDetailsAccount" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.UserDetailsAccount"/>
+      <File FileName="Users\UserDetailsAccount.aspx.cs" ContainerId="CSharpCompiler" ModuleName="UserDetailsAccount" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.UserDetailsAccount"/>
+      <File FileName="Users\UsersMaintenance.aspx" ContainerId="AspMarkupContainer" ModuleName="UsersMaintenance" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.UsersMaintenance"/>
+      <File FileName="Users\UsersMaintenance.aspx.cs" ContainerId="CSharpCompiler" ModuleName="UsersMaintenance" Parent="Users\UsersMaintenance.aspx" FileTypeString="System.Web.UI.Page" RootComponentClassName="Admin.UsersMaintenance"/>
+      <File FileName="..\..\..\..\webcommon\bin\release\Common.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="Common" AssemblyName="Common" Version="1.0.1496.20454"/>
+      <File FileName="..\..\..\..\poadmin\bin\ICSharpCode.SharpZipLib.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="ICSharpCode.SharpZipLib" AssemblyName="ICSharpCode.SharpZipLib" Version="0.5.0.0"/>
+      <File FileName="..\..\..\..\poadmin\bin\Interop.poApi.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="Interop.poApi" AssemblyName="Interop.poApi" Version="1.0.0.0"/>
+      <File FileName="..\..\..\..\poadmin\bin\Interop.poGenericPokerEngine.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="Interop.poGenericPokerEngine" AssemblyName="Interop.poGenericPokerEngine" Version="1.0.0.0"/>
+      <File FileName="..\..\..\..\poadmin\bin\Interop.poTexasHoldem.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="Interop.poTexasHoldem" AssemblyName="Interop.poTexasHoldem" Version="1.0.0.0"/>
+      <File FileName="..\..\..\..\poadmin\bin\Interop.poTournament.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="Interop.poTournament" AssemblyName="Interop.poTournament" Version="1.0.0.0"/>
+      <File FileName="..\..\..\..\poadmin\bin\Interop.COMAdmin.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="Interop.COMAdmin" AssemblyName="Interop.COMAdmin" Version="1.0.0.0"/>
+    </FileList>
+  </CSharp.Personality>
+	<ImportData>
+		<CSharpProjectOptions ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Admin" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Admin" RunPostBuildEvent="OnBuildSuccess" StartupObject=""/>
+		<CSharpLocalOptions Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="true" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4"/>
+		<CSharpLocalOptions Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4"/>
+	</ImportData>
+</BorlandProject>

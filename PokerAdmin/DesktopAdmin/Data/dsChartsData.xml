@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<dsChartsData>
+  <ChartsData>
+    <ID>4</ID>
+    <Title />
+    <DateBegin>2004-09-28T19:00:29.0000000+03:00</DateBegin>
+    <DateEnd>2004-09-28T19:00:29.0000000+03:00</DateEnd>
+    <DataTypes>1,2,3,4</DataTypes>
+    <IsMax>0</IsMax>
+    <IsCheck>1</IsCheck>
+    <XValueInterval>1500</XValueInterval>
+    <YValueInterval>0</YValueInterval>
+    <DayOfWeek>0</DayOfWeek>
+    <PeriodType>0</PeriodType>
+    <DataPeriod>1</DataPeriod>
+    <Group>1</Group>
+    <ChartColors>128,16711680,16776960,255</ChartColors>
+    <LegendWidth>160</LegendWidth>
+    <UniqueID>U0</UniqueID>
+  </ChartsData>
+  <ChartsData>
+    <ID>5</ID>
+    <Title />
+    <DateBegin>2004-11-10T13:58:07.4462777+02:00</DateBegin>
+    <DateEnd>2004-11-08T13:58:07.4462777+02:00</DateEnd>
+    <DataTypes />
+    <IsMax>0</IsMax>
+    <IsCheck>1</IsCheck>
+    <XValueInterval>0</XValueInterval>
+    <YValueInterval>0</YValueInterval>
+    <DayOfWeek>0</DayOfWeek>
+    <PeriodType>0</PeriodType>
+    <DataPeriod>1</DataPeriod>
+    <Group>0</Group>
+    <ChartColors>0</ChartColors>
+    <LegendWidth>160</LegendWidth>
+    <UniqueID>U0</UniqueID>
+  </ChartsData>
+</dsChartsData>

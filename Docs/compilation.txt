@@ -1,0 +1,38 @@
+1. Build client application executable file:
+   A. Run Delphi 7.0.
+   B. Install libraries (ThemeEngine, SecureBlackbox, GIF, TurboPower SysTools and LockBox packages).
+      For appropriative libraries installing, use the installing
+      instructions for every component.
+   C. Open the client application project. Use "File->Open Project" menu function 
+      within the Delphi environment to do this. Select the project located by the address
+      "C:\Poker\Client\CSA\src\PokerExcellence.dpr" within the appeared window.
+   D. Build the client application project. Use "Project -> Build PokerExcellence" menu function 
+      within the Delphi environment.
+   D. Executable file will have the default location "C:\Poker\Client\CSA\bin\PokerExcellence.exe"
+      after the project building.
+
+2. Build server components (PokerService.exe):
+   A. Run Delphi 7.0.
+   B. Install libraries (DXSock, SecureBlackbox, Nexus Memory Manager,
+      TurboPower SysTools and LockBox packages). 
+      For appropriative libraries installing, use the installing
+      instructions for every component.
+   C. Open the server solution. Use "File->Open" menu function 
+      within the Delphi environment to do this. Select the project located by the address
+      "C:\Poker\Server\src\PokerService.dpg" within the just appeared window.
+   D. Build the server components. Use "Project -> Build Project" menu function 
+      within the Delphi environment.
+
+3. Build SWF files:
+   A. There are flash files to be compiled:
+      1). Poker table flash file ("C:\Poker\Client\Flash\src\PokerExcellence.fla");
+      2). Choose player logo flash file ("C:\Poker\Client\Flash\src\Avatar.fla");
+      3). Player logo flash files ("C:\Poker\Client\Flash\Avatars\src\*.fla").
+   B. Start Flash MX 7. Repeat the following steps for each file:
+      1). Click on "File" -> "Open" or press Ctrl+O and choose an appropriate FLA file.
+      2). Click "File" -> "Publish" or press Shift+F12.
+      3). Compiled SWF file will be placed in the same place where FLA file is located.
+   C. Move "C:\Poker\Client\Flash\src\PokerExcellence.swf" and 
+      "C:\Poker\Client\Flash\src\Avatar.swf" to the "C:\Poker\Client\Flash\bin" folder.
+   D. Compress all "C:\Poker\Client\Flash\Avatars\src\*.swf" files to 
+      "C:\Poker\Client\Flash\Avatars\bin\Avatars.zip" zip-file.

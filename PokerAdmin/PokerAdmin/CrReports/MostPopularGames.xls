@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<GenerigReportDataSet>
+  <MostPopularGames>
+    <Name>Play Money</Name>
+    <Rate>148.0000</Rate>
+    <id>3309</id>
+  </MostPopularGames>
+  <MostPopularGames>
+    <Name>Test</Name>
+    <Rate>57.0000</Rate>
+    <id>3305</id>
+  </MostPopularGames>
+  <MostPopularGames>
+    <Name>10 chairs</Name>
+    <Rate>4.0000</Rate>
+    <id>3311</id>
+  </MostPopularGames>
+</GenerigReportDataSet>

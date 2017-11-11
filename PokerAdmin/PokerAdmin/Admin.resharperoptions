@@ -1,0 +1,200 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="Clear" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DataGridColumnCollection">
+      <Item value="RemoveAt" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Unit">
+      <Item value="Type" priority="0" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListControl">
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Common.Web.Creator">
+      <Item value="GetTextBoxHtml" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:int">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DataGridCommandEventArgs">
+      <Item value="CommandName" priority="0" />
+      <Item value="Item" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DataGridItem">
+      <Item value="DataItem" priority="2" />
+      <Item value="Cells" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="GetType" priority="0" />
+      <Item value="Text" priority="1" />
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DesktopAPIEngine.ApiMsg.enProcessFormTarget">
+      <Item value="Tournament" priority="0" />
+      <Item value="Process" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Admin.Controls.Bots">
+      <Item value="Target" priority="3" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime.Now">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Common">
+      <Item value="Web" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="Width" priority="0" />
+      <Item value="Controls" priority="3" />
+      <Item value="DataBinding" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StringWriter">
+      <Item value="GetStringBuilder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Admin.Components.MaintenancePage">
+      <Item value="GetCheckBoxHtml" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string[]">
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataGridCustomColumns.DropDownColumn">
+      <Item value="ItemStyle" priority="0" />
+      <Item value="set_Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ControlCollection">
+      <Item value="GetType" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumnCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Admin.Controls.Bots.enControlFor">
+      <Item value="TournamentSitEndGo" priority="0" />
+      <Item value="Mini_Tourneys" priority="0" />
+      <Item value="Tournament" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="NewRow" priority="0" />
+      <Item value="Rows" priority="0" />
+      <Item value="Columns" priority="0" />
+      <Item value="DefaultView" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DesktopAPIEngine.ApiControl">
+      <Item value="SetupBotsPolicy" priority="0" />
+      <Item value="GetBotsInfo" priority="0" />
+      <Item value="BotsSitdownAuto" priority="0" />
+      <Item value="StandupBots" priority="0" />
+      <Item value="StandupAllBots" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="0" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Common.Web">
+      <Item value="Page" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Admin.Controls.Bots">
+      <Item value="enControlFor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="Split" priority="0" />
+      <Item value="TrimEnd" priority="0" />
+      <Item value="ToString" priority="0" />
+      <Item value="TrimStart" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNodeList">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RangeValidator">
+      <Item value="MinimumValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Admin.Controls.ButtonImage">
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DesktopBaseClasses.CCommon">
+      <Item value="FillComboBox" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DesktopBaseClasses.XMLDoc">
+      <Item value="GetAttributeInnerText" priority="0" />
+      <Item value="GetNodeListByPath" priority="0" />
+      <Item value="GetNodeListByPathOnly" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:object">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DataGrid">
+      <Item value="DataBind" priority="0" />
+      <Item value="EditItemIndex" priority="1" />
+      <Item value="Columns" priority="0" />
+      <Item value="VirtualItemCount" priority="0" />
+      <Item value="Items" priority="1" />
+      <Item value="DataSource" priority="1" />
+      <Item value="SelectedIndex" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Admin">
+      <Item value="Controls" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Data" priority="0" />
+      <Item value="Xml" priority="0" />
+      <Item value="Collections" priority="0" />
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedValue" priority="3" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Admin.Controls">
+      <Item value="Bots" priority="0" />
+      <Item value="ButtonImage" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Common.Web.Core">
+      <Item value="ExecuteReturnInt" priority="0" />
+      <Item value="GetDataTable" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean />
+  </SettingsComponent>
+  <RecentFilesTracker>
+    <RecentFilesTracker>
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Misc\PushingContent.aspx.cs" offset="506" line="21" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\CommonUse\PostedFile.cs" offset="0" line="144" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Config.cs" offset="0" line="99" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Misc\ClientApplicationFile.aspx.cs" offset="0" line="9" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Games\GameProcessDetails.aspx.cs" offset="9218" line="243" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\DesktopAPIEngine\ApiMsg.vb" offset="9663" line="165" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\DesktopAPIEngine\ApiControl.vb" offset="15732" line="338" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Misc\PushingContent.aspx" offset="1168" line="0" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Misc\ClientApplicationFile.aspx" offset="2621" line="0" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Global.asax.cs" offset="12371" line="154" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Games\ChatForBots.aspx.cs" offset="618" line="172" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Games\GameProcessDetails.aspx" offset="4912" line="78" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Games\ChatForBots.aspx" offset="4693" line="74" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\DataGridCustomColumns\DropDownColumn.vb" offset="3124" line="84" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Games\GameProcessMaintenance.aspx.cs" offset="1123" line="9" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Games\GameProcessMaintenance.aspx" offset="2943" line="36" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\WebCommon\Web\Page.cs" offset="4936" line="151" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Components\MaintenancePage.cs" offset="3658" line="144" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Games\GameDetailsFile.aspx.cs" offset="7565" line="154" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Games\GameDetailsFile.aspx" offset="2509" line="8" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\default.aspx.cs" offset="0" line="0" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Games\InvitedUsers.aspx.cs" offset="0" line="0" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Tournaments\TournamentDetails.aspx.cs" offset="0" line="107" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Tournaments\TournamentDetails.aspx" offset="1275" line="9" column="0" />
+      <TrackedFile location="D:\Sources\Games\admin_tools\ArkadiumPokerAdmin\Games\InvitedUsers.aspx" offset="2773" line="30" column="0" />
+    </RecentFilesTracker>
+  </RecentFilesTracker>
+</Configuration>

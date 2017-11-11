@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+	<item title="Affiliates">
+		<item icon="affiliate.gif" title="Skins List" href="../Affiliate/SkinsMaintenance.aspx" />
+		<item icon="affiliate.gif" title="Affiliate List" href="../Affiliate/AffiliateMaintenance.aspx" />
+		<item icon="fileList.gif" title="Client Application Files" href="../Misc/ClientApplicationFile.aspx" /> 
+	</item>
+	<item title="Misc">
+		<item icon="pokerCategory.gif" title="Category List" href="../Categories/SubCategoryMaintenance.aspx" />
+		<item icon="games.gif" title="Games" href="../Games/GameMaintenance.aspx" />
+		<item icon="options.gif" title="Options" href="../Misc/Options.aspx" /> 
+		<item icon="tournamentPrize.gif" title="Tournament prize templates" href="../Tournaments/TournamentPrizeMaintenance.aspx" /> 
+		<item icon="email_templates.gif" title="Email templates" href="../EmailTemplates/EmailTemplateMaintenance.aspx" /> 
+		<item icon="ip.gif" title="Allowed IP" href="../Misc/AllowedIP.aspx" /> 
+		<item icon="fileList.gif" title="Bonus Rules" href="../Misc/BonusRules.aspx" /> 
+		<item icon="games.gif" title="Play Period" href="../Misc/ClosePlayPeriod.aspx" /> 
+		<item  title="Table Name" href="../Misc/TableName.aspx" /> 
+		<item  title="Ban Players" href="../Misc/BanUser.aspx" /> 
+		<item  title="Avatars" href="../Misc/Avatars.aspx" /> 
+		<item  title="Action Dispatchers" href="../Misc/ActionDispatchers.aspx" /> 
+	</item>
+	<item title="Reports">
+		<item icon="Reports.gif" title="Main" href="../Reports/Reports.aspx" />
+		<item icon="Reports.gif" title="Report User" href="../Reports/ReportUser.aspx" />
+		<item icon="affiliate.gif" title="Affiliate Reports" href="../Affiliate/AffiliateReport.aspx" />
+		<item icon="email_templates.gif" title="Sent Emails" href="../SentEmail/SentEmail.aspx" /> 
+		<item title="Search Finished Tournaments" href="../Reports/SearchFinishedTournaments.aspx" /> 
+	</item>
+</menu>
+

@@ -1,0 +1,4 @@
+Name	Type	Server Access	Default Database	Default Language
+BUILTIN\Administrators	Windows Group	Permit	master	English
+poker	Standard	Permit	Poker	English
+sa	Standard	Permit	master	English

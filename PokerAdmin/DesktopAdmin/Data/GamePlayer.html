@@ -1,0 +1,25 @@
+<HTML>
+  <HEAD>
+	<title>Game History Details</title>
+  </HEAD>
+<body MS_POSITIONING="FlowLayout">
+  <form id=UserDetails method=post runat="server">
+    <TABLE id=Table1 width="100%" height="100%" align=center border=0 >
+  	<TR>
+	  <TD align=middle width="100%" height="100%">
+	    <script>
+	      var flashobj = '<OBJECT  id=flashobj codeBase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0 ';
+		  flashobj += 'height="100%" width="100%" classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000>';
+		  flashobj += '<PARAM NAME=movie VALUE="{0}">';
+		  flashobj += '<PARAM NAME=menu VALUE=false>';
+		  flashobj += '<PARAM NAME=quality VALUE=high>';
+		  flashobj += '<PARAM NAME=flashvars VALUE="XMLHistoryPath={1}">';
+		  flashobj += '</OBJECT>'
+		  document.write(flashobj);
+	    </script>
+	  </TD>
+	</TR>
+    </TABLE>
+  </form>
+ </body>
+</HTML>

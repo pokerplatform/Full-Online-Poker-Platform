@@ -1,0 +1,1 @@
+upx.exe PokerSatellites.exe -9

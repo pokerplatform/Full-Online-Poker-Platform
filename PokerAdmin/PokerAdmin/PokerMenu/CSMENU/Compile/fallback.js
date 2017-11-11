@@ -1,0 +1,9 @@
+
+<!--
+/////////////////////////////////////////////////////
+// Coalesys WebMenu Studio drop through DHTML script
+// Build 67 COPYRIGHT 2000-2002 Coalesys, Inc.
+/////////////////////////////////////////////////////
+var cswmDetectedBrowser = 'None';function cswmShow(){}function cswmShowInFrame(){}function cswmHide(){}function cswmHideSelectBox(){}function cswmRefresh(){}function cswmMenuBarInit(){}
+//-->
+document.write("\r\n<!-- Coalesys WebMenu Studio -->\r\n<!-- WebMenu HTML Structure COPYRIGHT 2000-2002 Coalesys, Inc. -->\r\n<table width=\"100%\" border=0 cellpadding=0 cellspacing=0><tr><td bgcolor=\"#808080\" width=1><img src=\"/POAdmin/Menu/Img/ClearPixel.gif\" width=1 height=1 alt=\"\" border=0></td><td bgcolor=\"#808080\" width=\"100%\"><img src=\"/POAdmin/Menu/Img/ClearPixel.gif\" width=1 height=1 alt=\"\" border=0></td><td bgcolor=\"#808080\" width=1><img src=\"/POAdmin/Menu/Img/ClearPixel.gif\" width=1 height=1 alt=\"\" border=0></td></tr><tr><td bgcolor=\"#808080\" width=1><img src=\"/POAdmin/Menu/Img/ClearPixel.gif\" width=1 height=1 alt=\"\" border=0></td><td bgcolor=\"#dbd7d0\" width=\"100%\"><table cellpadding=0 cellspacing=0 border=0 border=0><tr><td>&nbsp;&nbsp;<a href=\"\">Support</a>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;<a href=\"\">Logout</a>&nbsp;&nbsp;</td></tr></table></td><td bgcolor=\"#808080\" width=1><img src=\"/POAdmin/Menu/Img/ClearPixel.gif\" width=1 height=1 alt=\"\" border=0></td></tr><tr><td bgcolor=\"#808080\" width=1><img src=\"/POAdmin/Menu/Img/ClearPixel.gif\" width=1 height=1 alt=\"\" border=0></td><td bgcolor=\"#808080\" width=\"100%\"><img src=\"/POAdmin/Menu/Img/ClearPixel.gif\" width=1 height=1 alt=\"\" border=0></td><td bgcolor=\"#808080\" width=1><img src=\"/POAdmin/Menu/Img/ClearPixel.gif\" width=1 height=1 alt=\"\" border=0></td></tr></table>\r\n<!-- End WebMenu HTML -->\r\n\r\n");

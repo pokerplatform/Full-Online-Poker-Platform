@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<GenerigReportDataSet>
+  <CollusionHandsPlayed>
+    <id>2424</id>
+    <loginName>robot15</loginName>
+    <Counts>1</Counts>
+  </CollusionHandsPlayed>
+  <CollusionHandsPlayed>
+    <id>2426</id>
+    <loginName>robot14</loginName>
+    <Counts>1</Counts>
+  </CollusionHandsPlayed>
+</GenerigReportDataSet>

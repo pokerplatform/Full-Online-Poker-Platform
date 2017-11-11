@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<Performance>
+  <LoggedUsers>
+    <DateInfo>2004-07-09T00:00:00</DateInfo>
+    <Quantity>10</Quantity>
+  </LoggedUsers>
+  <LoggedUsers>
+    <DateInfo>2004-07-09T00:00:00</DateInfo>
+    <Quantity>2</Quantity>
+  </LoggedUsers>
+  <LoggedUsers>
+    <DateInfo>2004-07-10T00:00:00</DateInfo>
+    <Quantity>20</Quantity>
+  </LoggedUsers>
+  <LoggedUsers>
+    <DateInfo>2004-07-10T00:00:00</DateInfo>
+    <Quantity>9</Quantity>
+  </LoggedUsers>
+</Performance>

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promo", "http://localhost/arkadiumpokeradmin/promo/Promo.csproj", "{6E906B09-1456-41DE-9BBE-59DF2E4B0E9D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\..\WebCommon\Common.csproj", "{9EFAA666-A446-4517-A58D-7BF4A27B5CAA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6E906B09-1456-41DE-9BBE-59DF2E4B0E9D}.Debug.ActiveCfg = Release|.NET
+		{6E906B09-1456-41DE-9BBE-59DF2E4B0E9D}.Debug.Build.0 = Release|.NET
+		{6E906B09-1456-41DE-9BBE-59DF2E4B0E9D}.Release.ActiveCfg = Release|.NET
+		{6E906B09-1456-41DE-9BBE-59DF2E4B0E9D}.Release.Build.0 = Release|.NET
+		{9EFAA666-A446-4517-A58D-7BF4A27B5CAA}.Debug.ActiveCfg = Release|.NET
+		{9EFAA666-A446-4517-A58D-7BF4A27B5CAA}.Debug.Build.0 = Release|.NET
+		{9EFAA666-A446-4517-A58D-7BF4A27B5CAA}.Release.ActiveCfg = Release|.NET
+		{9EFAA666-A446-4517-A58D-7BF4A27B5CAA}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

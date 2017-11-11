@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+	   <item title="Support">
+		<item icon="customerSupport.gif" title="Customer request list" href="../Support/SupportMaintenance.aspx" />
+		<item title="Mass Mailer" href="../Support/MassMailer.aspx" />
+	   </item>
+           <item title="Logout" href="../logout.aspx" />
+</menu>
+

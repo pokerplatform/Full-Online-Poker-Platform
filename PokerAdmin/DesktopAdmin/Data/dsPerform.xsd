@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="Performance" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Performance" msdata:IsDataSet="true" msdata:Locale="">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="TemplateTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateInfo" type="xs:dateTime" default="1980-01-01T00:00:00.0000000+02:00" />
+              <xs:element name="Quantity" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

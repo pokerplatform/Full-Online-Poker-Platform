@@ -1,0 +1,2 @@
+<%@ Control Language="c#" AutoEventWireup="false" Codebehind="PageFooter.ascx.cs" Inherits="Admin.Controls.PageFooter" TargetSchema="http://schemas.microsoft.com/intellisense/ie5" %>
+</td> </tr> </table>

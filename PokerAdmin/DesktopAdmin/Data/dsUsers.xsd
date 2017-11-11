@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsUsers" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="dsUsers" msdata:IsDataSet="true" msdata:Locale="">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="UsersList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:int" default="0" />
+              <xs:element name="Login_x0020_Name" type="xs:string" default="" />
+              <xs:element name="Email" type="xs:string" default="" />
+              <xs:element name="Status" type="xs:string" default="" />
+              <xs:element name="Chat" type="xs:string" default="" />
+              <xs:element name="Last_x0020_Login_x0020_Time" type="xs:string" default="" />
+              <xs:element name="Total_x0020_Logged_x0020_Time" type="xs:int" default="0" />
+              <xs:element name="SessionID" type="xs:int" default="0" />
+              <xs:element name="GameProcessID" type="xs:int" default="0" />
+              <xs:element name="TournamentID" type="xs:int" default="0" />
+              <xs:element name="GroupID" type="xs:int" default="0" />
+              <xs:element name="GroupName" type="xs:string" default="" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AllUsersList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:int" default="0" />
+              <xs:element name="LoginName" type="xs:string" default="" />
+              <xs:element name="Email" type="xs:string" default="" />
+              <xs:element name="Status" type="xs:string" default="" />
+              <xs:element name="ChatAccess" type="xs:string" default="" />
+              <xs:element name="LastLoginTime" type="xs:dateTime" default="1980-01-01T00:00:00.0000000+02:00" />
+              <xs:element name="TotalLoggedTime" type="xs:int" default="0" />
+              <xs:element name="GroupID" type="xs:int" default="0" />
+              <xs:element name="GroupName" type="xs:string" default="" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//UsersList" />
+      <xs:field xpath="ID" />
+      <xs:field xpath="GameProcessID" />
+    </xs:unique>
+    <xs:unique name="Constraint2" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//AllUsersList" />
+      <xs:field xpath="ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

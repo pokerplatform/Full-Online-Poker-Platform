@@ -1,0 +1,7 @@
+Base|12/13/2005 22:05:03.921||TSettingsForm|FormDestroy|Destroyed sucessfully
+Base|12/13/2005 22:05:03.921||TGenerationForm|FormDestroy|Destroyed sucessfully
+Call|12/13/2005 22:05:03.953||TBotResponseThread|Execute|Finish Execute thread
+Call|12/13/2005 22:05:03.953||TBotProcessorThread|ProcessAction|Finish ProcessAction
+Base|12/13/2005 22:05:03.953||TUsersForm|FormDestroy|Destroyed sucessfully
+Base|12/13/2005 22:05:03.968||TCommonDataModule|Destroy|Destroyed sucessfully
+Base|12/13/2005 22:05:03.968||TLogger|Destroy|Destroyed sucessfully

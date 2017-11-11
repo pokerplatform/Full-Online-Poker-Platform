@@ -1,0 +1,35 @@
+11 aug 2005
+
+Changes in PushingContent,PushingContentFiles tables
+Create admGetPushingContentList, admSavePushingContentList ,admDeletePushingContentList
+
+12 aug 2005
+
+Create admDeletePushingContentFile, admGetPushingContentFilesList, admSavePushingContentFile,
+       admGetPushingContentFileDetails
+
+18 aug 2005
+
+Create table PushingContentType   
+Create admGetPushingContentTypes
+Modify admSavePushingContentFile, PushingContentFiles, admGetPushingContentFilesList 
+
+22 aug 2005
+
+Create table ForcedExits
+Create admGetForcedExitsList, admSaveForcedExits,admDeleteForcedExits
+
+26 aug 2005
+
+Create table PushingContentUsers
+Create admGetPushingContentUsersList,admDeletePushingContentUsers,admSavePushingContentUsers
+
+29 aug 2005
+
+Create table PushingContentProcesses
+Create admGetPushingContentProcessesList,admDeletePushingContentProcesses,
+       admSavePushingContentProcesses,admGetProcessesForPushigContent
+
+2 sep 2005
+
+Changes in SP admGetPushingContentList
